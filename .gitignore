@@ -1,0 +1,32 @@
+# Generated simulation output in any example directory.
+output/
+output_*/
+frames/
+
+# Simulation snapshots and binary data, including custom output locations.
+*.vtkhdf
+*.vtkhdf.series
+*.vtk
+*.vtu
+*.vtp
+*.pvd
+*.h5
+*.hdf5
+*.jld2
+
+# Generated diagnostics and images saved outside the output directories.
+diagnostics.csv
+energy.png
+frame_*.png
+*.gif
+*.mp4
+*.avi
+*.webm
+
+# Local caches and run logs.
+__pycache__/
+*.py[cod]
+.julia/
+*.log
+
+# Keep Julia/Python source, Project.toml, and Manifest.toml versioned.
