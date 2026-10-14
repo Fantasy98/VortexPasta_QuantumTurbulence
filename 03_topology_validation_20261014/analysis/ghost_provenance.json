@@ -1,0 +1,185 @@
+{
+  "hopf": {
+    "cache": "/home/yuninw/codes/simulations/ghost/run/04_linked_rings_64_v2v3_compare/gpe/analysis/loops_0.000.npz",
+    "sha256": "a747f3e497e14b6b270a22e7d930deba51f44e44ce08ed118bc9c8825a3a0f85",
+    "retrace": {
+      "analysis_samples": 128,
+      "winding_faces": 384,
+      "ambiguous_cells": 0,
+      "root_failures": 0,
+      "open_components": 0,
+      "closed_loops": 2,
+      "lengths": [
+        6.097138683338153,
+        6.097134509812893
+      ],
+      "centroids": [
+        [
+          3.6420452032868686,
+          3.141602595175147,
+          3.1415914316888673
+        ],
+        [
+          2.6411402314443273,
+          3.1415933172016497,
+          3.141590845692017
+        ]
+      ],
+      "oriented_area_vectors": [
+        [
+          3.9907298665653457e-07,
+          -2.9571891160950865,
+          0.000601569915974487
+        ],
+        [
+          -1.5994897657023444e-05,
+          -0.0006025283690318517,
+          2.957185014799452
+        ]
+      ],
+      "periodic_windings": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      "gauss_link": -1.0003762076393203,
+      "min_sampled_separation": 0.9403641493968444,
+      "nearest_tangent_cosine": -0.07204561922451994
+    },
+    "cache_lengths": [
+      6.097138683338153,
+      6.097134509812893
+    ],
+    "completion": {
+      "version": 3,
+      "equation": "gpe",
+      "N": 64,
+      "xi": 0.1171875,
+      "c": 2,
+      "rho0": 1,
+      "R": 1,
+      "filter_parameter": 1,
+      "dt": 0.002,
+      "duration": 10.0,
+      "snapshot_interval": 0.1,
+      "diagnostic_interval": 0.02,
+      "ranks": 2,
+      "threads": 1,
+      "stat": 1,
+      "output_before_update": true,
+      "final_unsaved_extra_step": true,
+      "imported_checkpoint": [
+        {
+          "source": "/home/yuninw/codes/simulations/ghost/run/04_linked_rings_64/agrl_continue/outs/zre.0041.out",
+          "destination": "/home/yuninw/codes/simulations/ghost/run/04_linked_rings_64/gpe/inputs/zre.0001.out",
+          "sha256": "4f955d3714857ff828bddbc6826ae4cbb9e5b812a3eaa4b16196bcbf518bbad8"
+        },
+        {
+          "source": "/home/yuninw/codes/simulations/ghost/run/04_linked_rings_64/agrl_continue/outs/zim.0041.out",
+          "destination": "/home/yuninw/codes/simulations/ghost/run/04_linked_rings_64/gpe/inputs/zim.0001.out",
+          "sha256": "d3acc4c7c12013b51044b6d85dde4baca9eebf4b24fa18f1ae2755a22bd24811"
+        }
+      ],
+      "executable": "/home/yuninw/codes/simulations/ghost/build/linked-rings-double/bin/GHOST",
+      "executable_sha256": "19f0bb6103774a271c3d11d744c136872f971b93f716076a25ee28ebf8ab5e4e",
+      "parameter_sha256": "ddff0bc3d7ed5b774ee8427a1d0b783238b1741ab6c6e0de88001ea222c0ca97",
+      "elapsed_seconds": 104.27608529664576,
+      "returncode": 0,
+      "final_real_checkpoint": "/home/yuninw/codes/simulations/ghost/run/04_linked_rings_64/gpe/outs/zre.0101.out",
+      "finite_binary_files": 300
+    },
+    "input_hash_matches": [
+      true,
+      true
+    ]
+  },
+  "trefoil": {
+    "cache": "/home/yuninw/codes/simulations/ghost/run/06_trefoil_64_v3/gpe/analysis/loops_0.000.npz",
+    "sha256": "43d9cb8b86c2637fbb7f023b72de3c945d75d4f47fcd5dc57ae3ed8157d25ef2",
+    "retrace": {
+      "analysis_samples": 128,
+      "winding_faces": 276,
+      "ambiguous_cells": 0,
+      "root_failures": 0,
+      "open_components": 0,
+      "closed_loops": 1,
+      "lengths": [
+        8.857939237128658
+      ],
+      "centroids": [
+        [
+          3.1415926082222403,
+          3.14156458939427,
+          3.141593023746064
+        ]
+      ],
+      "oriented_area_vectors": [
+        [
+          -0.0013835672472457539,
+          -1.937112754646364e-07,
+          2.113240433315764
+        ]
+      ],
+      "periodic_windings": [
+        [
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    "cache_lengths": [
+      8.857939237128658
+    ],
+    "completion": {
+      "version": 3,
+      "equation": "gpe",
+      "N": 64,
+      "xi": 0.1171875,
+      "c": 2,
+      "rho0": 1,
+      "R": 1.0,
+      "filter_parameter": 1,
+      "dt": 0.001,
+      "duration": 10.0,
+      "snapshot_interval": 0.1,
+      "diagnostic_interval": 0.01,
+      "ranks": 2,
+      "threads": 1,
+      "stat": 1,
+      "physical_time_offset": 0.0,
+      "output_before_update": true,
+      "final_unsaved_extra_step": true,
+      "imported_checkpoint": [
+        {
+          "source": "/home/yuninw/codes/simulations/ghost/run/06_trefoil_64_v3/agrl_final/outs/zre.0005.out",
+          "destination": "/home/yuninw/codes/simulations/ghost/run/06_trefoil_64_v3/gpe/inputs/zre.0001.out",
+          "sha256": "31578172e4bc188c03e6821b43d8d3af06f2416f9013c49edba435946dff33cc"
+        },
+        {
+          "source": "/home/yuninw/codes/simulations/ghost/run/06_trefoil_64_v3/agrl_final/outs/zim.0005.out",
+          "destination": "/home/yuninw/codes/simulations/ghost/run/06_trefoil_64_v3/gpe/inputs/zim.0001.out",
+          "sha256": "412b60fa46ea2d05268970e66164b13d309d7211d1b618cb43cb39f1e4fe4182"
+        }
+      ],
+      "executable": "/home/yuninw/codes/simulations/ghost/bin/GHOST",
+      "executable_sha256": "6ce89bff502ec8a7078a0b31b4609de50e725f4ae36567ebc7f5041cf8c47515",
+      "parameter_sha256": "69c7bc6fd7013b0074e37681ec0e1a2d993345d8c1bfe5831445991805c30dcf",
+      "elapsed_seconds": 210.18260708078742,
+      "returncode": 0,
+      "final_real_checkpoint": "/home/yuninw/codes/simulations/ghost/run/06_trefoil_64_v3/gpe/outs/zre.0101.out",
+      "finite_binary_files": 300
+    },
+    "input_hash_matches": [
+      true,
+      true
+    ]
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "01_vortex_one_ring": {
+    "files": 68,
+    "bytes": 4613227,
+    "diagnostics": [
+      {
+        "path": "/home/yuninw/codes/simulations/vortexPasta/01_vortex_one_ring/output/diagnostics.csv",
+        "rows": 6270,
+        "first_time": 0.0,
+        "last_time": 10.000030593641831
+      }
+    ],
+    "series_last": {
+      "name": "vortex_ring_6200.vtkhdf",
+      "time": 9.889964855731264
+    },
+    "series_count": 63
+  },
+  "02_vortex_two_rings": {
+    "files": 88,
+    "bytes": 7961326,
+    "diagnostics": [],
+    "series_last": {
+      "name": "reconnect_points_84.vtkhdf",
+      "time": 0.006188419762545453
+    },
+    "series_count": 85
+  },
+  "01_single_ring": {
+    "cspeed": 1.0,
+    "lambda": 0.3,
+    "rho0": 1.0,
+    "Gamma": 2.6657297628950194,
+    "retained_zre": 20,
+    "completion_record_exists": false
+  },
+  "02_circle_ring_v2_reproduction": {
+    "cspeed": 1.0,
+    "lambda": 0.3,
+    "rho0": 1.0,
+    "Gamma": 2.6657297628950194,
+    "retained_zre": 100,
+    "completion_record_exists": false
+  },
+  "04_linked_rings_64_v2v3_compare": {
+    "cspeed": 2.0,
+    "lambda": 0.1171875,
+    "rho0": 1.0,
+    "Gamma": 2.0826013772617338,
+    "retained_zre": 100,
+    "completion_record_exists": true,
+    "record_returncode": 0,
+    "final_field_exists": true,
+    "parameter_hash_matches_record": true,
+    "last_balance_time": 10.0
+  },
+  "05_linked_rings_64_v3": {
+    "cspeed": 2.0,
+    "lambda": 0.1171875,
+    "rho0": 1.0,
+    "Gamma": 2.0826013772617338,
+    "retained_zre": 0,
+    "completion_record_exists": false
+  },
+  "06_trefoil_64_v3": {
+    "cspeed": 2.0,
+    "lambda": 0.1171875,
+    "rho0": 1.0,
+    "Gamma": 2.0826013772617338,
+    "retained_zre": 100,
+    "completion_record_exists": true,
+    "record_returncode": 0,
+    "final_field_exists": true,
+    "parameter_hash_matches_record": true,
+    "last_balance_time": 10.0
+  },
+  "analysis_environment": {
+    "python": "3.12.11 | packaged by conda-forge | (main, Jun  4 2025, 14:45:31) [GCC 13.3.0]",
+    "numpy": "2.3.3",
+    "platform": "Linux-6.8.0-124-generic-x86_64-with-glibc2.35"
+  }
+}

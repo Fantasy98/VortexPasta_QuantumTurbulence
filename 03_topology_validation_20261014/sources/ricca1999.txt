@@ -1,0 +1,844 @@
+J. Fluid Mech. (1999), vol. 391, pp. 29–44.   Printed in the United Kingdom            29
+ c 1999 Cambridge University Press
+
+
+                           Evolution of vortex knots
+            By R E N Z O L. R I C C A1 †, D A V I D C. S A M U E L S2
+                      A N D C A R L O F. B A R E N G H I2
+               1
+             Department of Mathematics, University College London, Gower Street,
+                                  London WC1E 6BT, UK
+                                e-mail: ricca@math.ucl.ac.uk
+  2
+    Department of Mathematics, University of Newcastle, Newcastle upon Tyne, NE1 7RU, UK
+
+                   (Received 24 November 1997 and in revised form 18 January 1999)
+
+For the first time since Lord Kelvin’s original conjectures of 1875 we address and
+study the time evolution of vortex knots in the context of the Euler equations. The
+vortex knot is given by a thin vortex filament in the shape of a torus knot Tp,q
+(p > 1, q > 1; p, q co-prime integers). The time evolution is studied numerically by
+using the Biot–Savart (BS) induction law and the localized induction approximation
+(LIA) equation. Results obtained using the two methods are compared to each other
+and to the analytic stability analysis of Ricca (1993, 1995). The most interesting
+finding is that thin vortex knots which are unstable under the LIA have a greatly
+extended lifetime when the BS law is used. These results provide useful information
+for modelling complex structures by using elementary vortex knots.
+
+
+
+
+1. Introduction
+   Lord Kelvin was the first (see Kelvin 1875, p. 123, ¶ 16) to speculate on the
+existence of vortex knots in ideal fluids and to conjecture that thin vortices in the
+shape of torus knots were stable under the Euler equations. From a mathematical
+viewpoint the question was left open, and it still represents a stimulating challenge to
+mathematicians. In this paper we address Lord Kelvin’s conjecture by studying vortex
+knot evolution under both the Biot–Savart (BS) law and the localized induction
+approximation (LIA) equation, testing the stability results based on LIA analysis and
+determining the long-term evolution of torus knots by direct numerical integration of
+the governing equations.
+   Applications of ideas from modern topology to fluid mechanics have been pioneered
+by Moffatt and co-workers (Moffatt 1969; Berger & Field 1984; Moffatt & Tsinober
+1990; Moffatt et al. 1992; Moffatt & Ricca 1992; Ricca & Berger 1996; Ricca
+1998), whose results clearly demonstrate the importance of the new techniques in the
+study of knotted and linked structures in fluid flows. The existence of topologically
+complex solutions to dynamical systems is well documented in the literature (see,
+for example, Birman & Williams 1983; Holmes & Williams 1985), and the use of
+geometric and topological methods in fluid mechanics has indeed proven to be very
+useful in the analysis of the entanglement of filamentary vortex structures as observed
+in direct numerical simulations of turbulent flows (see, for example, Kerr 1985; She,
+Jackson & Orszag 1990; Vincent & Meneguzzi 1991; Jiménez et al. 1993). The most
+advanced visiometrics (Zabusky, Silver & Pelz 1993; Fernandez, Zabusky & Gryanik
+                        † Author to whom correspondence should be addressed.
+30                  R. L. Ricca, D. C. Samuels and C. F. Barenghi
+1995) of streamlines and vorticity lines associated with the formation of coherent
+structures reveal that a high degree of braiding, re-connection and formation of
+new linkings of fluid structures is a generic feature of turbulent flows. The study
+of complex flow patterns using topological techniques finds useful applications in
+the study of filamentary structures present on a wide spectrum of physical scales,
+from solar coronal loops in magneto-hydrodynamics (Bray et al. 1991; Berger 1993)
+and tornadoes in geophysical fluid dynamics (Lugt 1983), to quantized vortex lines
+in superfluidity (Donnelly 1991; Barenghi 1997) and superconductivity (Berger &
+Rubinstein 1997). Yet, from a theoretical viewpoint very little is known of the
+long-term evolution of topologically complex structures and of the influence of global
+geometry and topology on the dynamics. There is therefore a call for more information
+about these processes and their mathematical modelling.
+   Coherent structures, such as the thick vortex tubes present in classical fluids or the
+thin vortex filaments in superfluid helium, can be thought of as made up of a bundle
+of elementary vortex lines aligned along the tube axis. If the geometry of vortex lines
+is responsible for the dynamics of a vortex tangle, topological properties represent an
+important ingredient in the mathematical description of the flow field. Relationships
+between geometric and topological properties are very subtle and very little explored.
+Simple geometries of vortex flows (such as vortex rings) may have complex topology
+in terms of the constituent vortex lines, while apparently complex tangles of vortex
+lines may correspond to a trivial topology (an example of which is given by the simple
+twist of a pair of trailing vortices). In a sense topological complexity can be regarded
+as an additional feature of the flow field. A vortex ring with vortex lines twisted
+about the torus centreline provides a good example of non-trivial topology of the
+constituent flow field. The twisting of the vortex lines gives the structure topological
+linking and contributes to the kinetic helicity of the vortex ring (Moffatt & Ricca
+1992).
+   In mathematical terms topological complexity of field lines is realized through knots
+and links. In the vortex ring case complex topology of vortex lines can be achieved
+in two fundamental ways. One is through high twisting and linking of vortex lines;
+the other is through knotting. Torus knots are good candidates to model complex
+structures. Their geometry can be easily described in terms of closed curves wound
+around a mathematical torus (for a proper definition of torus knots see § 2), while
+topology can be prescribed to achieve a high degree of complexity (useful to model,
+for example, turbulent vortex tangles). Torus knots are also closely related to a class
+of ‘unknots’ (i.e. unknotted closed curves given by a multiple folding of the standard
+circle; see § 2 below), that provide interesting new test cases for studying the evolution
+of vortex geometries. In this paper we shall study the time evolution of thin vortex
+filaments in the shape of torus knots and related ‘unknots’.
+   A coherent bundle of vortex lines, either knotted or linked together, has a decidedly
+non-trivial topology. In the context of the Euler equations, vortex structures move
+while conserving the topology of the system. This is a fundamental property of inviscid
+evolution and is encapsulated in the formal integrals of the Cauchy equations. In the
+absence of viscosity vortex lines are free to move in the fluid, preserving the knot
+and link types that tie them together. Since topology is ‘frozen’ in the fluid, vortex
+evolution is influenced by the topology of the system.
+   In real fluids, though, the presence of viscosity and dissipative effects allows recon-
+nections of vortex lines to take place, and in the presence of reconnections topology
+is bound to change. However, as long as vortex elements are not too close to one
+another, Euler’s equations still provide a good approximation to real vortex dynamics.
+                                Evolution of vortex knots                                31
+In many practical situations, where vorticity is highly localized, coherence of vortex
+structures survives for a considerable time. In these cases vortex filaments can be
+considered as ideal entities, governed by an evolution that is still little influenced
+by viscous effects. As vortex elements come into contact, dissipative effects become
+dominant over coherence and can no longer be neglected. Under reconnection we
+have a sudden, dramatic change in the geometry and topology of the flow pattern.
+An accurate model of the reconnection mechanism must take into account detailed
+information about the physics of the fluid and the viscous processes involved. We have
+a similar situation when we consider the interaction of fluid structures in electrically
+charged plasmas, which are important for geophysical and astrophysical applications.
+In this case dissipative effects are given not only by viscous forces, but also by resistive
+effects present in the fluid medium (Bray et al. 1991). Vortex interaction in superfluids
+is also an important phenomenon. Here superfluid vortex lines interact according to
+the laws of quantum mechanics (Koplick & Levine 1993). In this case the inviscid
+model is still a very good approximation at a macroscopic level, that is as long as the
+typical interaction scale length is greater than the quantum mechanical healing length
+(of the order of 10−10 m).
+   In ideal conditions vortex motion is governed by the Biot–Savart law (BS) (see
+Batchelor 1967; Saffman 1992), which is a global functional of vorticity. Consider an
+isolated vortex line C of strength Γ , embedded in a domain D ⊆ R3 entirely filled
+by an ideal, incompressible fluid. The vortex line moves with a self-induced velocity
+u(X ) (X is the position vector in R3 ), given by
+                                          Z
+                                       Γ     t̂ × (X − R(s))
+                              u(X ) =                        ds,                         (1)
+                                       4π C |X − R(s)|3
+where X = R(s) is the vector equation for C, s is arclength and t̂ ≡ dR/ds the
+unit tangent along C. Equation (1), which governs the Euler evolution, retains all
+the induction effects associated with the whole geometry of C and preserves vortex
+topology. Explicit analytic solutions to the BS law are difficult to obtain and until now
+only circular and helical geometries have been studied in detail. Moreover, numerical
+simulations based on (1) are rather expensive to run because the motion of each
+single vortex point depends on the motion of all the other constituent points into
+which the vortex line is discretized. To overcome these difficulties several asymptotic
+techniques have been proposed, and work in this direction is still in progress (see, for
+example, the comparative study carried out by Zhou 1997 on the implementation of
+various asymptotic techniques).
+   The crudest approximation to the BS law was derived by Da Rios almost a century
+ago (see the review article by Ricca 1996), and is based on the so-called localized
+induction approximation (LIA). By neglecting non-local (long-range) effects and self-
+interactions of different parts of the vortex, LIA gives a first-order approximation to
+the motion of the vortex filament. Under LIA the motion is essentially governed by
+local curvature effects and in the limit of very thin vortex filaments this is given by
+                                    Γ                 Γc
+                           uLIA =      ln δR0 × R00 =    ln δ b̂,                        (2)
+                                    4π                4π
+where c and b̂ are the curvature and unit binormal vector of C, and δ is a measure of
+the aspect ratio of the vortex. Here we consider only thin vortex filaments, hence we
+take δ = const.  1. Because of the approximations involved, the LIA is of limited
+applicability in classical vortex dynamics. However, we should remember that also in
+32                   R. L. Ricca, D. C. Samuels and C. F. Barenghi
+the numerical implementation of the BS law we still have the problem of a logarithmic
+singularity, present in the integrand of equation (1) when X approaches R. In this
+case the standard procedure, which we shall follow (see § 3 below), and that is used
+extensively in the literature (see, for example, Leonard 1980, 1985; Moin, Leonard &
+Kim 1986; Leonard & Chua 1989; Fernandez et al. 1995), is to de-singularize the BS
+integral by using a cut-off length l, substituting the singular BS part with the corre-
+sponding LIA dynamics. In a sense, the cut-off length plays the role of a smoothing
+mechanism for the physics of the singularity, where viscous, resistive or quantum
+effects are dominant. We should remember, however, that there are physical contexts
+in which the LIA represents a good approximation. The LIA indeed finds useful
+application in studies of filament dynamics for defect formation in micro-physics (Lu-
+gomer 1998), and in modelling helium superfluid turbulence, where long-range effects
+tend to cancel each other out (see the discussion in Barenghi et al. 1998). Moreover,
+the mathematical simplicity of the LIA offers considerable analytical and numerical
+advantages to exploit, one of these being the study of knotted vortex structures.
+
+
+2. Torus knots as steady solutions to the LIA equation
+  The only analytical results on vortex knots are based on the LIA equation applied
+to thin vortex filaments in the shape of torus knots. In their standard representation
+torus knots are particularly symmetric knots embedded in a mathematical torus Π.
+Let us recall a fundamental theorem of Massey (1967):
+  Theorem 1. A closed, non-self-intersecting curve embedded in Π, that cuts a meridian
+at p > 1 points and a longitude at q > 1 points (p and q relatively prime integers), is a
+non-trivial knot Tp,q , with winding number w = q/p.
+   The winding number w is a topological invariant of the knot type and is a measure
+of the average number of wraps of the knot along the small circle of the torus Π
+(in the meridian plane), per number of wraps along the torus circular axis (in the
+longitudinal plane). For given p and q, the two knots obtained by exchanging p and q
+are topologically equivalent, i.e. Tp,q ∼ Tq,p . This means that for fixed p and q, Tp,q and
+Tq,p represent the same knot and can be deformed one into the other by continuous
+deformations (i.e. without cuts; see the two examples of figure 1a). However, when
+p = 1 and/or q = 1, the closed curve is not knotted (the curve is called the ‘unknot’),
+since it can be isotoped by continuous deformations to the standard circle (the
+standard unknot U◦ ). From a geometric viewpoint the unknots associated with the
+family of torus knots are interesting curves. We can group them into two distinct
+families: ‘toroidal’ coils (denoted by Um,1 in figure 1b), and ‘poloidal’ coils (denoted
+by U1,m ). For given m, Um,1 is equivalent to a closed curve wrapped around Π m times
+in the longitudinal direction and only once in the meridian direction, whereas U1,m is
+a closed curve wrapped around Π m times in the meridian direction and only once
+in the longitudinal direction. Evidently, these unknots are all topologically equivalent
+to the standard circle, i.e. Um,1 ∼ U1,m ∼ U◦ .
+   Vortex knots, unlike their mathematical counterpart, are dynamical objects that
+evolve under the laws of vortex motion, prescribed by the Euler equations, which
+govern the motion of the physical knot. Here an interesting question is whether a
+given vortex torus knot type can evolve freely to its own corresponding isotope. Since
+vortex dynamics is determined primarily by geometric aspects, different geometries of
+the same vortex knot type may lead to different configurations. In the case of LIA,
+the dynamics can be re-written by appropriate re-scaling of time in the simplified
+                                     Evolution of vortex knots                                     33
+
+                                                (a)
+
+
+
+
+                   3,2 :      q=2        p=3                        2,3 :     q=3        p=2
+
+
+
+
+                                                (b)
+
+
+
+
+                  m,1 :        1        m                          1,m :        m       1
+
+
+
+Figure 1. (a) Two different geometries of the trefoil knot. In terms of the topological classification
+of knot types this represents the first member of the family of torus knots Tp,q : the standard form
+is given by the T2,3 knot on the right, which can be isotoped by continuous deformations to the
+T3,2 knot on the left. These two knots are topologically equivalent, hence they represent the same
+knot type. (b) The standard circle (the ‘unknot’ U◦ ) can take the shape of a toroidal coil Um,1 , or
+a poloidal coil U1,m . In pure topological terms, though, all the unknots are equivalent to trivial
+objects.
+
+
+
+form
+                                             uLIA = cb̂.                                          (3)
+  We have the following theorem (Kida 1981):
+   Theorem 2. Let Kv denote the embedding of a knotted vortex filament in an ideal
+fluid in D. If Kv evolves under LIA, then there exists a class of steady solutions in the
+shape of torus knots Kv ≡ Tp,q .
+  Kida finds solutions in terms of fully nonlinear relationships that involve elliptic
+functions of travelling waves. A more direct and simple approach (Ricca 1993),
+based on linear perturbation techniques and cylindrical polar coordinates (r, α, z),
+gives ‘small-amplitude’ torus knot solutions (asymptotically equivalent to the Kida
+solutions), that are more easily handled analytically and numerically. These solutions
+34                  R. L. Ricca, D. C. Samuels and C. F. Barenghi
+are given by
+                                                                     
+                      r = r0 + 0 kr sin (wφ + φ0 ),                 
+                                                                     
+                                                                     
+                                                                     
+                           s        kr                               
+                                                                     
+                      α=      + 0      cos (wφ + φ0 ),
+                          r0       wr0                                                 (4)
+                                              1/2                  
+                                                                     
+                           t̂                1                       
+                                                                     
+                      z=      + 0 kr 1 − 2          cos (wφ + φ0 ), 
+                                                                     
+                          r0                w
+where r0 is the radius of the torus circular axis and 0 = a/r0  1 is the inverse
+of the aspect ratio of the vortex, with a the radius of the vortex cross-section and
+kr = O(r0 ) a scale factor. Moreover φ = (s − kt)/r0 , with t time, k the wave speed; t̂
+is time re-scaled with the vortex circulation and φ0 a constant.
+   An immediate consequence of (4) is the following linear stability result (Ricca
+1995):
+  Theorem 3. Let Tp,q denote the embedding of a ‘small-amplitude’ vortex torus knot
+Kv evolving under LIA. Tp,q is steady and stable under linear perturbations iff
+q > p(w > 1).
+   This represents the only known, rigorous result on stability of vortex knots and gives
+us the motivation to test and carry out numerical experiments on the dynamics of
+these knots. Remember that equations (4) are not the exact, fully nonlinear solutions
+to the BS law, but they represent small-amplitude knot solutions to LIA. Anyway,
+since (4) represent torus knots in physical space, we can also use these equations
+to investigate vortex knot behaviour under the full BS law, using a code that takes
+into account global induction effects. Hence, we take equations (4) and (by replacing
+(1 − 1/w 2 ) with |1 − 1/w 2 | to also allow the study of knots with w < 1) we run the
+appropriate code not only under the LIA equation (so that we can check the result
+of Theorem 3), but also under the full self-induction law given by the BS integral.
+Evidently, a numerical investigation of the time evolution of vortex knots (using BS
+or LIA) is not equivalent to studying the stability of these structures: here we do not
+take a basic solution and study its perturbation to determine whether infinitesimal
+disturbances decrease or grow exponentially with time. Rather, we integrate in time
+the (approximate) knot solutions to the LIA, by letting them evolve under non-local
+(BS) and local (LIA) self-induction effects. One obvious drawback associated with
+the use of numerical codes is the (unavoidable) presence of numerical noise, which
+clearly limits the integration process.
+   In spite of these limitations, the numerical study can give us some useful insight into
+the evolution of topologically more complex structures. We should remember that so
+far we have no direct, experimental evidence of existence of vortex knots. To make
+progress beyond Theorems 2 and 3, we need to test these results and check whether
+vortex knot evolution reveals features that are dynamically significant. In particular,
+we would like to find out how robust is the evolution of these knotted vortex filaments,
+to what extent these structures evolve by conserving topological and geometric features
+of physical interest, and when they unfold and break up. The question then arises
+of whether these vortex structures evolve by preserving a ‘geometric signature’ that
+makes them recognizable in terms of their original configuration. Dynamics that
+preserve topology and geometric features such as mean curvature, mean torsion,
+writhing number, asymptotic crossing number, etc., while allowing large-amplitude
+deformations, have not been studied before and there is a lack of rigorous definition
+and analysis. Here we would like to propose a new definition of stability in relation
+                               Evolution of vortex knots                               35
+to these kind of evolutions. If we take into account large-amplitude perturbations,
+for example, we can extend the usual concept of Lyapunov stability to include
+those dynamics governed by geometric signature-preserving flows. The corresponding
+motion is characterized by finite, large-amplitude (Lyapunov) stable evolutions that
+maintain their geometric coherence and signature for some (finite) time of physical
+interest. Hence, we can talk of vortex structures evolving under ‘stable’ dynamics
+according to the following
+   Definition. A vortex structure is said to be (Lyapunov) stable if it evolves under
+signature-preserving flows that conserve topology, geometric signature and vortex
+coherency.
+   Stable structures are therefore those able to travel a considerable distance (much
+larger than their typical size), while preserving their geometric signature for some
+finite time. If they unfold and break up in a short time (compared with the typical
+time scale), we shall call them unstable. Our task will be to detect whether there are
+stable evolutions of vortex knots of physical significance.
+
+
+3. Numerical study of the evolution of vortex knots
+   To investigate the evolution of torus knots using the LIA and BS law we use
+an algorithm that sub-divides the initial vortex configuration into N points. The
+evolution of the vortex is obtained by integrating the equation of motion in time
+at each point. The algorithm and the computer code that involve the simultaneous
+adjustment of the N points and the time-step size (as well as tests of the computer
+code itself) have been discussed extensively in the literature (Schwarz 1988; Aarts &
+deWaele 1993). As in the pioneering work of Schwarz (1988), the code has been used
+to study the dynamics of tangles of vortex lines in superfluid turbulence (Samuels
+1992) and other aspects of vortex dynamics in superfluid helium (Barenghi et al. 1998;
+Samuels, Barenghi & Ricca 1998) and in classical turbulence (Samuels 1998). For the
+present simulations the typical time-step values range from 0.01 to 0.03, but they can
+take values of the order of 0.001 in the vicinity of self-intersecting vortex lines, with
+N ranging from 100 to 400, depending on the knot type. In some runs, in which we
+measure the time Trec elapsed at the occurrence of the first self-intersection (see § 4
+below), we find that doubling N from 400 to 800 produces only a 1% change in Trec .
+   The numerical study is carried out for the first few torus knots, such as T2,3
+and T3,4 and their isotopes, for 0 ranging between 0.1 and 0.01. A more extensive
+investigation of knots with higher crossing number is limited by the larger number
+of mesh points needed to represent these knots. However, for the knots examined the
+results show generic features and the same qualitative behaviour. The calculation is
+non-dimensionalized by choosing the radius of the torus circular axis r0 = 1, which
+sets the length scale, and the vortex filament strength Γ = 1, which sets the time
+scale. This leaves the problem of choosing an effective core size rcore for the vortex
+filament. This core size is specified in the LIA equation (see (2) and (3) above), where
+its choice is related to the choice of the time scale. The effective core size plays a
+more subtle role in the BS calculation, where it is used to eliminate the singularity
+present in the line integral (equation (1)), when X approaches R. A standard cut-off
+technique is used to de-singularize the BS integral. The integral is split into two parts:
+a local term, which represents the integral between two neighbouring mesh points at
+the singularity location and gives an induced velocity u0 ; and a non-local term, which
+represents the regular part of the integral and gives an induced velocity u1 , so that
+36                  R. L. Ricca, D. C. Samuels and C. F. Barenghi
+u = u0 + u1 . Following Schwarz (1985), the local term is given by
+                                   Γ 0              2(l+ l− )1/2
+                            u0 =      (R × R00 ) ln              ,                    (5)
+                                   4π                 Crcore
+where l+ and l− are the distances to the nearest neighbouring point. This choice for
+the local term gives the correct velocity for the osculating vortex ring. The constant
+C is determined by the choice of the core model: it is of order 1 and can be absorbed
+into the definition of the effective filament core size rcore , which is not an important
+parameter in these simulations. We normally run the code with a very small core
+parameter (rcore = 10−8 ), and we have done tests where the core parameter was
+increased up to rcore = 10−4 . While the velocity changed in these tests, as it should,
+the qualitative behaviour of the knot evolution and the shape of the knot did not
+change.
+   To measure the changes in the knot shape and the degree of stability we introduce
+the concept of geometric growth of the radius of the torus circular axis in the (X, Y )-
+plane (‘XY -growth’) with time. The geometric growth is measured by ∆ =  − 0 ,
+where
+                                       RXY max − RXY min
+                                  =                     ,                            (6)
+                                               2
+RXY max (RXY min ) denoting the maximal (minimal) distance of the knot from its centre
+of symmetry (placed at the origin r = 0) in the (X, Y )-plane. Measurements of
+geometric growth will give us precise information about the geometric coherence of
+these vortex structures.
+          3.1. Evolution under the localized induction approximation (LIA) law
+The evolution of vortex knots under the LIA equation is illustrated in the time
+sequence of figure 2. We find that vortex structures evolving under LIA behave in a
+way which is consistent with the stability criterion given by Theorem 3. For winding
+number w > 1, the knot is steady and stable, travelling along the z-axis for about 20
+diameters (corresponding to about 23 time units) until numerical noise de-stabilizes
+the structure. For winding number w < 1, instability sets in almost immediately,
+leading to the unfolding of the vortex knot (see the time sequence of figure 3). The
+knot travels along the z-axis for not more than two diameters (notice the values of
+the z-coordinate), while unfolding irreversibly until the occurrence of the first knot
+self-intersection: at this point LIA becomes ill-defined and the calculation must be
+stopped. This evolution takes place in the first few time units.
+   The XY -growth is shown in figures 4(a) and 4(b). The instability seems to grow
+with a very clean power law, with power close to 2, until numerical errors become
+dominant. It is interesting to notice that we have similar results for the evolution of
+the unknots. For example we find that U1,3 retains its shape for a considerable time,
+whereas the corresponding toroidal counterpart U3,1 (w = 13 ) unfolds immediately,
+following the same power law as for the other knot types tested. A summary of these
+results is given in figure 4(a), where the characteristics of the dynamics investigated
+are shown to be generic and independent of the specific knot type tested.
+   For larger values of 0 (> 0.1), the theory based on LIA is no longer applicable.
+However, the numerical analysis carried out has shown that these structures are much
+more robust and stable than previously thought. This means that an extended LIA
+theory (based on higher-order asymptotics) should be able to capture even ‘large-
+amplitude’ knot configurations as new steady and stable initial conditions for vortex
+motion.
+                                           Evolution of vortex knots                                 37
+
+                             Time t0
+                    z
+                    0.1
+                  – 0.1
+                     –1.0                                                                –1.0
+
+                              – 0.5                                              – 0.5
+
+                                           0                             0
+                                               0.5                0.5
+                                                     1.0   1.0
+
+
+
+
+                             Time t1 >t0
+                    z
+
+                    2.6
+                    2.5
+                     –1.0                                                                –1.0
+
+                              – 0.5                                              – 0.5
+                                           0                                 0
+
+                                               0.5                 0.5
+                                                     1.0   1.0
+
+
+
+
+                             Time t2 >t1
+                     z
+                    4.0
+                    3.9
+                      –1.0                                                               –1.0
+                               – 0.5                                             – 0.5
+                                           0                             0
+                                               0.5                0.5
+                                                     1.0    1.0
+
+Figure 2. Computed evolution of T2,3 under the LIA. The knot moves while maintaining its shape
+in a stable manner, which is consistent with Theorem 3. Snapshots of the vortex knot evolution are
+shown at three different times t0 > t1 > t2 . Note the different values of the z-coordinate. In order to
+visualize over- and under-crossings a mathematical tube of radius 0.04 is centred on the knot axis.
+This tube is merely a visual aid, whose geometry has nothing to do with the real core cut-off size.
+
+
+                    3.2. Evolution under the Biot–Savart (BS) law
+When a given knot evolves under the full BS law we observe a very different behaviour.
+Figures 5(a) and 5(b) show a comparison of T2,3 (w = 32 ) and T3,2 (w = 23 ) under LIA
+and BS evolution, for 0 = 0.01 and 0.1 (LIA), and 0 = 0.1 (BS). Remarkably, we find
+that both the knot T2,3 and its isotope T3,2 (with winding number w < 1) maintain
+38                       R. L. Ricca, D. C. Samuels and C. F. Barenghi
+
+
+                            Time t0
+                   z
+                   0.1
+                 – 0.1
+                    –1.0                                                                –1.0
+
+                               – 0.5                                          – 0.5
+                                         0                               0
+                                              0.5                  0.5
+
+                                                      1.0   1.0
+
+
+
+                           Time t1 >t0
+
+                   z
+                  1.8
+                  1.6
+                                                                                       –1.0
+                    –1.0
+                                                                              – 0.5
+                               – 0.5
+                                         0                               0
+
+                                             0.5                   0.5
+
+                                                     1.0    1.0
+
+
+
+
+                           Time t2 >t1
+                   z
+                  3.5
+
+                  3.0
+
+                        –1.0                                                          –1.0
+                               – 0.5                                         – 0.5
+
+                                         0                               0
+                                             0.5                   0.5
+                                                    1.0      1.0
+
+Figure 3. Computed evolution of T3,2 under LIA. The knot unfolds, which is consistent with
+Theorem 3. The last picture of the time sequence (at time t2 ) shows the unfolding knot approaching
+a self-intersection (same visualization as for figure 2).
+
+
+their shape under the BS law for a long time, travelling without unfolding for about
+20 diameters, until numerical noise sets in. The visible ‘wiggling’ in the plots (which
+is particularly enhanced in the case of the BS law) is a signature of the oscillatory
+geometry of the knot. This behaviour appears to be independent of filament core size
+and discretization parameters (we have run the code for different N) and we did not
+find any significant difference for the other knot types tested.
+   Vortex torus knots evolving under the BS law are clearly ‘stabilized’ by global
+                                               Evolution of vortex knots                                                          39
+
+      101                                                             101
+              (a)                                                                (b)
+      10 0                                                            100
+
+     10 –1                                                           10–1                         3,2 (w = 2/3)
+                       ε0 = 0.1
+Dε 10 –2                                                             10–2
+                                          ε0 = 0.01
+                                                                                 4,3 (w = 3/4)
+     10 –3                                                           10–3                                   3,1 (w = 1/3)
+
+     10 – 4                                                          10– 4
+
+     10 –5                                                           10–5
+         10 –2          10 –1      10 0           101         10 2      0.01                      0.1                 1.0        10.0
+                                  Time                                                                    Time
+Figure 4. LIA evolution. The dynamical instability of vortex knots is measured by the ‘XY -growth’
+given by the variation of ∆ with time. Vortex structures are found to be LIA-stable when their
+winding number is w > 1 and LIA-unstable when w < 1, which is consistent with the prediction
+of Theorem 3. (a) The growth in 0 for the torus knot T3,2 (w = 2/3) with initial 0 = 0.1 and
+0 = 0.01. (b) The growth in 0 for the knots T3,2 (w = 2/3) and T4,3 (w = 3/4), and for the
+(unknotted) toroidal coil U3,1 with initial 0 = 0.1.
+
+
+                                                                        4
+              (a)                                                                (b)
+     1.5
+                                                                        3
+
+
+     1.0                                                LIA             2                                   LIA
+Dε
+                                                                        1
+     0.5
+
+                    Biot–Savart                                         0
+                                                                                                        Biot–Savart
+       0
+                                                                      –1
+                       10         20              30          40             0              4               8               12    16
+                                  Time                                                                   Time
+Figure 5. BS evolution. Comparative behaviour of (a) T2,3 and (b) T3,2 (0 = 0.1) under the LIA
+and BS law: the knot T2,3 (w = 32 ) travels under both the LIA and BS law without change of shape
+for about 20 diameters, until the numerical noise sets in. The knot T3,2 (w = 23 ) unfolds under LIA
+(as predicted by Ricca 1995), but is stabilized when its evolution is governed by the BS law. Under
+LIA the unfolding takes place almost immediately.
+
+
+geometric effects. This stabilizing effect is due to the BS integration (figure 5b) and
+is the main result of these calculations. A three-dimensional view of the BS knot
+evolution is given by the time sequence of figure 6. The motion is the sum of two
+contributions: one is due to a propagation velocity that makes the whole structure
+translate in the fluid; the other is due to a rotational velocity that makes the individual
+vortex strands rotate around their centre of mass (which lies in the meridian plane on
+the torus circular axis) and around each other. This second contribution is difficult to
+40                        R. L. Ricca, D. C. Samuels and C. F. Barenghi
+
+                               Time t0
+                    z
+                    0.1
+                  – 0.1
+                        –1.0                                                         –1.0
+
+                                 – 0.5                                       – 0.5
+
+                                             0                           0
+                                                 0.5               0.5
+                                                       1.0   1.0
+
+
+
+
+                               Time t1 >t0
+                    z
+                   8.0
+                   7.8
+                     –1.0                                                            –1.0
+
+                                – 0.5                                        – 0.5
+
+                                             0                           0
+
+                                                 0.5               0.5
+
+                                                       1.0   1.0
+
+
+
+
+                               Time t2 >t1
+
+                    z
+                   14.4
+                   14.2
+                   14.0
+                        –1.0                                                         –1.0
+
+                                 – 0.5                                       – 0.5
+
+                                             0                           0
+
+                                                 0.5               0.5
+
+                                                       1.0   1.0
+
+Figure 6. BS evolution of T3,2 . The knot evolution is rather stable and the vortex travels a large
+distance (see z-values at time t2 ) before the numerical noise sets in (same visualization as for figure
+2).
+
+
+detect from the plots of figure 6, but it is very clear from the moving pictures of the
+vortex evolution.
+  Does the stabilizing effect of the BS law depend on 0 ? Figure 7 shows the evolution
+of T3,2 for different values of 0 , under both the BS law and LIA (for comparison). In
+this case geometric coherence is measured by the time Trec elapsed at the occurrence
+                                                                         Evolution of vortex knots              41
+
+
+
+
+                       Trec (distance travelled along z-axis)
+                                                                40
+
+
+                                                                20
+                                                                                   Biot–Savart
+
+                                                                10
+                                                                 7
+
+                                                                 4
+                                                                            LIA
+
+                                                                 2
+
+
+                                                                     0       0.1           0.2      0.3   0.4
+                                                                                       Original ε
+Figure 7. The time Trec elapsed until the occurrence of the first self-intersection (proportional to
+the distance travelled by the knot along the z-axis) against the original  for the LIA (circles) and
+BS (squares) evolution. Note that the plot is on a logarithmic scale.
+
+
+of the first self-intersection, which leads to the following re-structuring and unfolding
+of the vortex knot. For 0 > 0.2 geometric coherence is definitely lost and the BS law
+is no longer able to guarantee stable evolution. Under LIA the power law dependence
+of Trec (the straight line on the log-scale diagram) indicates that 0 is in fact the
+parameter that controls the stability of the structure (in agreement with Ricca 1995),
+whereas under the BS law we find a critical threshold value at 0crit ≈ 0.1, above which
+stability is lost. When 0 is small, vortex line elements are so close to each other that
+a large number N of discretization points is needed. In principle the BS integration is
+an N 2 operation, because the motion of each point is determined by the position of
+all the others, but in practice the computer time required for the calculation increases
+even faster than N 2 (this is because the time step decreases in proportion to the mesh
+size, so that the distance travelled during one time step remains significantly less than
+the mesh size).
+   What is the reason for the BS stabilization? A possible explanation may be found in
+the cooperative swirling motion of the co-rotating vortex strands (see Saffman 1992,
+§ 12.2). In the first stages of the evolution the individual vortex strands are very close
+and nearly parallel to one another. Under the BS law these elements rotate about
+one another, orbiting about their centre of mass (in the meridian plane), a motion
+that is completely missed by the LIA. This motion makes the vortex structure rotate
+on itself, as if the whole structure were subject to a virtual twist. This corresponds
+of course to the familiar rotation of smoke rings. From figure 3, which illustrates the
+LIA unfolding of the unstable knot, one can see that this process is due to the faster
+motion of the high-curvature elements of the vortex filament in the interior region
+of the knot, relative to the slower motion of the low-curvature elements in the outer
+region. Under the LIA we have no rotation of the individual strands and the motion is
+simply a translation in the binormal direction. When the knot translates and rotates
+on itself, though, these inner and outer parts of the knot exchange places during
+rotation. If their rotation is fast enough, it can average out the translational velocity
+of the vortex, leading to a more uniform motion of the filament and a stabilization
+of the vortex knot (a mechanism that resembles the co-rotating vortex pair stability
+to long-wave disturbances investigated by Jiménez 1975).
+42                    R. L. Ricca, D. C. Samuels and C. F. Barenghi
+  An estimate of this rotational velocity (Vrot ) is given by considering the rotational
+velocity of p straight vortex lines equally spaced on a circle of radius 0 . This gives
+                                       Vrot ' pΓ /4π0 .                                  (7)
+An estimate of the translational velocity (Vtrans ) of a vortex ring of radius r0 gives
+                                                Γ      8r0
+                                    Vtrans '        ln       .                            (8)
+                                               4πr0    rcore
+The ratio of the two velocities is
+                                 Vrot           r0 p
+                                       =                     .                            (9)
+                                Vtrans   0 ln (8r0 /rcore )
+For p = 3 and rcore = 10−8 we have Vrot /Vtrans > 1 when  < 0.15r0 (i.e. rotation
+dominates), and this is remarkably close to the data shown in figure 7.
+  The fact that the BS evolution may differ significantly from the LIA evolution
+provides a clear demonstration that the LIA law is not appropriate to investigate
+the long-term behaviour of complex flow dynamics. From a computational viewpoint
+the identification of flows which require the BS law also has important practical
+consequences in the implementation of effective numerical codes.
+
+
+4. Conclusions
+   We have performed numerical investigations of the evolution of vortex knots under
+both the LIA and the BS law. When the parameters are close to the vortex knots
+of Ricca’s theory, we find that vortex knots either translate while maintaining their
+shape, or unfold immediately, in a way which is consistent with Ricca’s stability
+theory. We have also observed that the way in which the knots unfold (see figure
+4) appears to be independent of the topology: all unstable torus knots and unknots
+show the same power law growth in amplitude.
+   The most important result is the discovery of a strong stabilizing effect of the BS
+law. Although we find that knots eventually unfold, the time which elapses and the
+distance over which they travel before breaking up is very large and has physical
+significance. This finding suggests that it is worth trying to create vortex knots in
+the laboratory. For relatively large values of 0 we have found cases (see figure 4) in
+which the BS evolution is almost identical to the evolution under LIA. These results
+will certainly stimulate more numerical work and, above all, the search for a new
+analytical theory for the existence of steady and stable vortex knot solutions to the
+Euler equations.
+   From a physical viewpoint, then, these results shed new light on the evolution
+of complex structures, and are useful for future modelling of turbulent flows. Our
+measures of the geometric coherence of vortex knot dynamics clearly show that there
+are complex flow fields resistant to re-structuring, which is a very important feature
+in relation to the role and decay of helicity in turbulent flows (Moffatt & Tsinober
+1990).
+   Finally, we would like to point out another result that comes out from these
+numerical simulations: torus knots with winding number w < 1 are in general
+unstable and evolve under the BS law towards a reconnection event (although in
+the case of thin filaments this might take place on much longer time scales). This
+result is significant in view of the great interest in the formation of singularities in
+Euler’s equations (Kerr 1993; Fernandez et al. 1995; Grauer & Sideris 1995; Greene
+                                    Evolution of vortex knots                                       43
+& Boratav 1997). Our work shows that vortex knots are a simple and effective means
+for investigating mechanisms of singularity formation in ideal fluids and other related
+questions.
+
+  R.L.R. would like to acknowledge financial support from The Leverhulme Trust.
+C.F.B.’s research is funded by an equipment grant from The Royal Society of London.
+
+
+                                          REFERENCES
+Aarts, R. G. K. & deWaele, A. T. A. M. 1994 Numerical investigation of the flow properties of
+      He II. Phys. Rev. B 50, 1069–1079.
+Barenghi, C. F. 1997 Vortex lines and transitions in superfluid hydrodynamics. Phil. Trans. R. Soc.
+      Lond. A 355, 2025–2034.
+Barenghi, C. F., Samuels, D. C., Bauer, G. H. & Donnelly, R. J. 1998 Vortex lines in a model of
+      turbulent flow. Phys. Fluids 9, 2631–2643.
+Batchelor, G. K. 1967 An Introduction to Fluid Dynamics. Cambridge University Press.
+Berger, J. & Rubinstein, J. 1997 Formation of topological defects in thin super-conducting rings.
+      Phil. Trans. R. Soc. Lond. A 355, 1969–1978.
+Berger, M. A. 1993 Energy-crossing number relations for braided magnetic fields. Phys. Rev. Lett.
+      70, 705–708.
+Berger, M. A. & Field, G. B. 1984 The topological properties of magnetic helicity. J. Fluid Mech.
+      147, 133–148.
+Birman J. S. & Williams R. F. 1983 Knotted periodic orbits in dynamical systems I: Lorenz’s
+      equations. Topology 22, 47–82.
+Bray, R. J., Cram, L. E., Durrant, C. J. & Loughhead, R. E. 1991 Plasma Loops in the Solar
+      Corona. Cambridge University Press.
+Donnelly, R. J. 1991 Quantized Vortex Lines in Helium II. Cambridge University Press.
+Fernandez, V. M., Zabusky, N. J. & Gryanik, V. M. 1995 Vortex intensification and collapse of
+      the Lissajous-elliptic ring: single- and multi-filament Biot–Savart simulations and visiometrics.
+      J. Fluid Mech. 299, 289–331.
+Grauer, R. & Sideris, T. C. 1995 Finite-time singularities in ideal fluids with swirl. Physica D 88,
+      116–132.
+Greene, J. M. & Boratav, O. N. 1997 Evidence for the development of singularities in Euler flows.
+      Physica D 107, 57–68.
+Holmes P. J. & Williams R. F. 1985 Knotted periodic orbits in suspensions of Smale’s horseshoe:
+      torus knots and bifurcation sequences. Arch. Rat. Mech. Anal. 90, 115–194.
+Jiménez, J. 1975 Stability of a pair of co-rotating vortices. Phys. Fluids 18, 1580–1581.
+Jiménez, J., Wray, A. A., Saffman, P. G. & Rogallo, R. S. 1993 The structure of intense vorticity
+      in homogeneous isotropic turbulence. J. Fluid Mech. 255, 65–90.
+Kelvin, Lord 1875 Vortex Statics. Proc. R. Soc. Edinb. Session 1875–76.
+Kerr, R. M. 1985 Higher order derivative correlations and the alignment of small scale structures
+      in isotropic numerical turbulence. J. Fluid Mech. 153, 31–58.
+Kerr, R. M. 1993 Evidence for a singularity of the three-dimensional, incompressible Euler equa-
+      tions. Phys. Fluids A 5, 1725–1746.
+Kida, S. 1981 A vortex filament moving without change of form. J. Fluid Mech. 112, 397–409.
+Koplick, J. & Levine, H. 1993 Vortex reconnection in superfluid helium. Phys. Rev. Lett. 71,
+      1375–1378.
+Leonard, A. 1980 Vortex methods for flow simulations. J. Comput. Phys. 37, 239–335.
+Leonard, A. 1985 Computing three-dimensional incompressible flows with vortex elements. Ann.
+      Rev. Fluid Mech. 17, 523–559.
+Leonard, A. & Chua, K. 1989 Three-dimensional interactions of vortex tubes. Physica D 37,
+      490–496.
+Lugomer, S. 1998 Observation of solitons on vortex-filament bush. Phys. Lett. A 242, 319–325.
+Lugt, H. J. 1983 Vortex Flow in Nature and Technology. Wiley.
+Massey, W. S. 1967 Algebraic Topology: An Introduction. Harcourt, Brace and World, New York.
+44                     R. L. Ricca, D. C. Samuels and C. F. Barenghi
+Moffatt, H. K. 1969 The degree of knottedness of tangled vortex lines. J. Fluid Mech. 36, 117–129.
+Moffatt, H. K. & Ricca, R. L. 1992 Helicity and the Călugăreanu invariant. Proc. R. Soc. Lond.
+     A 439, 411–429.
+Moffatt, H. K. & Tsinober, A. (Eds.) 1990 Topological Fluid Mechanics. Cambridge University
+     Press.
+Moffatt, H. K., Zaslavsky, G. M., Comte, P. & Tabor, M. (Eds.) 1992 Topological Aspects of the
+     Dynamics of Fluids and Plasmas. Kluwer.
+Moin, P., Leonard, A. & Kim, J. 1986 Evolution of a curved vortex filament into a vortex ring.
+     Phys. Fluids 29, 955–963.
+Ricca, R. L. 1993 Torus knots and polynomial invariants for a class of soliton equations. Chaos 3,
+     83–91 (and Erratum. Chaos 5, 1995, 346).
+Ricca, R. L. 1995 Geometric and topological aspects of vortex filament dynamics under LIA. In
+     small-Scale Structures in Three-Dimensional Hydro and Magnetohydro-dynamics Turbulence (ed.
+     M. Meneguzzi et al.), pp. 99–104. Lecture notes in Physics, vol. 462. Springer.
+Ricca, R. L. 1996 The contributions of Da Rios and Levi-Civita to asymptotic potential theory
+     and vortex filament dynamics. Fluid Dyn. Res. 18, 245–268.
+Ricca, R. L. 1998 Applications of knot theory in fluid mechanics. In Knot Theory (ed. V. F. R.
+     Jones et al.), vol. 42, pp. 321–346. Banach Center Publications, Institute of Mathematics, Polish
+     Academy of Sciences, Warszawa.
+Ricca, R. L. & Berger, M. A. 1996 Topological ideas and fluid mechanics. Phys. Today 49 (12),
+     24–30.
+Saffman, P. G. 1992 Vortex Dynamics. Cambridge University Press.
+Samuels, D. C. 1992 Velocity matching and Poiseuille pipe flow of superfluid helium. Phys. Rev. B
+     46, 11714–11724.
+Samuels, D. C. 1998 A finite length instability of vortex tubes. Eur. J. Mech. B/Fluids 17, 587–594.
+Samuels, D., Barenghi, C. & Ricca, R. L. 1998 Quantized vortex knots. J. Low Temp. Phys. 110,
+     509–513.
+Schwarz, K. W. 1985 Three-dimensional vortex dynamics in superfluid He 4: line-line and line-
+     boundary interactions. Phys. Rev. B 31, 5782–5804.
+Schwarz, K. W. 1988 Three-dimensional vortex dynamics in superfluid helium. Phys. Rev. B 38,
+     2398–2417.
+She, Z.-S., Jackson, E. & Orszag, S. A. 1990 Intermittent vortex structures in homogeneous
+     isotropic turbulence. Nature 344, 226–228.
+Vincent, A. & Meneguzzi, M. 1991 The spatial structure and statistical properties of homogeneous
+     turbulence. J. Fluid Mech. 225, 1–25.
+Zabusky, N. J., Silver, D. & Pelz, R. 1993 Visiometrics, juxtaposition and modelling. Phys. Today
+     46, 24–31.
+Zhou, H. 1997 On the motion of slender vortex filaments. Phys. Fluids 9, 970–981.
+

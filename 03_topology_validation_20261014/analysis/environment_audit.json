@@ -1,0 +1,201 @@
+{
+  "01_single_ring": {
+    "completion_records": [],
+    "binary_count": 24,
+    "parameters": [
+      "/home/yuninw/codes/simulations/ghost/run/01_single_ring/argl/parameter.inp",
+      "/home/yuninw/codes/simulations/ghost/run/01_single_ring/gpe/parameter.inp"
+    ]
+  },
+  "02_circle_ring_v2_reproduction": {
+    "completion_records": [],
+    "binary_count": 109,
+    "parameters": [
+      "/home/yuninw/codes/simulations/ghost/run/02_circle_ring_v2_reproduction/validation/argl_unpatched_check/parameter.inp",
+      "/home/yuninw/codes/simulations/ghost/run/02_circle_ring_v2_reproduction/validation/argl_before_fix/parameter.inp",
+      "/home/yuninw/codes/simulations/ghost/run/02_circle_ring_v2_reproduction/validation/argl_from_v2_initial/parameter.inp",
+      "/home/yuninw/codes/simulations/ghost/run/02_circle_ring_v2_reproduction/argl/parameter.inp",
+      "/home/yuninw/codes/simulations/ghost/run/02_circle_ring_v2_reproduction/gpe/parameter.inp"
+    ]
+  },
+  "03_two_rings": {
+    "completion_records": [
+      {
+        "path": "/home/yuninw/codes/simulations/ghost/run/03_two_rings/validation/double_rerun/agrl/run_complete.json",
+        "returncode": null,
+        "duration": null,
+        "final_record": null
+      },
+      {
+        "path": "/home/yuninw/codes/simulations/ghost/run/03_two_rings/validation/separate_stages/agrl/run_complete.json",
+        "returncode": null,
+        "duration": null,
+        "final_record": null
+      },
+      {
+        "path": "/home/yuninw/codes/simulations/ghost/run/03_two_rings/validation/separate_stages/gpe/run_complete.json",
+        "returncode": null,
+        "duration": null,
+        "final_record": null
+      },
+      {
+        "path": "/home/yuninw/codes/simulations/ghost/run/03_two_rings/validation/smoke/agrl/run_complete.json",
+        "returncode": null,
+        "duration": null,
+        "final_record": null
+      },
+      {
+        "path": "/home/yuninw/codes/simulations/ghost/run/03_two_rings/validation/smoke/gpe/run_complete.json",
+        "returncode": null,
+        "duration": null,
+        "final_record": null
+      },
+      {
+        "path": "/home/yuninw/codes/simulations/ghost/run/03_two_rings/agrl/run_complete.json",
+        "returncode": null,
+        "duration": null,
+        "final_record": null
+      }
+    ],
+    "binary_count": 61,
+    "parameters": [
+      "/home/yuninw/codes/simulations/ghost/run/03_two_rings/validation/double_rerun/agrl/parameter.inp",
+      "/home/yuninw/codes/simulations/ghost/run/03_two_rings/validation/double_rerun/gpe/parameter.inp",
+      "/home/yuninw/codes/simulations/ghost/run/03_two_rings/validation/separate_stages/agrl/parameter.inp",
+      "/home/yuninw/codes/simulations/ghost/run/03_two_rings/validation/separate_stages/gpe/parameter.inp",
+      "/home/yuninw/codes/simulations/ghost/run/03_two_rings/validation/nan_diagnosis/single/parameter.inp",
+      "/home/yuninw/codes/simulations/ghost/run/03_two_rings/validation/nan_diagnosis/double/parameter.inp",
+      "/home/yuninw/codes/simulations/ghost/run/03_two_rings/validation/smoke/agrl/parameter.inp",
+      "/home/yuninw/codes/simulations/ghost/run/03_two_rings/validation/smoke/gpe/parameter.inp",
+      "/home/yuninw/codes/simulations/ghost/run/03_two_rings/agrl/parameter.inp",
+      "/home/yuninw/codes/simulations/ghost/run/03_two_rings/gpe/parameter.inp"
+    ]
+  },
+  "04_linked_rings_64_v2v3_compare": {
+    "completion_records": [
+      {
+        "path": "/home/yuninw/codes/simulations/ghost/run/04_linked_rings_64_v2v3_compare/reconnection_zoom/run_complete.json",
+        "returncode": 0,
+        "duration": 0.5,
+        "final_record": "/home/yuninw/codes/simulations/ghost/run/04_linked_rings_64/reconnection_zoom/outs/zre.0051.out"
+      },
+      {
+        "path": "/home/yuninw/codes/simulations/ghost/run/04_linked_rings_64_v2v3_compare/gpe_dt_half/run_complete.json",
+        "returncode": 0,
+        "duration": 10.0,
+        "final_record": "/home/yuninw/codes/simulations/ghost/run/04_linked_rings_64/gpe_dt_half/outs/zre.0101.out"
+      },
+      {
+        "path": "/home/yuninw/codes/simulations/ghost/run/04_linked_rings_64_v2v3_compare/verify_gpe/run_complete.json",
+        "returncode": 0,
+        "duration": 0.1,
+        "final_record": "/home/yuninw/codes/simulations/ghost/run/04_linked_rings_64/verify_gpe/outs/zre.0003.out"
+      },
+      {
+        "path": "/home/yuninw/codes/simulations/ghost/run/04_linked_rings_64_v2v3_compare/verify_prep/run_complete.json",
+        "returncode": 0,
+        "duration": 0.05,
+        "final_record": "/home/yuninw/codes/simulations/ghost/run/04_linked_rings_64/verify_prep/outs/zre.0003.out"
+      },
+      {
+        "path": "/home/yuninw/codes/simulations/ghost/run/04_linked_rings_64_v2v3_compare/agrl/run_complete.json",
+        "returncode": 0,
+        "duration": 10.0,
+        "final_record": "/home/yuninw/codes/simulations/ghost/run/04_linked_rings_64/agrl/outs/zre.0041.out"
+      },
+      {
+        "path": "/home/yuninw/codes/simulations/ghost/run/04_linked_rings_64_v2v3_compare/gpe/run_complete.json",
+        "returncode": 0,
+        "duration": 10.0,
+        "final_record": "/home/yuninw/codes/simulations/ghost/run/04_linked_rings_64/gpe/outs/zre.0101.out"
+      },
+      {
+        "path": "/home/yuninw/codes/simulations/ghost/run/04_linked_rings_64_v2v3_compare/agrl_continue/run_complete.json",
+        "returncode": 0,
+        "duration": 10.0,
+        "final_record": "/home/yuninw/codes/simulations/ghost/run/04_linked_rings_64/agrl_continue/outs/zre.0041.out"
+      }
+    ],
+    "binary_count": 341,
+    "parameters": [
+      "/home/yuninw/codes/simulations/ghost/run/04_linked_rings_64_v2v3_compare/reconnection_zoom/parameter.inp",
+      "/home/yuninw/codes/simulations/ghost/run/04_linked_rings_64_v2v3_compare/gpe_dt_half/parameter.inp",
+      "/home/yuninw/codes/simulations/ghost/run/04_linked_rings_64_v2v3_compare/verify_gpe/parameter.inp",
+      "/home/yuninw/codes/simulations/ghost/run/04_linked_rings_64_v2v3_compare/verify_prep/parameter.inp",
+      "/home/yuninw/codes/simulations/ghost/run/04_linked_rings_64_v2v3_compare/agrl/parameter.inp",
+      "/home/yuninw/codes/simulations/ghost/run/04_linked_rings_64_v2v3_compare/gpe/parameter.inp",
+      "/home/yuninw/codes/simulations/ghost/run/04_linked_rings_64_v2v3_compare/agrl_continue/parameter.inp"
+    ]
+  },
+  "05_linked_rings_64_v3": {
+    "completion_records": [],
+    "binary_count": 0,
+    "parameters": [
+      "/home/yuninw/codes/simulations/ghost/run/05_linked_rings_64_v3/agrl/parameter.inp",
+      "/home/yuninw/codes/simulations/ghost/run/05_linked_rings_64_v3/gpe/parameter.inp"
+    ]
+  },
+  "06_trefoil_64_v3": {
+    "completion_records": [
+      {
+        "path": "/home/yuninw/codes/simulations/ghost/run/06_trefoil_64_v3/agrl_final/run_complete.json",
+        "returncode": 0,
+        "duration": 2.0,
+        "final_record": "/home/yuninw/codes/simulations/ghost/run/06_trefoil_64_v3/agrl_final/outs/zre.0005.out"
+      },
+      {
+        "path": "/home/yuninw/codes/simulations/ghost/run/06_trefoil_64_v3/analysis/validation_runs/agrl_probe/run_complete.json",
+        "returncode": 0,
+        "duration": 2.0,
+        "final_record": "/home/yuninw/codes/simulations/ghost/run/06_trefoil_64_v3/agrl_probe/outs/zre.0041.out"
+      },
+      {
+        "path": "/home/yuninw/codes/simulations/ghost/run/06_trefoil_64_v3/analysis/validation_runs/gpe_dt_half/run_complete.json",
+        "returncode": 0,
+        "duration": 2.0,
+        "final_record": "/home/yuninw/codes/simulations/ghost/run/06_trefoil_64_v3/gpe_dt_half/outs/zre.0081.out"
+      },
+      {
+        "path": "/home/yuninw/codes/simulations/ghost/run/06_trefoil_64_v3/analysis/validation_runs/gpe_trial/run_complete.json",
+        "returncode": 0,
+        "duration": 2.0,
+        "final_record": "/home/yuninw/codes/simulations/ghost/run/06_trefoil_64_v3/gpe_trial/outs/zre.0081.out"
+      },
+      {
+        "path": "/home/yuninw/codes/simulations/ghost/run/06_trefoil_64_v3/analysis/validation_runs/reconnection/run_complete.json",
+        "returncode": 0,
+        "duration": 0.025,
+        "final_record": "/home/yuninw/codes/simulations/ghost/run/06_trefoil_64_v3/reconnection/outs/zre.0026.out"
+      },
+      {
+        "path": "/home/yuninw/codes/simulations/ghost/run/06_trefoil_64_v3/analysis/validation_runs/agrl/run_complete.json",
+        "returncode": 0,
+        "duration": 18.0,
+        "final_record": "/home/yuninw/codes/simulations/ghost/run/06_trefoil_64_v3/agrl/outs/zre.0037.out"
+      },
+      {
+        "path": "/home/yuninw/codes/simulations/ghost/run/06_trefoil_64_v3/analysis/validation_runs/reconnection_dt_half/run_complete.json",
+        "returncode": 0,
+        "duration": 0.025,
+        "final_record": "/home/yuninw/codes/simulations/ghost/run/06_trefoil_64_v3/reconnection_dt_half/outs/zre.0026.out"
+      },
+      {
+        "path": "/home/yuninw/codes/simulations/ghost/run/06_trefoil_64_v3/gpe/run_complete.json",
+        "returncode": 0,
+        "duration": 10.0,
+        "final_record": "/home/yuninw/codes/simulations/ghost/run/06_trefoil_64_v3/gpe/outs/zre.0101.out"
+      }
+    ],
+    "binary_count": 177,
+    "parameters": [
+      "/home/yuninw/codes/simulations/ghost/run/06_trefoil_64_v3/agrl_final/parameter.inp",
+      "/home/yuninw/codes/simulations/ghost/run/06_trefoil_64_v3/analysis/validation_runs/agrl_probe/parameter.inp",
+      "/home/yuninw/codes/simulations/ghost/run/06_trefoil_64_v3/analysis/validation_runs/gpe_dt_half/parameter.inp",
+      "/home/yuninw/codes/simulations/ghost/run/06_trefoil_64_v3/analysis/validation_runs/gpe_trial/parameter.inp",
+      "/home/yuninw/codes/simulations/ghost/run/06_trefoil_64_v3/analysis/validation_runs/reconnection/parameter.inp",
+      "/home/yuninw/codes/simulations/ghost/run/06_trefoil_64_v3/analysis/validation_runs/agrl/parameter.inp",
+      "/home/yuninw/codes/simulations/ghost/run/06_trefoil_64_v3/analysis/validation_runs/reconnection_dt_half/parameter.inp",
+      "/home/yuninw/codes/simulations/ghost/run/06_trefoil_64_v3/gpe/parameter.inp"
+    ]
+  }
+}

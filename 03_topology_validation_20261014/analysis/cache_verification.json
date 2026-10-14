@@ -1,0 +1,15 @@
+{
+  "hopf": {
+    "maximum_coordinate_errors": [
+      8.881784197001252e-16,
+      8.881784197001252e-16
+    ],
+    "oriented_curves_identical": true
+  },
+  "trefoil": {
+    "maximum_coordinate_errors": [
+      8.881784197001252e-16
+    ],
+    "oriented_curves_identical": true
+  }
+}

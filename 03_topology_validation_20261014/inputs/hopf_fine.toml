@@ -1,0 +1,12 @@
+name = "hopf_fine"
+input = "hopf_128.csv"
+end_time = 1.2
+a = 0.001
+drec = 0.08
+dt = 0.001
+dtfactor = 0.25
+velocity_factor = 0.15
+wall_limit = 900.0
+mesh = 48
+beta = 4.5
+quad = 10

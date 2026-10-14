@@ -1,0 +1,8 @@
+name = "hopf_slender"
+input = "hopf_64.csv"
+end_time = 2.0
+a = 0.001
+drec = 0.08
+dt = 0.001
+wall_limit = 900.0
+label = "slender control"

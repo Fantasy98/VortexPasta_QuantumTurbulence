@@ -1,0 +1,152 @@
+{
+  "ring_base": [
+    {
+      "t": 0.0,
+      "max_absolute_neighbor_image_link": 2.760898160992636e-19,
+      "pair_shift": [
+        0,
+        0,
+        [
+          1,
+          0,
+          1
+        ]
+      ],
+      "interpretation": "Values much below one: no integer linking with nearest periodic copies resolved."
+    },
+    {
+      "t": 1.0007444800144305,
+      "max_absolute_neighbor_image_link": 1.9843955532134572e-19,
+      "pair_shift": [
+        0,
+        0,
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "interpretation": "Values much below one: no integer linking with nearest periodic copies resolved."
+    }
+  ],
+  "hopf_base": [
+    {
+      "t": 0.0,
+      "max_absolute_neighbor_image_link": 8.282694482977908e-19,
+      "pair_shift": [
+        0,
+        1,
+        [
+          -1,
+          0,
+          0
+        ]
+      ],
+      "interpretation": "Values much below one: no integer linking with nearest periodic copies resolved."
+    },
+    {
+      "t": 1.2000246385428956,
+      "max_absolute_neighbor_image_link": 4.2216504953063333e-07,
+      "pair_shift": [
+        0,
+        0,
+        [
+          -1,
+          0,
+          0
+        ]
+      ],
+      "interpretation": "Values much below one: no integer linking with nearest periodic copies resolved."
+    }
+  ],
+  "trefoil_base": [
+    {
+      "t": 0.0,
+      "max_absolute_neighbor_image_link": 6.938398068790071e-08,
+      "pair_shift": [
+        0,
+        0,
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "interpretation": "Values much below one: no integer linking with nearest periodic copies resolved."
+    },
+    {
+      "t": 0.8001404018840738,
+      "max_absolute_neighbor_image_link": 2.269230704712029e-08,
+      "pair_shift": [
+        1,
+        1,
+        [
+          0,
+          0,
+          -1
+        ]
+      ],
+      "interpretation": "Values much below one: no integer linking with nearest periodic copies resolved."
+    }
+  ],
+  "hopf_prepared_ref": [
+    {
+      "t": 0.0,
+      "max_absolute_neighbor_image_link": 1.687931406143087e-10,
+      "pair_shift": [
+        0,
+        1,
+        [
+          1,
+          0,
+          0
+        ]
+      ],
+      "interpretation": "Values much below one: no integer linking with nearest periodic copies resolved."
+    },
+    {
+      "t": 2.1009999999998796,
+      "max_absolute_neighbor_image_link": 3.9820109869358246e-07,
+      "pair_shift": [
+        0,
+        1,
+        [
+          -1,
+          0,
+          0
+        ]
+      ],
+      "interpretation": "Values much below one: no integer linking with nearest periodic copies resolved."
+    }
+  ],
+  "trefoil_prepared_ref": [
+    {
+      "t": 0.0,
+      "max_absolute_neighbor_image_link": 4.398454662221143e-08,
+      "pair_shift": [
+        0,
+        0,
+        [
+          0,
+          0,
+          -1
+        ]
+      ],
+      "interpretation": "Values much below one: no integer linking with nearest periodic copies resolved."
+    },
+    {
+      "t": 0.6000000000000004,
+      "max_absolute_neighbor_image_link": 2.0348071107490763e-07,
+      "pair_shift": [
+        0,
+        0,
+        [
+          0,
+          0,
+          -1
+        ]
+      ],
+      "interpretation": "Values much below one: no integer linking with nearest periodic copies resolved."
+    }
+  ]
+}

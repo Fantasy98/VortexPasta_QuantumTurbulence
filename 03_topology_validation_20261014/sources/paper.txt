@@ -1,0 +1,484 @@
+                                                PHYSICAL REVIEW A 94, 043605 (2016)
+
+
+                      Helicity, topology, and Kelvin waves in reconnecting quantum knots
+
+                                        P. Clark di Leoni,1 P. D. Mininni,1 and M. E. Brachet2
+         1
+          Departamento de Fı́sica, Facultad de Ciencias Exactas y Naturales, Universidad de Buenos Aires and IFIBA, CONICET,
+                                             Ciudad Universitaria, 1428 Buenos Aires, Argentina
+  2
+    Laboratoire de Physique Statistique de l’Ecole Normale Supérieure associé au CNRS et aux Universités Paris 6 et 7, 24 Rue Lhomond,
+                                                      75237 Paris Cedex 05, France
+                    (Received 29 February 2016; revised manuscript received 22 April 2016; published 3 October 2016)
+
+                 Helicity is a topological invariant that measures the linkage and knottedness of lines, tubes, and ribbons. As
+              such, it has found myriads of applications in astrophysics, fluid dynamics, atmospheric sciences, and biology.
+              In quantum flows, where topology-changing reconnection events are a staple, helicity appears as a key quantity
+              to study. However, the usual definition of helicity is not well posed in quantum vortices, and its computation
+              based on counting links and crossings of centerline vorticity can be downright impossible to apply in complex
+              and turbulent scenarios. We present a definition of helicity which overcomes these problems and which gives the
+              expected result in the large-scale limit. With it, we show that certain reconnection events can excite Kelvin waves
+              and other complex motions of the centerline vorticity, which slowly deplete helicity as they interact nonlinearly,
+              thus linking the theory of vortex knots with observations of quantum fluids. This process also results in the
+              depletion of helicity in a fully turbulent quantum flow, in a way reminiscent of the decay of helicity in classical
+              fluids.
+
+              DOI: 10.1103/PhysRevA.94.043605
+
+
+                      I. INTRODUCTION                                     for the generation of an energy cascade [26,27] leading to
+                                                                          Kelvin wave turbulence [28]. Possible links between helicity
+    Helicity plays an important role in the dynamics of many
+                                                                          and the development of turbulence have remained obscure as
+fluid flows, from astrophysics [1] to geophysics [2–4]. It is a
+                                                                          a result of the difficulties involved in the measurement of both
+measure of the knottedness of field lines, which is conserved
+                                                                          helicity and Kelvin waves.
+under appropriate conditions, and as such it has been called a
+                                                                              Here we study the time evolution of helicity and its link
+“topological invariant” of many flows [5]. These ideas [6–9]
+                                                                          with Kelvin waves in numerical simulations of the Gross-
+have found applications in areas beyond fluid dynamics, such
+                                                                          Pitaevskii equation (GPE). The GPE models superfluids and
+as DNA biology [10], optics [11], and electromagnetism [12].
+                                                                          Bose-Einstein condensates (BECs) near zero temperature.
+Although helicity is perfectly conserved in barotropic ideal
+                                                                          We present a fluidlike regularized definition for the helicity,
+fluids, in real fluids [13,14], and in superfluids [15–17], vortex
+                                                                          which solves the problem arising from the singularities in
+reconnection events, which alter the topology of the flow,
+                                                                          the velocity and vorticity produced by the topological defects
+can take place. It is unclear if helicity is preserved under
+                                                                          in the quantum flow, and links quantum knots with helicity
+reconnection. Experiments of vortex knots in water have
+                                                                          as measured in fluid dynamics. We study its time evolution
+shown that centerline helicity remains constant throughout
+                                                                          in multiple linked rings and knots and show that only some
+reconnection events [18], while theoretical arguments indicate
+                                                                          reconnection events conserve helicity, while in others helicity
+that writhe (one component of the helicity) should be con-
+                                                                          decays towards a new constant value. We link the depletion of
+served in antiparallel reconnection events [19], a fact later
+                                                                          helicity in the latter case to the excitation of complex motions
+confirmed in numerical simulations of a few specific quantum
+                                                                          of the centerline vorticity and of a nonlinear transfer of energy
+vortex knots [20]. However, numerical studies of Burgers-type
+                                                                          in Kelvin waves, which ultimately results in the radiation of
+vortices indicate that helicity is not conserved [21]. While
+                                                                          phonons. Finally, we illustrate how the regularized helicity can
+experiments studying helicity in quantum flows have not been
+                                                                          be successfully used to quantify the helicity in complicated and
+done yet, the recent experimental creation of quantum knots
+                                                                          turbulent situations.
+in a Bose-Einstein condensate [22] is a significant step in that
+direction.
+    Recently, quantum flows have been used as a testbed for                            II. HELICITY IN QUANTUM FLOWS
+many of these ideas [18,20,23], as vorticity in a quantum flow
+is concentrated along lines with quantized circulation, and as               Low temperature quantum flows and BECs can be modeled
+these can reconnect without dissipation. However, the lack of a           as a field of weakly interacting bosons of mass m using the
+fluidlike definition of helicity for a quantum flow requires com-         GPE,
+plex topological measurements of the linking and knottedness
+of the centerline vorticity [18,23], or artificial filtering of the                            ∂    2 2
+fields [20] to prevent spurious values of helicity resulting from                         i      =−    ∇  + g||2 ,                  (1)
+                                                                                               ∂t    2m
+the singularity near quantum vortices. Moreover, reconnection
+events in superfluids can excite Kelvin waves [24] (helical               where  is the system’s wave function and g is proportional
+perturbations that travel along the vortices first predicted for          to the scattering length. The total energy, which is conserved
+classical vortices [25]). These are believed to be responsible            by the GPE, can be decomposed into three components. First,
+
+2469-9926/2016/94(4)/043605(7)                                    043605-1                                  ©2016 American Physical Society
+P. CLARK DI LEONI, P. D. MININNI, AND M. E. BRACHET                                          PHYSICAL REVIEW A 94, 043605 (2016)
+
+the so-called “classical” kinetic energy density is defined as        where Wj = j kl ∂k Pl is a smooth field oriented along the
+                                                                      vortex. We define the regularized helicity as
+                           Ek = 12 ρ|v|2 ,                     (2)                            
+where ρ = mn is the mass density, n is the particle density,                            H = dr ω(r) · vreg (r),              (9)
+and v is the flow velocity, all obtained in terms of the wave                            
+function (see below). Using a Helmholtz decomposition of the          with vreg = v W/ Wj Wj .
+flow velocity, this energy can be further decomposed into a               The definition of the regularized helicity in Eq. (9) is well
+kinetic energy associated with compressible motions Ekc , and         behaved in the sense of standard distribution theory [31], as
+an energy associated with incompressible motions Eki . Second,        it is the integral of the product of a distribution (ω) with a
+the so-called quantum energy is                                       well-behaved function (vreg ). As such, it can be computed
+                                                                      numerically (e.g., in standard pseudospectral methods, in
+                                 2   √                               Fourier space using Parseval identity), and should converge
+                         Eq =       (∇ ρ)2 .                   (3)
+                                2m2                                   algebraically. Although the choice of regularizing v (instead
+Finally, the potential (or internal) energy is given by               of ω) may seem arbitrary, it is not. The vorticity as given in
+                                                                      Eq. (5) corresponds to an exact solution of the GPE. On the
+                                   g 2                                other hand, the singular behavior of the velocity in the direction
+                           Ep =       ρ .                      (4)
+                                  2m2                                 parallel to the centerline is the result of a 0/0 indeterminate
+A detailed study of the energy decomposition in the GPE can           form in the expression for v, as it follows directly from Eq. (6)
+be found in [29,30].                                                  because  = 0 in the centerline. As such, the regularization
+    The flow from the GPE matches the behavior of a classical,        of the velocity in Eq. (8) can be seen simply as l’Hôpital
+ideal, and compressible potential fluid, except at points where       regularization to remove the indeterminacy when  = 0.
+a topological singularity takes place. These topological defects          Next we show how this regularized helicity still holds the
+take place when  = 0 and are the so-called quantum                   geometrical interpretations valid for the standard (or classical)
+                                                    vortices         one.
+whose circulation is quantized and given by  = C v() d =
+4π α, with α = /(2m). The vorticity ω of the flow is thus
+                                                                                         A. Relation with writhe
+                               dr0 (3)
+              ω(r) =  ds          δ [r − r0 (s)],           (5)         For an isolated structure helicity can be decomposed into
+                               ds
+                                                                      twist Tw, and writhe Wr. For a single curve we have [32]
+where r0 (s) is the position of the  = 0 centerline, and s is                                
+                                                                                           1     (dr × dr1 ) · (r − r1 )
+the arc length.                                                                    Wr =                                  .     (10)
+   From the wave function, the particle density is given by                               4π        |(r − r1 )|3
+n = , and the velocity field can be obtained from                      It is easy to see that if one uses a velocity field V(r) given
+                                                                      by the Biot-Savart law
+                   P                ∂j  − ∂j                                                     
+              v=     ,    Pj = 2α                 ,            (6)
+                   n                      2i                                                       dr1 × (r − r1 )
+                                                                                        V(r) =                        ,            (11)
+where P is the unit mass momentum density. At a distance                                         4π     |(r − r1 )|3
+r → 0 from a straight vortex these quantities are known [29]          where r1 corresponds to the position of the centerline, and the
+to behave as n ∼ r 2 and v = 2αeθ /r, where eθ is the azimuthal       vorticity as defined in Eq. (5), then the helicity H is given by
+unit vector and r is the radial distance in a cylindrical coordi-                             
+nate system (er ,eθ ,ez ) having its origin on the straight vortex.                       2      dr · [dr1 × (r − r1 )]
+                                                                                    H=                                   .
+Thus, the velocity v has an r −1 singularity perpendicular to                             4π          |(r − r1 )|3
+the centerline.
+                                                                      From the identity (a × b) · c = a · (b × c) one finds that in this
+   As the vorticity also has a singularity perpendicular to those
+                                                                      simple case (for a single line), H =  2 Wr.
+lines, the standard definition of helicity
+                            
+                      H = dr ω(r) · v(r)                        (7)        B. Regularized helicity defined as the twist of constant
+                                                                                               phase ribbon
+is not well behaved, as it involves the product of two singular          Let us recall that the twist Tw of a ribbon [defined by both
+distributions. The idea of the regularized helicity is to replace     a curve r(s), and a vector U(s) perpendicular to the curve] is
+in Eq. (7) the field v by a regularized smooth field vreg having      defined by
+no divergences perpendicular to the line, and the same regular                                                    
+                                                                               1              dU dr                1
+behavior as v parallel to the line.                                     Tw =            U×            ds = N +          τ (s)ds, (12)
+    We can regularize the velocity along the centerline by                    2π              ds ds               2π
+Taylor expanding  to first order in the numerator and the            where τ is the torsion, and N the number of turns around the
+denominator in Eq. (6), arriving at                                   curve of U in the Frenet-Serret frame (see the Appendix A).
+                                                                      Under the GPE, constant phase surfaces will intersect on the
+              2α Wj {[∂j ∂l )∂l ()] − [∂j ∂l )∂l ()]}
+       v =              √                                ,    (8)    centerline. Now consider a line at a close distance of the vortex
+              2i            Wl Wl (∂m )(∂m )                        and lying on a constant phase surface. The centerline and the
+
+                                                                043605-2
+HELICITY, TOPOLOGY, AND KELVIN WAVES IN . . .                                                      PHYSICAL REVIEW A 94, 043605 (2016)
+
+                                                                                        B. Preparation method for vortex knots
+                                                                              The initial data preparation method is based on the one
+                                                                          presented in [18]. The method consists of calculating the
+                                                                          velocity field generated by a vortex line (or lines) r(s), which
+                                                                          is then integrated to get the phase of the wave function. The
+                                                                          density at each point in space is then calculated by using
+                                                                          a Padé approximation. One of the two differences with the
+                                                                          method presented in [18] is that after doing this we first use the
+                                                                          generated wave function as an initial condition of the advected
+                                                                          real Guinzbug Landau equation (ARGLE), whose stationary
+                                                                          solutions are solutions of the GPE with minimal acoustic
+                                                                          energy [29], and then feed that solution to the GPE, thereby
+                                                                          minimizing errors (specially those stemming from the Padé
+                                                                          approximation [17]). The other key difference is that our
+                                                                          fields are truly periodic. Instead of using an array of replicas
+                                                                          to generate an almost periodic field, we work in the Fourier
+                                                                          domain using the Fourier transform of the vorticity in Eq. (5),
+                                                                          which as we evaluate only at integer wave numbers gives a
+                                                                          perfectly periodic field. The velocity field is then obtained by
+                                                                          applying the inverse of the curl operator (i.e., the Biot-Savart
+                                                                          law).
+    FIG. 1. Renderings of the surface of zero phase for two knots
+in a quantum fluid. Top: Two linked rings, note the surface has one
+                                                                                    C. Preparation method for quantum ABC flow
+hole. Bottom: Trefoil knot, with three holes. The number of holes is
+associated with the number of turns the vector that lies on the surface      The so-called ABC (Arnold, Beltrami, and Childress)
+perpendicular to the vortex does as it moves along the curve (a few       velocity field is a maximal helicity stationary solution of Euler
+of these vectors are shown).                                              equations in which the vorticity is parallel to the velocity,
+                                                                          explicitly given by
+                                                                                    uABC (x,y,z) = {[B cos(ky) + C sin(kz)]x̂
+constant phase line define a ribbon. Using Eqs. (5) and (12)                                         + [A sin(kx) + C cos(kz)]ŷ
+we can see that H = − 2 Tw.
+   Figure 1 shows renderings of surfaces of zero phase for                                           + [A cos(kx) + B sin(ky)]ẑ}.              (13)
+two knots in a quantum fluid. A hole indicates that the vector            This velocity is the sum of three simple (A = B = 0, A =
+perpendicular to the vortex lying on this surface does a whole            C = 0, and B = C = 0) flows. We first construct an ARGLE
+turn as it moves along the vortex, thus making a contribution of          initial wave function for each of these flows, and then take their
+one quantum to the intrinsic twist. The arrows in Fig. 1 show             product and evolve the ARGLE in time to minimize errors and
+examples of the direction of this vector at different places (see         the acoustic energy.
+also the Supplemental Material [33] for an animation of these                 In particular, it is easy to see that the A = B = 0
+knots).                                                                   flow is a constant z-dependent advection in each x-y
+                                                                          slice. By Madelung’s transformation the constant advection
+                                                                          C[sin(kz)x̂ + cos(kz)ŷ] should correspond to a wave function
+                          III. METHODS                                                                       C sin(kz)
+                                                                                                                       x+ C cos(kz)
+                                                                                             (x,y,z) = ei      2α           2α     y
+                                                                                                                                        .       (14)
+                       A. Numerical scheme
+                                                                               In order to have 2π -periodic initial data we initially set
+   To study the time evolution of helicity in different con-
+                                                                                                            C sin(kz)
+                                                                                                                      ]x+[ C cos(kz)
+figurations, the GPE equations were integrated using GHOST                                 (x,y,z) = ei[      2α             2α     ]y
+                                                                                                                                            ,   (15)
+[34–36], a three-dimensional code which uses a pseudospectral
+scheme with periodic boundary conditions to compute spatial               where [a] stands for the integer nearer to a.
+derivatives and a fourth order Runge-Kutta scheme to compute                 The general initial data are made out of a product of such
+time derivatives. The “2/3 rule” is used for de-aliasing. The             functions, corresponding to nonzero A, B, and C, and various
+code is parallelized using both MPI and OpenMP. We consider               values of the wave number k. Note that the frustration [the
+two sets of simulations. The vortex knots simulations were                relative difference between√ C sin(kz)/(2α) and an integer]
+done using 2563 grid points (other simulations at different               goes down when α = cξ/ 2 → 0.
+resolutions were performed to check numerical convergence,
+but only the results from the simulations with 2563 grid points                       IV. EVOLUTION OF QUANTUM KNOTS
+are shown below). The largest simulation of an ABC flow
+(a turbulent helical flow) discussed below was done with                                        A. Dynamics of helicity
+20483 grid points, also with simulations performed at lower                  We consider four different initial conditions: one unknotted
+resolution to verify convergence.                                         ring, two unknotted but linked rings, a trefoil knot, and a (1,6)-
+
+                                                                    043605-3
+P. CLARK DI LEONI, P. D. MININNI, AND M. E. BRACHET                                                PHYSICAL REVIEW A 94, 043605 (2016)
+ Two r in gs One ring
+ Tr efoil
+ (1,6) knot
+
+
+
+
+                                                                               FIG. 3. Spatiotemporal spectrum for the two rings before (left)
+                                                                           and after reconnection (right). The dashed (blue) line corresponds
+                                                                           to the dispersion relation of sound waves, the solid (green) line to
+                                                                           Kelvin waves, the dash-dotted line to sweeping with velocity U1 (i.e.,
+                                                                           ω = U1 k), and the dash-triple dotted line to sweeping with ω = U2 k.
+                                                                           Sweeping concentrates most of the power, and only one energetic
+                                                                           mode with k ≈ 11 may be compatible with the dispersion relation of
+                                                                           Kelvin waves.
+
+
+    FIG. 2. Time evolution of the helicity for four quantum vortex         helical deformation (writhe) of the single ring. The trefoil
+configurations. At the top, snapshots of the configurations at different   reconnects at three points simultaneously, but the vortices
+times are shown. The single ring only moves at constant speed.             are not perfectly antiparallel at the moment of reconnection.
+The two rings and the trefoil reconnect at times marked by the             Centerlines always form coplanar hyperbolas [37,38] and align
+vertical arrows. When reconnection takes place between two perfectly       antiparallely, but as vortices have a finite size in the GPE,
+antiparallel vortices (as in the two rings), helicity does not change.     reconnection can start before vortices can perfectly align
+In the trefoil reconnection takes place simultaneously at three points     leading to the described situation [18]. As a result, helicity
+and helicity changes abruptly at the time indicated by the red arrow;      rapidly drops by one quantum from an initial value of ≈ 3.4.
+later it decays slowly to its final value. The (1,6)-torus knot deforms    Remarkably, it then continues dropping slowly until it reaches
+without reconnecting, and its helicity does not change.
+                                                                           a new steady value of 2 quanta at t ≈ 25. As will be shown next,
+                                                                           this decay is associated with the excitation of helical waves
+                                                                           along the two vortex rings resulting from the reconnection.
+torus knot. Snapshots at different times during their evolution            Finally the (1,6)-torus knot deforms substantially as it evolves,
+are shown in Fig. 2. The evolution of the regularized helicity             but its helicity remains around its initial value. Videos showing
+(normalized by  2 ) for each configuration as a function of               the evolution in each case can be found in the Supplemental
+time is also shown in Fig. 2. A red and a green arrow mark                 Material [33].
+the moment when the trefoil and the two rings reconnect,                      To sum up, there exist stable helical solutions of the
+respectively.                                                              GPE where vortex knots do not reconnect, antiparallel re-
+    All four configurations start at the expected value of helicity        connections conserve helicity in agreement with previous
+(which we verified with other methods to compute helicity                  studies [19,20], but in disagreement with previous studies
+in quantum flows [20]). The single ring moves at constant                  helicity is not always conserved. Even after reconnection
+velocity parallel to its axis without deformations, and helicity           helicity can vary slowly by a yet unclear mechanism. Below
+remains constant at zero. The two rings move towards each                  we show that this mechanism is the emission of phonons by
+other, and align to reconnect two long antiparallel segments               the nonlinear interaction of helical Kelvin waves and other
+(see the third panel of the snapshots). At that time there is a            deformations excited along the centerline.
+small drop of the regularized helicity (associated with the fact
+that the regularization is not well defined while reconnection
+takes place), but then the helicity remains constant around                           B. Kelvin waves excitation by reconnection
+its original value of 2, even though there remains only one                   To understand the process that results in the slow depletion
+ring after reconnection. This is to be expected for antiparallel           of helicity, we compute the spatiotemporal spectrum of mass
+reconnection, as predicted in [19], and in agreement with                  density ρ(k,ω), before and after the reconnection, for the two
+previous results [18,23]. As is clear from the visualizations,             rings (Fig. 3) and for the trefoil (Fig. 4). This spectrum is
+the helicity in the link of the two rings gets converted into a            a useful tool to identify waves and flow displacements in
+
+                                                                     043605-4
+HELICITY, TOPOLOGY, AND KELVIN WAVES IN . . .                                                  PHYSICAL REVIEW A 94, 043605 (2016)
+
+                                                                            The excitation of Kelvin waves with multiple wavelengths
+                                                                        in the trefoil creates a transfer of energy and helicity to
+                                                                        the smaller scales where it can be dissipated by phonon
+                                                                        emission [40], as is evidenced by the excitation of sound waves
+                                                                        at only high frequencies in Fig. 4. Kelvin waves fade away once
+                                                                        helicity reaches its new steady state value of ≈ 2 2 . Note that
+                                                                        in Figs. 3 and 4 other modes are also excited. Sweeping with
+                                                                        ω = U k is a particular case of a more general spectrum with
+                                                                        ω ∝ k r predicted for a randomly stirred vortex loop [41,42].
+                                                                        The data is thus compatible with such deformations of the
+                                                                        centerline.
+
+                                                                                V. HELICITY IN QUANTUM TURBULENCE
+                                                                            Finally, we show the regularized helicity is robust even for
+                                                                        quantum turbulence, where hundreds of thousands of knots can
+                                                                        be present in the flow. Figure 5 shows the three-dimensional
+                                                                        rendering of a helical flow, with a distribution of vortices such
+    FIG. 4. Spatiotemporal spectrum for the trefoil before (left) and   that the flow large-scale structure corresponds to the classical
+after the reconnection (right). The dashed (blue) line corresponds      ABC flow. A grid of 20483 points was used. Computation
+to sound waves, the solid (green) line to Kelvin waves, and the         of the regularized helicity over the quantum flow gives the
+dash-dotted line to sweeping with ω = U k. A broad range of modes       expected value of 3, matching the classical value. In units of
+compatible with the dispersion relation of Kelvin waves is excited       2 this value corresponds to ≈ 480 000 links.
+after reconnection, and sound waves are visible at high frequencies.        Figure 6 shows the evolution of the helicity and of the
+                                                                        different components of the total energy, in a simulation with
+                                                                        the same initial conditions but using 10243 grid points. Note
+complex flows [28,39]. The GPE can sustain two types of                 that the total energy (i.e., the sum of all components) remains
+waves that will be of interest in the following: sound waves            constant through the simulation, as expected for the GPE. As
+    follow the Bogoliubovdispersion relation ωB (k) =
+which                                                                   expected from previous results [28,29], the incompressible
+ck 1 + ξ 2 k 2 /2, where c = g||2 /m is the speed of                  kinetic energy decays into the other energy components,
+sound and ξ = 2 /(2mg||2 ) is the coherence length   √ 2 [29],
+                                                                        mainly as the result of the emission of phonons produced by the
+                                                                        energy cascade (note the growth of Ekc at late times). In other
+√ Kelvin waves which follow ωK (k) = 2cξ /( 2a )[1 ±
+and
+                                                                        words, the flow first evolves into a turbulent state dominated
+   1 + K0 (ka)/K1 (ka)], where a is the radius of the vortex
+core and K0 and K1 are modified Bessel functions.                       by incompressible motions (note Eki remains approximately
+    In Fig. 3, before reconnection takes place, the two rings           constant as turbulence develops, up to t ≈ 4), and afterwards
+move towards each other at a mean velocity U1 . This appears
+in the spatiotemporal spectrum as sweeping of the vortices,
+i.e., a concentration of power near the region with ω =
+U1 k (excitations corresponding to sound waves can also be
+identified). After reconnection, the vortex still moves slowly
+with a velocity close to U1 , but the reconnected points separate
+fast from each other with velocity U2 , thus concentrating
+energy along ω = U2 k. Only at k ≈ 11 does there seem to
+be an almost monochromatic Kelvin wave excitation. Indeed,
+in the last snapshot of the two rings in Fig. 2, a small helical
+perturbation with this wave number can be observed (see also
+the video in the Supplemental Material [33]).
+    The spatiotemporal spectrum for the trefoil, for which
+helicity is not conserved, is very different. Before reconnection
+the vortex knot moves with mean velocity U , and sweeping
+with ω = U k can be observed in the spectrum. After recon-
+nection the motion of the two rings is complex, although both
+structures still move with an average velocity U . But the most
+remarkable feature in the spectrum is the excitation of a broad
+and continuous range of modes compatible with the dispersion
+relation of Kelvin waves, which indicates the development of               FIG. 5. Rendering of vortices at early times in a quantum ABC
+nonlinear interactions of Kelvin waves. As only one vortex              flow with helicity (spatial resolution of 20483 grid points). The
+knot is present, the system does not develop a fully turbulent          regularized helicity is equal to 3, matching the value expected for
+cascade (see [28] for a study of spatiotemporal spectra in the          the classical flow at large scales. Normalizing by the quanta, the
+case of fully developed turbulence in GPE).                             helicity of this flow is ≈ 480 000 2 .
+
+                                                                  043605-5
+P. CLARK DI LEONI, P. D. MININNI, AND M. E. BRACHET                                                PHYSICAL REVIEW A 94, 043605 (2016)
+
+
+               101                                                          by studying reconnection and the subsequent time evolution of
+                                                                            quantum knots we show that in cases in which a broad spectrum
+                                                                            of Kelvin waves is excited, helicity can be slowly depleted as
+               100                                                          the Kelvin waves dissipate into phonos. In a fully developed
+                                                                            helical quantum flow helicity remains constat at early times,
+H, Energies
+
+
+
+
+                                                                            and later decreases as the incompressible flow motions decay
+              10−1                                                          into compressible (sound) modes.
+                                                                H               While the behavior of helicity in a quantum flow is
+                                                                Eki         reminiscent of that found in classical fluids, the results
+              10−2                                              Ekc         presented here also showcase a clear difference between the
+                                                                Eq          two cases: classical vortex tubes have an extra degree of
+                                                                Ep
+                                                                            freedom that quantum vortices do not, as a classical vortex
+              10−3
+                           100                                    101       tube has a finite width and as such can have any twist. Thus, a
+                                      t
+                                                                            large-scale bundle of quantum vortices can have helicity and
+                                                                            behave (as in the quantum ABC flow) in a way reminiscent
+   FIG. 6. Evolution of helicity and all energy components during
+                                                                            of a classical fluid. However, as the bundle disentangles
+the decay of a quantum turbulent flow with ABC initial conditions
+                                                                            through reconnection and the helicity is transferred towards
+using 10243 grid points. Both helicity and the incompressible kinetic
+energy start to decay at around t ≈ 4, in a correlated manner. The
+                                                                            helical deformations of individual vortices, these deformations
+incompressible energy is redistributed into the other components, but       can decay into phonons. A detailed study of this transfer
+the helicity is, in principle, dissipated.                                  mechanism in quantum turbulence, and of the decay of helicity
+                                                                            at late times, is left for future studies.
+the incompressible kinetic energy decays into compressible
+                                                                                               ACKNOWLEDGMENTS
+modes. Interestingly, the helicity is approximately conserved
+up to t ≈ 4, but shortly before the incompressible kinetic                    The authors acknowledge financial support from Grant
+energy starts to decay, so does the helicity. This behavior is              No. ECOS-Sud A13E01, and from computing hours in the
+reminiscent of the decay of energy and helicity in a freely                 CURIE supercomputer granted by Project TGCC-GENCI No.
+decaying classical helical turbulent flow [43]. The decay of                x20152a7493.
+helicity at late times in Fig. 6 is probably due to the emission
+of phonons by Kelvin waves as observed in the trefoil knot (see             APPENDIX: FRENET-SERRET FRAME AND EQUATIONS
+Figs. 2 and 4), although further studies are needed to properly
+address this point.                                                          Given a 3D curve r(s), with r = (x,y,z) and ds =
+                                                                              dx 2 + dy 2 + dz2 , the standard Frenet-Serret tangent T,
+                         VI. CONCLUSIONS                                    normal N, and binormal B vectors are defined as
+
+   In a quantum flow the definition of helicity from classical                                         dr
+                                                                                                          = T,                          (A1)
+hydrodynamics is ill defined, as it involves the integral of                                           ds
+the product of two singular distributions, the velocity and                                        dT  dT
+the vorticity. However, the singular behavior of the velocity                                                = N,                       (A2)
+                                                                                                   ds     ds
+in the direction parallel to the vorticity is the result of an
+indeterminate 0/0 form, and can be regularized to obtain                                              T × N = B.                        (A3)
+an expression that matches the hydrodynamic definition of                   These obey the Frenet-Serret equations
+helicity at large scales while also satisfying topological
+definitions of the helicity based on the link, writhe, and twist                                       dT
+of the quantum vortices.                                                                                  = κN,                         (A4)
+                                                                                                       ds
+   We show that the regularized helicity can be used to                                           dN
+study the evolution of simple knots and rings, yielding results                                       = −κT+τ B,                        (A5)
+                                                                                                  ds
+compatible with topological methods to calculate the helicity.
+                                                                                                     dB
+The regularized helicity can be also used successfully in                                               = −τ N,                         (A6)
+more complex turbulent flows in which tracing hundreds of                                            ds
+thousands of individual vortices may be unfeasible. Moreover,               where κ is the curvature and τ is the torsion.
+
+
+
+     [1] A. Brandenburg and K. Subramanian, Phys. Rep. 417, 1                [3] C. Rorai, D. Rosenberg, A. Pouquet, and P. D. Mininni, Phys.
+         (2005).                                                                 Rev. E 87, 063007 (2013).
+     [2] E. N. Rasmussen and D. O. Blanchard, Weather Forecasting 13,        [4] R. Marino, P. D. Mininni, D. Rosenberg, and A. Pouquet, Phys.
+         1148 (1998).                                                            Rev. E 87, 033016 (2013).
+
+
+
+
+                                                                      043605-6
+HELICITY, TOPOLOGY, AND KELVIN WAVES IN . . .                                                      PHYSICAL REVIEW A 94, 043605 (2016)
+
+ [5] H. K. Moffatt, J. Fluid Mech. 35, 117 (1969).                         [26] E. Kozik and B. Svistunov, Phys. Rev. Lett. 92, 035301
+ [6] H. K. Moffatt and R. L. Ricca, Proc. R. Soc. London Ser. A 439,            (2004).
+     411 (1992).                                                           [27] V. S. L’vov and S. Nazarenko, J. Exp. Theor. Phys. Lett. 91, 428
+ [7] M. R. Dennis and J. H. Hannay, Proc. R. Soc. London Ser. A                 (2010).
+     461, 3245 (2005).                                                     [28] P. Clark di Leoni, P. D. Mininni, and M. E. Brachet, Phys. Rev.
+ [8] R. L. Ricca and M. A. Berger, Phys. Today 49(12), 28 (1996).               A 92, 063632 (2015).
+ [9] H. K. Moffatt, Proc. Natl. Acad. Sci. USA 111, 3663 (2014).           [29] C. Nore, M. Abid, and M. E. Brachet, Phys. Fluids 9, 2644
+[10] A. V. Vologodskii, N. J. Crisona, B. Laurie, P. Pieranski, V.              (1997).
+     Katritch, J. Dubochet, and A. Stasiak, J. Mol. Biol. 278, 1 (1998).   [30] G. Krstulovic and M. Brachet, Phys. Rev. E 83, 066311 (2011).
+[11] M. R. Dennis, R. P. King, B. Jack, K. O’Holleran, and M. J.           [31] M. J. Lighthill, An Introduction to Fourier Analysis and Gen-
+     Padgett, Nat. Phys. 6, 118 (2010).                                         eralised Functions (Cambridge University Press, Cambridge,
+[12] H. Kedia, I. Bialynicki-Birula, D. Peralta-Salas, and W. T. M.             1958).
+     Irvine, Phys. Rev. Lett. 111, 150404 (2013).                          [32] K. Klenin and J. Langowski, Biopolymers 54, 307 (2000).
+[13] F. Hussain and K. Duraisamy, Phys. Fluids 23, 021701 (2011).          [33] See Supplemental Material at http://link.aps.org/supplemental/
+[14] D. Kleckner and W. T. M. Irvine, Nat. Phys. 9, 253 (2013).                 10.1103/PhysRevA.94.043605 for videos showing the evolution
+[15] G. P. Bewley, M. S. Paoletti, K. R. Sreenivasan, and D. P.                 of the trefoil and the two rings knots.
+     Lathrop, Proc. Natl. Acad. Sci. USA 105, 13707 (2008).                [34] D. O. Gómez, P. D. Mininni, and P. Dmitruk, Adv. Space Res.
+[16] S. Zuccher, M. Caliari, A. W. Baggaley, and C. F. Barenghi,                35, 899 (2005).
+     Phys. Fluids 24, 125108 (2012).                                       [35] D. O. Gómez, P. D. Mininni, and P. Dmitruk, Phys. Scr. 2005,
+[17] C. Rorai, K. R. Sreenivasan, and M. E. Fisher, Phys. Rev. B 88,            123 (2005).
+     134522 (2013).                                                        [36] P. Mininni, D. Rosenberg, R. Reddy, and A. Pouquet, Parallel
+[18] M. W. Scheeler, D. Kleckner, D. Proment, G. L. Kindlmann,                  Comput. 37, 316 (2011).
+     and W. T. M. Irvine, Proc. Natl. Acad. Sci. USA 111, 15350            [37] M. V. Berry and M. R. Dennis, Eur. J. Phys. 33, 723 (2012).
+     (2014).                                                               [38] L. Boué, D. Khomenko, V. S. L’vov, and I. Procaccia, Phys. Rev.
+[19] C. E. Laing, R. L. Ricca, and D. W. L. Sumners, Sci. Rep. 5,               Lett. 111, 145302 (2013).
+     9224 (2015).                                                          [39] P. C. di Leoni, P. Cobelli, and P. Mininni, Eur. Phys. J. E 38, 1
+[20] S. Zuccher and R. L. Ricca, Phys. Rev. E 92, 061001 (2015).                (2015).
+[21] Y. Kimura and H. K. Moffatt, J. Fluid Mech. 751, 329                  [40] W. F. Vinen, M. Tsubota, and A. Mitani, Phys. Rev. Lett. 91,
+     (2014).                                                                    135301 (2003).
+[22] D. S. Hall, M. W. Ray, K. Tiurev, E. Ruokokoski, A. H.                [41] S. K. Nemirovskii and A. J. Baltsevich, in Quantized Vortex
+     Gheorghe, and M. Möttönen, Nat. Phys. 12, 478 (2016).                    Dynamics and Superfluid Turbulence, Lecture Notes in Physics
+[23] D. Kleckner, L. H. Kauffman, and W. T. M. Irvine, Nat. Phys.               No. 571, edited by C. F. Barenghi, R. J. Donnelly, and W. F.
+     (unpublished).                                                             Vinen (Springer, Berlin, 2001), pp. 219–225.
+[24] E. Fonda, D. P. Meichle, N. T. Ouellette, S. Hormoz, and D. P.        [42] S. K. Nemirovskii, Phys. Rep. Quantum Turbulence 524, 85
+     Lathrop, Proc. Natl. Acad. Sci. USA 111, 4707 (2014).                      (2013).
+[25] W. Thomson, Philos. Mag. 10, 155 (1880).                              [43] T. Teitelbaum and P. D. Mininni, Phys. Fluids 23, 065105 (2011).
+
+
+
+
+                                                                     043605-7
+

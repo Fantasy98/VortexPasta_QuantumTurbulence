@@ -1,0 +1,840 @@
+                                     This is an electronic reprint of the original article.
+                                     This reprint may differ from the original in pagination and typographic detail.
+
+
+
+                                   Hänninen, Risto; Hietala, Niklas; Salman, Hayder
+                                   Helicity within the vortex filament model
+
+
+                                   Published in:
+                                   SCIENTIFIC REPORTS
+
+
+                                   DOI:
+                                   10.1038/srep37571
+
+
+                                   Published: 24/11/2016
+
+
+
+                                   Document Version
+                                   Publisher's PDF, also known as Version of record
+
+
+                                   Please cite the original version:
+                                   Hänninen, R., Hietala, N., & Salman, H. (2016). Helicity within the vortex filament model. SCIENTIFIC
+                                   REPORTS, 6, [37571]. DOI: 10.1038/srep37571
+
+
+
+
+                                   This material is protected by copyright and other intellectual property rights, and duplication or sale of all or
+                                   part of any of the repository collections is not permitted, except that material may be duplicated by you for
+                                   your research use or educational purposes in electronic or print form. You must obtain permission for any
+                                   other use. Electronic or print copies may not be offered, whether for sale or otherwise to anyone who is not
+                                   an authorised user.
+
+
+
+
+Powered by TCPDF (www.tcpdf.org)
+                                                                                                     www.nature.com/scientificreports
+
+
+
+
+              OPEN            Helicity within the vortex filament
+                              model
+                              R. Hänninen1, N. Hietala1 & H. Salman2
+
+                              Kinetic helicity is one of the invariants of the Euler equations that is associated with the topology of
+      Recei e : 08 u   016
+                              vortex lines within the fluid. In superfluids, the vorticity is concentrated along vortex filaments. In this
+  Accepte : 31 Octo er 016    setting, helicity would be expected to acquire its simplest form. However, the lack of a core structure
+Pu is e :     o em er 016     for vortex filaments appears to result in a helicity that does not retain its key attribute as a quadratic
+                              invariant. By defining a spanwise vector to the vortex through the use of a Seifert framing, we are able
+                              to introduce twist and henceforth recover the key properties of helicity. We present several examples
+                              for calculating internal twist to illustrate why the centreline helicity alone will lead to ambiguous results
+                              if a twist contribution is not introduced. Our choice of the spanwise vector can be expressed in terms of
+                              the tangential component of velocity along the filament. Since the tangential velocity does not alter
+                              the configuration of the vortex at later times, we are able to recover a similar equation for the internal
+                              twist angle to that of classical vortex tubes. Our results allow us to explain how a quasi-classical limit of
+                              helicity emerges from helicity considerations for individual superfluid vortex filaments.
+
+
+                              Ideal classical fluids possess a number of conserved quantities such as energy, momentum, angular momentum
+                              and kinetic helicity. Of these, only energy and kinetic helicity correspond to quadratic invariants in the system.
+                              First identified as an invariant for ideal classical fluids by Moffatt1, kinetic helicity has been recognized to be
+                              related to the topology of the vorticity field in classical fluids. Aside from its relevance to classical fluids, helicity
+                              also plays an important role in a number of other contexts such as plasmas, cosmic strings, magnetohydrodynam-
+                              ics, and biology2–10.
+                                  If vorticity is concentrated within vortex tubes, the helicity is in part determined by the self-knotting and
+                              linking of the vortices within a tangle. In recent years, it has become possible to realize particular cases of knotted
+                              vortex tubes produced in water and to study them under controlled conditions in the laboratory11. This has paved
+                              the way to test assertions arising from considerations involving helicity. Recently, tying a simple knot has been
+                              experimentally demonstrated in a spinor Bose-Einstein condensate12. Even though the characteristics of super-
+                              fluid 4He are different, similar knotted vortex excitations would be expected to arise. However, their experimental
+                              verification would be more of a challenge since it is only recently that direct visualization of quantized vortices in
+                              4
+                                He has become possible using small tracer particles13.
+                                  In contrast to classical fluids, in superfluids, the vorticity is concentrated along line filaments and the circula-
+                              tion is quantized in units of Planck’s constant. Moreover, superfluid vortices are not subject to diffusive processes
+                              that are present in classical fluids. Yet, although superfluid vortices appear to resemble vortices of ideal classical
+                              fluids, their topology is not frozen into the flow because quantum effects can act to allow vortices to undergo
+                              reconnections. In other words, superfluid vortices are not constrained by the Helmholtz laws of vortex motion.
+                              Given these observations, it appears that helicity would acquire its simplest form in a superfluid. At the same time,
+                              reconnections delineate the boundaries of sharply defined intervals involving constant vortex topologies. This
+                              makes superfluids an ideal setting in which to understand properties of helicity and how it relates to the topology
+                              of the superfluid vortex filaments.
+                                  Numerical studies of knotted vortex structures have previously been performed using both a hydrody-
+                              namic description based on a vortex filament model14 and a microscopic mean field model in the form of the
+                              Gross-Pitaevskii equation that can directly resolve the core structure15. In superfluids, the core of a vortex is char-
+                              acterised by a depletion of the density field which vanishes along the centreline of the vortex. Therefore, although
+                              superfluid vortices have a finite core size characterized by the rapid variation of the density field, the vorticity
+                              remains singular and concentrated along a filament due to the divergent nature of the velocity within the core.
+                              When the core size is much smaller than any other characteristic scale and compressiblity effects can be neglected,
+
+
+                              1
+                               Department of pp ie        sics a to ni ersit .O. o 15100 I 00076        O in an . School of Mathematics,
+                              University of East Anglia, Norwich Research Park, United Kingdom. Correspondence and requests for materials
+                              s ou e a resse to . . emai : isto. anninen aa to.
+
+
+Scientific RepoRts | 6:37571 | DOI: 10.1038/srep37571                                                                                                 1
+www.nature.com/scientificreports/
+
+
+                              one may adopt a vortex filament model in which the dynamics of the superfluid reduces to studying how a vortex
+                              or a tangle of vortices evolves. Both these conditions are typically satisfied in 4He. In this case, the vortex core size
+                              is of the order of 1 Å. Moreover, since superfluid helium is a liquid, it is much more reasonable to assume that it
+                              behaves as an incompressible fluid. The vortex filament model has served as an excellent description to study the
+                              dynamics of vortices in this system.
+                                  Since a vortex filament has no internal structure associated with the vorticity field, there is no notion of the
+                              twisting of the vortex lines within the core of a vortex as is the case for vortex tubes with a cross-sectional area
+                              characterising the finite extent of the vorticity field. Such a scenario leads to a number of complications when
+                              evaluating helicity for a vortex filament. In particular, it would appear that helicity conservation can not be satis-
+                              fied, even in between reconnection events.
+                                  In this work, we will show that without introducing the notion of an internal twist, helicity conservation can
+                              not be satisfied within the vortex filament model. To introduce internal twist, a spanwise vector must be defined
+                              along the length of the filament. We will show that a natural choice is to set the spanwise vector to coincide with a
+                              direction of constant velocity potential upon which we are able to recover the key properties of helicity. In super-
+                              fluids the quantum mechanical phase of the order parameter plays the role of the velocity potential. We note that
+                              similar choices have been suggested also by other authors16–19. We will illustrate that this choice of the spanwise
+                              vector coincides with working in the so-called Seifert frame in which case helicity becomes trivially zero20,21. In
+                              this frame, the direction of the spanwise vector is related to the tangential component of the standard Biot-Savart
+                              velocity along the vortex filament. When the filament is interpreted as a limiting case of a classical vortex tube
+                              endowed with internal structure, the tangential velocity of the vortex filament is modified. Since the tangential
+                              velocity does not affect the overall configuration of the vortices, our definition remains consistent with the vortex
+                              dynamics produced by the vortex filament model. This allows us to generalize our results for superfluid vortices
+                              to classical vortices. In particular, our results will allow us to establish how a quasiclassical limit of helicity can
+                              emerge from the microscopic quantum description.
+
+                              Results
+                              Helicity and its components. We will begin by recalling some key results concerning helicity in classical
+                              fluids. Helicity in fluid dynamics is defined as
+                                                                                                         3
+                                                                                          =    ∫ v ⋅ ωd r,                                         (1)
+                              where the integration is over the whole space where the flow is defined, v = v(r, t) is the velocity field, and
+                              ω (r , t ) = ∇ × v is the corresponding vorticity field. If the vorticity is taken to be concentrated within vortex
+                              tubes but is zero otherwise, the helicity will have a topological interpretation. For simplicity, we will consider the
+                              scenario where each vortex tube carries the same vorticity flux κ. This flux can be identified with the circulation
+                              which for quantized vortices is given by κ = h/m. Here, h is Planck’s constant and m is the atomic mass (e.g. of the
+                              4
+                               He atom). Following Moffatt and Ricca22, we decompose the helicity into the linking number L = ∑i ≠j Lij (where
+                              the double summation is over different vortices and Lij is the Gauss linking number), the writhe W = ∑i W i , and
+                              the twist part of the helicity T = ∑i T i such that
+
+                                                                               = κ2 H = κ2 ( L + W + T ) .                                         (2)
+                                 To provide more explicit expressions for these terms, we parameterize a vortex in terms of its arclength ξ so
+                              that the position vector of a vortex filament is given by s = s(ξ, t). It is then natural to introduce the Frenet-Serret
+                              basis given by Eq. (3) to evaluate the curvature c(ξ, t), and torsion τ(ξ, t) of each vortex filament:
+
+                                                           s′ = tˆ,       tˆ′ = c nˆ ,     nˆ ′ = − c tˆ + τ bˆ ,       bˆ ′ = − τ nˆ ,            (3)
+                              where t̂ and n̂ are local tangent, normal, and binormal (unit vectors), respectively. Here, primes imply differentia-
+                              tion with respect to arclength. Denoting the centreline of the vortex tube i with position vector s by Ci, we can then
+                              identify a unit span-wise vector N that determines the twisting of the vortex lines within the vortex tube such that
+
+                                                                                N = nˆ cos θ + bˆ sin θ .                                          (4)
+                              This vector can be attributed to a ribbon like structure that is oriented with respect to the unit normal and and
+                              binormal vectors. With these definitions, the different helicity components can be written as22,23
+
+                                                                L     =
+                                                                             1
+                                                                               ∑
+                                                                            4π i ≠ j
+                                                                                       ∮ C ∮ C (s1 − ss2)−⋅ dss13× ds2 ,
+                                                                                           i     j           1      2
+                                                                    1                              (s1 − s2 ) ⋅ ds1 × ds2
+                                                               W =    ∑
+                                                                   4π i
+                                                                                       ∮C ∮i    Ci        s1 − s2 3
+                                                                                                                          ,
+
+                                                                    1
+                                                               T =    ∑
+                                                                   2π i
+                                                                                       ∮ C ( N × N′ ) ⋅ d s .
+                                                                                           i                                                       (5)
+                              The use of the Frenet-Serret equations results in a twist contribution to the helicity that is given by
+
+
+
+
+Scientific RepoRts | 6:37571 | DOI: 10.1038/srep37571                                                                                                2
+www.nature.com/scientificreports/
+
+
+
+                                                                                         ⎛     ⎞
+                                                              T=
+                                                                      1
+                                                                        ∑
+                                                                     2π i
+                                                                             ∮ C ⎜⎜⎜⎝τ + ddθξ ⎟⎟⎟⎟⎠ dξ = T tors + 21π ∑ [θ]C .
+                                                                                     i                                         i
+                                                                                                                                      i
+                                                                                                                                                    (6)
+                              Here the torsion part of the twist Ttors can be evaluated using the local torsion τ(ξ). The last term in Eq. (6)
+                              describes the internal (or intrinsic) twist Ttw. We note that, since N is defined in terms of the normal and binormal
+                              unit-vectors, a constant value of N only implies that the total twist is zero. The internal twist can still be nonzero
+                              if torsion is also nonzero.
+                                   For closed vortex tubes, both the Gauss linking number and the internal twist can only take integer values. The
+                              writhe, the Gauss linking number, and the torsion part of the twist do not depend on the way one prescribes the
+                              spanwise vector N. However, the internal twist depends on the choice for N24. Nevertheless, once N is prescribed,
+                              the self-linking number for vortex i, which equals Wi + Ti, also becomes a topological invariant. It follows that by
+                              redefining N we may designate different values to the helicity.
+                                   Theoretically it has been shown that under continuous deformation of the vortex tube, writhe W and total
+                              twist T = Ttors + Ttw vary continuously. However, if at some time t = tc a curve passes through an inflectional con-
+                              figuration, i.e., its curvature c(ξ) vanishes at some point ξ = ξc, then the torsion part of the helicity Ttors develops a
+                              jump of ±1. At the instant when the curve has a point with zero curvature, the local torsion, τ, diverges around
+                              ξ = ξc, but this divergence is integrable. The resulting jump is compensated by a jump in the internal twist of B1.
+
+                              Helicity for vortex filaments. When the superfluid is described by a complex wavefunction (order param-
+                              eter Ψ) then vorticity can arise only in the form of line-like topological defects. For pure line vortices (i.e. neglect-
+                              ing other excitations in the superfluid), the corresponding velocity potential ϕ can be identified with the phase of
+                              the order parameter such that Ψ = ρ /m exp(iϕ). In this case, the phase is well defined everywhere, except at the
+                              vortex cores where the vorticity is non-zero.
+                                  If we ignore compressibility effects and focus on the incompressible motion given by the vortices that corre-
+                              spond to pure line defects, the superfluid velocity can be calculated using the standard Biot-Savart law
+
+                                                                   v BS (r , t ) =
+                                                                                         
+                                                                                         m
+                                                                                           ∇ϕ =
+                                                                                                κ
+                                                                                                4π
+                                                                                                         ∮ (s1 −s r−) ×r 3 ds1 ,                    (7)
+                                                                                                                      1
+
+                              where the integration is carried out along all the vortex lines. This equation can be directly applied at any point
+                              r ≠ s (i.e. not lying on a vortex). At a point r = s, the divergent integrand implies that the normal and binormal
+                              components of the velocity are not well defined at the vortex line. In contrast, the tangential component of vBS
+                              remains well-behaved. This difficulty can be circumvented by regularizing the integral in the vicinity of the point
+                              on a vortex as described in the Methods section.
+                                  If the Biot-Savart integral is inserted into the Eq. (1) for the helicity, we appear to recover only the linking
+                              number and the writhe terms. Therefore, by using the above expression for the Biot-Savart velocity it seems that
+                              the helicity is not the same as the one presented above.
+                                  Although a vortex filament has no internal core structure, on physical grounds a vortex is endowed with a
+                              scalar field, the velocity potential that permits us to identify a spanwise vector along a direction of constant phase.
+                              We note that in order to maintain full consistency throughout our formulation, it is important to work with the
+                              incompressible component of the phase (i.e. its divergence free projection). Therefore, whenever we refer to ϕ in
+                              what follows, we will assume this represents only this component of the phase. The direction of the constant phase
+                              (or velocity potential) of the complex wavefunction has also been proposed by others as a possible direction that
+                              can be used to define N for superfluid vortices16–18. This choice for the vector N turns out to be equivalent to using
+                              the so-called Seifert framing. [Not all Seifert frames are equivalent to surfaces of constant phase. However, here
+                              we only consider those which correspond to a constant phase and use the term Seifert frame].
+                                  This particular framing is special because the total helicity is always zero when evaluated in this frame20,21.
+                              With N as defined, it is now possible to recover a torsion and internal twist contribution to helicity. To see how
+                              this arises, we note that in the Seifert framing we have
+                                                                                lim N ⋅ ∇ϕ|                       = 0,
+                                                                                ε→ 0               r = r ⁎(ξ ⁎)                                     (8)
+                              where r* = s + εN represents a point located near a point s lying on the vortex. Here ∇ϕ is proportional to the
+                              superfluid velocity, which is normal to surfaces of constant phase near a vortex. By construction, on the curve C*
+                              given by r = r* the phase is constant so that we can write ϕ(r*(ξ*)) = ϕ0, where ϕ0 is an arbitrary constant. This
+                              implies that
+                                                        dϕ r =r ⁎(ξ ⁎)                        ⁎                                       ⁎
+                                                                         = ∇ϕ r =r ⁎(ξ ⁎) ⋅ tˆ = 0,               ⇒       v BS (r ⁎) ⋅ tˆ = 0,
+                                                            dξ ⁎                                                                                    (9)
+                                      ⁎                                                                                                              ⁎
+                              where tˆ = d r ⁎/dξ ⁎ is the tangent for the curve C*. In the limit ε → 0, C* and C coincide and the tangent vector tˆ
+                              then approaches the tangent t̂ of the vortex line C. However, the above cannot be used to deduce that the tangen-
+                              tial Biot-Savart velocity along the vortex is zero. This is because, even if the azimuthal component (component
+                                                                   ⁎
+                              around the vortex centreline) of tˆ goes to zero, the azimuthal component of the velocity diverges. Therefore, a
+                              more detailed analysis is required to determine the tangential velocity along the filament. By using the chain rule
+                                               ⁎
+                              we can express tˆ as
+
+
+
+Scientific RepoRts | 6:37571 | DOI: 10.1038/srep37571                                                                                                 3
+www.nature.com/scientificreports/
+
+
+
+                                                              ⁎ dr ⁎  ⎛ ds     d N ⎞⎟ dξ      ⎛       d N ⎞⎟ dξ
+                                                            tˆ = ⁎ = ⎜⎜     +ε      ⎟      = ⎜⎜tˆ + ε      ⎟      .
+                                                                dξ    ⎜⎝ dξ    dξ ⎟⎟⎠ dξ ⁎    ⎜⎝      dξ ⎟⎟⎠ dξ ⁎                                 (10)
+                               After inserting the definition for N given by Eq. (4), and applying the Frenet-Serret equations, plus noting that the
+                               local azimuthal direction around the vortex tangent is given by eˆ θ = − sin θ nˆ + cos θ bˆ , the above equation for
+                                ⁎
+                              tˆ simplifies to
+
+                                                ⁎    ⎛                        ⎛    dθ ⎞⎟ ⎞⎟ dξ        (1 − εc cos θ) tˆ + εkeˆ θ
+                                              tˆ = ⎜⎜⎜ (1 − εc cos θ) tˆ + ε ⎜⎜τ +     ⎟⎟ eˆ θ ⎟⎟ ⁎ =                            ,
+                                                     ⎜⎝                       ⎜
+                                                                              ⎝    d ξ  ⎟
+                                                                                        ⎠ ⎟⎠    ⎟ d ξ  (1 − εc cos θ)2 + ε2k 2                    (11)
+                              where k = k (ξ ) = τ + dθ = (N × N′) ⋅ tˆ describes the rate of rotation of the spanwise vector around the local
+                                                     dξ
+                              tangent t̂ . In arriving at the final expression given in Eq. (11), we have assumed that the local curvature satisfies
+                              the condition c  1/ε, and we have used the unit normalization to determine the value for the common factor,
+                              dξ/dξ*.
+                                 We would expect that the leading order terms for the Biot-Savart velocity at r = r* are given by
+                                                                                          κ
+                                                                        v BS (r ⁎) =         eˆ θ + (v BS ⋅ tˆ) tˆ.
+                                                                                         2πε                                                      (12)
+                              Now substituting Eqs (11) and (12) into Eq. (9) and taking the limit ε → 0, we obtain that
+
+                                                                             κ                    κ ⎛⎜          dθ ⎞⎟
+                                                           v BS ⋅ tˆ = −        (N × N′) ⋅ tˆ = −    ⎜⎜τ (ξ ) +      ⎟.
+                                                                             2π                   2π ⎝          dξ ⎟⎟⎠                            (13)
+                              This implies that we may obtain the internal twist angle θ after calculating the tangential component of the
+                              Biot-Savart velocity and the local torsion.
+                                  To clarify the relation between classical and quantum vortices, in order to establish how a quasiclassical limit
+                              can arise from the quantum case, let us consider the scenario of a classical vortex tube with a finite but small
+                              cross-sectional area. As shown by Moffatt and Ricca22, for a vortex with a finite core, it is possible to relate the
+                              twist of the vorticity flux lines to the twist of the spanwise vector in the equation for the helicity. Thus, in contrast
+                              to a quantum vortex, for a classical vortex, the twist T, defined in Eq. (6), originates from the azimuthal compo-
+                              nent of the vorticity.
+                                  In the case when the characteristic length scale along the vortex tube is much larger than the vortex core, it
+                              may be convenient to use the filament representation and study the dynamics of how the centreline vorticity
+                              evolves. However, this filament description of a vortex tube follows from a scale separation assumption rather
+                              than being an intrinsic representation of the actual vorticity field. A key difference with a superfluid vortex is that
+                              the internal vorticity structure now gives rise to a component of velocity along the centreline of the vortex tube.
+                              The total velocity for a vortex filament used to model a thin vortex tube is therefore given by
+                                                                             v (s) = v BS (s) + v twist (v) sˆ′.                                  (14)
+                              The additional tangential twist velocity arising from the twisting of the vortex flux lines is given by
+
+                                                                             κ                   κ ⎛⎜          dθ ⎞⎟
+                                                             v twist (s) =      (N × N′) ⋅ sˆ′ =    ⎜⎜τ (ξ ) +      ⎟.
+                                                                             2π                  2π ⎝          dξ ⎟⎟⎠                             (15)
+                              Here τ(ξ) is the local torsion at ξ and N describes the rotation of the vorticity fluxlines inside the vortex core, as
+                              illustrated in Fig. 1. If the cross-sectional area of the vortex tube is assumed to remain constant along its length,
+                              then together with the assumption of incompressibility the vtwist velocity would need to be constant on each vor-
+                              tex. The helicity conservation would then fix the time dependence of vtwist.
+                                  We can now see that if the total tangential velocity is zero everywhere on the vortex, we recover Eq. (13) for
+                              the internal twist angle that was obtained by using the Seifert frame for superfluid vortex filaments. Since the vor-
+                              ticity of a superfluid vortex does not have an azimuthal component, superfluid vortices do not have an additional
+                              intrinsic degree of freedom that can be ascribed to classical vortices. Therefore, in the Seifert frame, the helicity
+                              of a superfluid vortex is always zero. In contrast, N is determined by the structure of the vorticity field within the
+                              core of a classical vortex and, as such, the helicity is not necessarily the same as for a superfluid vortex.
+                                  By assuming that the helicity would remain zero also for the classical case, and that the twist velocity remains
+                              constant along the filament as required by incompressibility, the internal twist angle for vortex i is obtained using
+                              the following equation:
+
+                                                    d θi              2π                                                ⎛        ⎞
+                                                    dξ
+                                                         = − τ (ξ ) −
+                                                                      κ$i
+                                                                                ∫ C v BS ⋅ ds = − τ (ξ) − 2$π ⎜⎜⎜⎜∑Lij + W i⎟⎟⎟⎟⎟.
+                                                                                                                      i ⎝ j ≠i   ⎠
+                                                                                     i
+                                                                                                                                                  (16)
+                              Here $i = ∫ C dξ denotes the length of vortex i. If we want that the helicity is simply given by linking, one should
+                                            i
+                              only replace vBS in Eq. (16) with the velocity caused by vortex i alone, i.e., set Lij = 0.
+
+
+
+
+Scientific RepoRts | 6:37571 | DOI: 10.1038/srep37571                                                                                                4
+www.nature.com/scientificreports/
+
+
+
+
+                              Figure 1. Illustration of the effect of the twist on nearby vortex tubes. The twist of the two tubes describes
+                              the rotation of the unit spanwise vector N around the vortex centreline. This direction would coincide with
+                              the rotation of the vorticity flux lines inside the vortex core of a classical vortex. For a superfluid, this vector
+                              coincides with the direction of the constant phase of the order parameter deep within the vortex. For a straight
+                              vortex, the contribution to the helicity in (a) is zero while in (b) the nonzero (internal) twist contributes to
+                              helicity. For a Kelvin wave in (c) the internal twist (nonzero) is set to cancel the writhe and the torsion part of
+                              the twist, which in (d) gives a nonzero helicity. In the limit of zero Kelvin-wave amplitude the configuration (d),
+                              where the internal twist is zero, reduces to configuration (b), while the configuration (c) reduces to (a).
+
+
+
+                                 Both Eqs (13) and (16) give zero helicity and the same value for the total twist T. The difference appears only in
+                              the local value of the internal twist angle, i.e., the frame in the classical case is generally different from the Seifert
+                              case since it is associated with the structure of the vorticity within the core.
+
+                              Straight vortex with a Kelvin wave. Initially, we will focus on idealised vortex configurations to eluci-
+                              date the different properties of helicity in order to facilitate our understanding of how helicity behaves in more
+                              realistic situations. A straight vortex with only an azimuthal velocity field around its core has zero helicity. We
+                              will, therefore, consider perturbations on an otherwise straight vortex in the form of a helical Kelvin wave with
+                              amplitude A, i.e.:
+                                                                                                                       ξ
+                                                          x = A cos(kz ),       y = A sin(kz ),          z=                     .
+                                                                                                                   1 + A2 k 2                      (17)
+                                 The last equation relates z to the arc-length ξ. The unit tangent tˆ = sˆ′, principal normal n̂, and binormal b̂ are
+                              then given by
+                                                                 Ak sin(kz )        Ak cos(kz )             1
+                                                         tˆ = −               xˆ +                yˆ +                 zˆ ,
+                                                                  1 + A2 k 2          1 + A2 k 2         1 + A2 k 2
+                                                                sin(kz )           cos(kz )              Ak
+                                                          bˆ =             xˆ −                yˆ +               zˆ ,
+                                                                      2 2                  2 2
+                                                                1+Ak               1+Ak                1 + A2 k 2
+                                                         nˆ = −cos(kz ) xˆ − sin(kz ) yˆ .                                                         (18)
+                                                                                                       ˆ
+                                 In this case, the local torsion is constant and equal to τ = − nˆ ⋅ d b = k /(1 + A2 k 2), as would be expected for
+                                                                                                     dξ
+                              a simple helix. The value for the writhe (which can be computed as described in ref. 25) and the torsion (per unit
+                              period of λ = 2π/k) are
+                                                                                1                                  1
+                                                              W=1−                          ,     T tors =                 .
+                                                                                      2 2
+                                                                             1+Ak                            1 + A2 k 2                            (19)
+                              The value for the writhe implies that the tangential component of the Biot-Savart velocity is constant and given by
+
+                                                                                      κk        1 + A2 k 2 − 1
+                                                                       v BS ⋅ sˆ′ =                            .
+                                                                                      2π         1 + A2 k 2                                        (20)
+                              Using Eq. (13), the direction of the constant phase is given by
+
+
+
+
+Scientific RepoRts | 6:37571 | DOI: 10.1038/srep37571                                                                                                 5
+www.nature.com/scientificreports/
+
+
+
+
+                              Figure 2. Helicity components for a vortex ring of radius R which is occupied by a Kelvin wave with an
+                              amplitude of A. In the left panel (a) the the different line types describe the writhe, W, (dash-dotted) and
+                              torsion part of the twist, Ttors, (dashed) plus their sum (solid). The different family of curves correspond to the
+                              Kelvin mode of m = 2 (blue), 3 (black), 4 (red), and 5 (green). The inflection points occur at Ac/R = 1/(m2 + 1)
+                              where Ttors jumps by m. This jump is compensated by the internal twist Ttw, which is zero for A < Ac and −m for
+                              A > Ac, thus ensuring that the total helicity remains equal to zero for all amplitudes. In the right panel (b) the
+                              internal twist angle θ is plotted as a function of the azimuthal angle when the spanwise vector is chosen to lie
+                              along the direction of constant phase and when the Kelvin mode m = 3. In the top inset the Kelvin amplitude
+                              A is below the critical value of Ac/R = 0.1, and takes the values A/R = 0, 0.01, 0.02, …, 0.09 (blue ones), 0.0975
+                              (red) and 0.0995 (black). In the bottom inset the amplitude is above the critical one and the curves correspond
+                              to amplitudes 0.1005 (black), 0.1025 (red) and 0.11, 0.12, …, 0.20 (blue ones) and the total internal twist
+                              corresponds to Ttw = −3. The main panel shows a zoomed view illustrating the rapid change that occurs due to
+                              the appearance of the inflection points when the Kelvin amplitude approaches the critical value Ac.
+
+
+
+                                                                                      kξ
+                                                                     θ = θ0 −                     = θ0 − kz .
+                                                                                   1 + A2 k 2                                                  (21)
+                              Consequently, for helicity to be zero, the internal part of the twist becomes Ttw = −1 (per period). We note that
+                              the formulation given by Eq. (16), obtained by using the (constant) twist velocity, gives exactly the same value for
+                              the internal twist angle as the formulation using the Seifert frame, Eq. (13). By setting the integration constant
+                              θ0 = π, the spanwise vector becomes
+
+                                                    ⎛                sin2 (kz ) ⎞⎟⎟        ⎛           1     ⎞
+                                                                                                             ⎟⎟
+                                              N = ⎜⎜⎜cos2 (kz ) +                 ⎟ xˆ + ⎜⎜⎜1 −               ⎟ cos(kz ) sin(kz ) yˆ
+                                                    ⎜⎜⎝                           ⎟        ⎜⎜⎝           2 2⎟
+                                                                     1 + A2 k 2 ⎟⎠                  1 + A k ⎟⎠
+                                                        Ak sin(kz )
+                                                      +             zˆ .
+                                                         1 + A2 k 2                                                                            (22)
+                                 Therefore, for small amplitudes N ≈ xˆ . Moreover, we see that N does not rotate around the z-axis, as shown in
+                              panes a) and c) of Fig. 1, where the helicity is zero. The internal twist originates from the rotation of the normal
+                              and binormal vectors relative to the spanwise vector.
+
+                              Vortex ring with a Kelvin wave.             Next, we consider a superfluid vortex ring with one Kelvin mode, m,
+                              where the configuration is given by
+                                        x = (R + A cos(mφ)) cos(φ),           y = (R + A cos(mφ)) sin(φ),             z = − A sin(mφ) .        (23)
+                              Here φ is the azimuthal angle of a cylindrical coordinate system, R is the ring radius, and A is the amplitude of
+                              the Kelvin wave. As the amplitude of the Kelvin wave is increased from zero, the standard Biot-Savart velocity
+                              vBS produces a nonzero component along the vortex tangent. On the other hand, if there are no other vortices
+                              threading the vortex ring, the helicity should remain zero for any Kelvin wave amplitude.
+                                  However, if we evaluate the local torsion and the writhe we notice that at small amplitudes they exactly cancel
+                              each other. This implies that the internal twist Ttw as defined must be equal to zero in order for the helicity to
+                              remain zero. However, at a critical amplitude of Ac = R/(m2 + 1), m separate inflection points appear where the
+                              curvature vanishes and the torsion part of the twist jumps by m due to divergences in the local torsion. [Note that
+                              in the article by Moffatt and Ricca22 the critical amplitude was stated to be Ac = R/m2 which seems to be valid only
+                              for large m]. This behaviour is illustrated in Fig. 2a, where we have plotted the writhe and torsion part of the heli-
+                              city, plus their sum as a function of the Kelvin wave amplitude. This key observation shows that, for A > Ac, the
+                              internal twist must give rise to a compensating contribution of Ttw = −m to conserve helicity. These observations
+                              are also consistent with the predictions of Moffat and Ricca22 obtained for a classical vortex tube.
+
+
+Scientific RepoRts | 6:37571 | DOI: 10.1038/srep37571                                                                                             6
+www.nature.com/scientificreports/
+
+
+
+
+                              Figure 3. Vortex ring with a Kelvin mode of m = 3. The blue tubes denote the vortex and the red strips on
+                              panels (a–c) denote the normal unit vectors where the ratio of the Kelvin wave amplitude to the vortex ring
+                              radius (R) is A/R = 0.0975, 0.1025, and 0.200, respectively. In the right panel (d) the green strips denote the
+                              spanwise vector when A/R = 0.200, but it turns out to be rather insensitive to the amplitude of the Kelvin wave.
+
+
+
+
+                              Figure 4. Dynamics of a trefoil knot and a vortex ring with Kelvin waves. The panel (a) shows the time
+                              dependence of writhe W (blue) and torsion part of the twist Ttors (back), plus their sum (red). In the main
+                              panel the starting configuration is a trefoil knot and the temperature is zero (no dissipation). The jumps in the
+                              torsion indicate that the internal twist Ttw has compensating jumps of ±1 at times 11.6 s and 13.1 s, respectively.
+                              In the inset the initial configuration is a helical vortex ring of radius R = 1 mm, with a Kelvin wave with
+                              m = 3 and amplitude A/R = 0.12. The sudden decay of the torsion part of the twist Ttors is caused by mutual
+                              friction (α = 0.1, α′ = 0) which slowly damps the Kelvin waves and drives the configuration through the three
+                              simultaneous inflection points. Panel (b) shows the initial configuration of the trefoil knot where the internal
+                              twist Ttw = 3, while the panel (c) shows the configuration at 12.4 s where the internal twist is 4. The yellow
+                              stripes in (b) and (c) describe the rotation of the spanwise vector around the vortex when determined using the
+                              direction of constant phase. The green stripes describe the direction of the normal vector, which in (c) makes an
+                              additional rotation around the vortex tangent, when compared with (b).
+
+
+
+                                  To determine the internal twist angle (up to a constant), and, therefore, also the spanwise vector, N, we can
+                              either use Eq. (13) for the direction of the constant phase, or alternatively use Eq. (16) for the classical case.
+                              Figure 2b illustrates the internal twist angle θ when using the Seifert frame, Eq. (13), for the case of m = 3 at vari-
+                              ous Kelvin wave amplitudes. At the critical amplitude, Ac, the angle θ has a jump of π at the azimuthal locations
+                                    π
+                              φ = m (2i − 1), i = 1, …, m. This jump compensates the jump of −π in the normal n̂ and binormal b̂ around the
+                              tangent, thus ensuring that the N vector varies smoothly as we move along the length of the vortex. The behaviour
+                              of the unit vectors n̂ and N is illustrated in Fig. 3 for few different Kelvin wave amplitudes and with m = 3. We note
+                              that in this case, the normal and binormal vectors make three complete rotations around the tangent only for
+                              amplitudes above Ac.
+
+                              Numerical examples for single vortices. We will now focus on how the different contributions to helicity
+                              vary in time under a dynamical evolution of a vortex filament. In particular, we will be interested in an example
+                              where the vortex passes through an inflection point as it evolves. One example where inflection points appear is
+                              a breather solution26. However, in that case the inflection points appear in pairs such that the torsion term Ttors is
+                              not effected and subsequently no changes occur in Ttw. If mutual friction is added into the equations of motion
+                              (see Methods), the amplitudes of the Kelvin waves decay with time. This is also accompanied by a decay of internal
+                              twist that can be clearly seen in our simulations. An example of a simulation where mutual friction is included
+                              for an initial helical vortex ring is presented in the inset of Fig. 4a. The results illustrate how the torsion part of
+
+
+
+Scientific RepoRts | 6:37571 | DOI: 10.1038/srep37571                                                                                              7
+www.nature.com/scientificreports/
+
+
+
+
+                              Figure 5. Vortex reconnection, when the initial configuration is a Hopf link with ring radii of 1 mm. This
+                              simulation was computed using a large core size of a0 = 0.0025 mm as well as a large value of the mutual friction,
+                              α = 1. The left panel (a) shows the time development of the linking (L, green-dashed), writhe (W, blue), and
+                              torsion part of the twist (Ttors, black), plus their sum (red). The inset illustrates that the jump in the linking is
+                              compensated by the jump in the writhe. Panels (b–g) illustrate the vortex configurations both before (upper
+                              ones) and after (lower ones) the reconnection, which occurs at 4.737 s. The green stripe is the direction of the
+                              normal vector while the yellow stripe indicates the direction of the constant phase.
+
+
+                              the twist suddenly drops by 3 when the configuration passes through three inflection points. At the same time the
+                              internal twist that has an initial value of −3 jumps to zero such that the helicity remains zero.
+                                  We have also modelled the dynamics of a trefoil knot at zero temperature. The main panel of Fig. 4a illustrates
+                              the behaviour of the writhe and torsion, plus their sum, in the case of the trefoil knot where the initial configuration
+                              (x, y, and z in mm’s), parametrized by t ∈ [0, 2π), is given by
+                                        x = 0.41 cos t − 0.18 sin t − 0.83 cos 2t − 0.83 sin 2t − 0.11 cos 3t + 0.27 sin 3t,
+                                        y = 0.36 cos t + 0.27 sin t − 1.13 cos 2t + 0.30 sin 2t + 0.11 cos 3t − 0.27 sin 3t,
+                                        z = 0.45 sin t − 0.30 cos 2t + 1.13 sin 2t + 0.11 cos 3t + 0.27 sin 3t .                                 (24)
+                                 As for the vortex ring, we observe integer jumps in the torsion even though we are at zero temperature due to
+                              the creation of inflection points as can be seen in Fig. 4a. These results demonstrate that the jumps of ±1 in the
+                              torsion must be compensated by jumps of B1 in the internal twist in order to conserve the helicity. To ensure
+                              numerical accuracy, we have checked that the energy and momentum are conserved to within 0.1 percent
+                              throughout these simulations, up to the time of reconnections, which occur at times >60 s.
+                                 The behaviour of the spanwise vector N in the Seifert frame and the normal vector n̂ during the trefoil knot
+                              dynamics is illustrated in Fig. 4b,c. It is clear that following the formation of an inflection point (see Fig. 4c) that
+                              the Seifert frame, depicted by the yellow stripe, and the Frenet-Serret basis (green stripe) rotate in opposite direc-
+                              tions. Therefore, whereas one varies covariantly, the other varies contravariantly which follows from their defini-
+                              tions. It is this property that results in the observed jump in the torsion at inflection points.
+
+                              Vortex reconnection. The conservation of helicity during vortex reconnections is an interesting topic of its
+                              own because in superfluids reconnections of vortex filaments can arise from quantum mechanical effects that are
+                              absent in classical fluids. In a microscopic model, such as that given by the Gross-Pitaevskii equation, they are
+                              made possible by the “quantum-pressure” term which acts to couple the incompressible and compressible modes
+                              of the system. Using the Gross-Pitaevskii model, the effect of reconnections on helicity has recently been analyzed
+                              in several papers16–19,25.
+                                  In the vortex filament model, reconnections must be modelled phenomenologically by using a “cut-and-paste”
+                              -method. Nevertheless, it is instructive to see what happens when we follow the dynamics through a single recon-
+                              nection. When reconnections are modelled in this way, the calculation of the local torsion, which requires third
+                              order derivates of the vortex positions, becomes numerically very challenging and typically the torsion part of
+                              the twist cannot be properly determined. The reason is that in a microscopic model, reconnections lead to strong
+                              radiation of sound that dissipates energy of high frequency Kelvin waves resulting in well-behaved dynamics.
+                              This physical process is absent in a vortex filament model. In order to reduce the noise when calculating the
+                              torsion, we have increased the vortex core size in this simulation to a0 = 0.0025 mm, which is of the order of the
+                              numerical resolution given by the inter-point separation which varies between 0.005 mm and 0.010 mm. A recon-
+                              nection is then performed when the vortex separation is smaller than 0.004 mm, provided that the total length
+                              decreases. Additionally, we have included a rather large mutual friction, α = 1, in order to smooth out the small
+                              scale structures.
+                                  Figure 5 illustrates the reconnection of two vortex rings with initial radii of 1 mm, and which are initially
+                              linked (in the form of a Hopf link). The left-most panel of Fig. 5 illustrates the time development of the different
+                              helicity components, while the other panels show the behaviour of the normal vector and the spanwise direction
+                              when using the Seifert frame. A characteristic feature is that before reconnection, both vortices host one inflection
+                              point. Additionally, one may notice that at the instant of reconnection the linking is converted to writhe, which
+                              then decays due to mutual friction, as shown more clearly in the inset of Fig. 5a.
+
+
+
+Scientific RepoRts | 6:37571 | DOI: 10.1038/srep37571                                                                                               8
+www.nature.com/scientificreports/
+
+
+                                                                              1 b)                                 c)                              1
+
+
+
+
+                                                                              0              0.8 s                              2.8 s              0
+
+
+
+
+                                                                             -1                                                                    -1
+                                                                                  -1           0             1      -1            0            1
+
+                              Figure 6. Time development of the vortex bundle. The panel (a) illustrates the initial configuration for a
+                              twisted vortex bundle in a form of a vortex ring with Kelvin waves. The centremost vortex is a ring of radius
+                              R = 1 mm with a Kelvin mode of m = 6 and amplitude of A = 0.1R. The six outermost vortices are at a distance
+                              of 0.1 mm from the centre vortex and make 3 full rotations around (or linkings with) the centre one. The green
+                              stripes denote the direction of the normal unit vector, while the yellow stripes additionally indicate the direction
+                              of the constant phase around each vortex. Here the value of the constant phase is generally different on each
+                              vortex. The panels (b) and (c) describe the bundle configuration at 0.8 s and 2.8 s, respectively. The different
+                              colors illustrate the different vortices such that the black solid line describes the vortex initially at the centre of
+                              the bundle. The dashed line describes the calculated centreline.
+
+
+
+                              Vortex bundle.           The above results reveal the consequences of working in the Seifert framing. However, a
+                              central question that remains is how would a quasiclassical limit of helicity emerge if we accept that helicity is triv-
+                              ially zero for a single superfluid vortex filament. From our considerations presented in Section Helicity for vortex
+                              filaments we note that a classical vortex tube is well approximated by a bundle of vortex filaments that are aligned
+                              to the local vorticity field within the core of a classical vortex. In fact, such a quasiclassical limit of vorticity in
+                              superfluids has already been invoked to explain the measured Kolmogorov spectrum in superfluid turbulence27.
+                                   The bundles (or polarized discrete vortices) are created by stirring the superfluid. Remarkably, once formed,
+                              these polarized vortex bundles behave as coherent structures and can persist as has been illustrated from numer-
+                              ical simulations in ref. 28. Accepting that such coherent vortex bundles give rise to a quasiclassical vorticity field,
+                              it follows that the classical analogue of vorticity is defined by: 1) how the vortex lines within a vortex bundle twist
+                              around the centreline of the bundle; 2) how the centreline of the bundle writhes. So the quasiclassical notion of
+                              helicity is not tied to the Seifert frame but emerges from the linking of vortex lines within the bundle. This is
+                              consistent with our observation in Section Helicity for vortex filaments that for a classical vortex tube, the twist
+                              is determined by the vorticity within the core and is unrelated to the Seifert frame. This implies that aside from
+                              the microscopic attributes of helicity for a single vortex filament, the quasiclassical limit should give rise to an
+                              emergent helicity conservation when the bundle evolves in the absence of reconnections.
+                                   To illustrate this behaviour, we have performed a numerical simulation of a bundle consisting of seven vortex
+                              rings perturbed with Kelvin waves and twisted 3 times around the bundle centreline, as shown in Fig. 6a. Details
+                              for of how the intial configuration was set up can be found in the Methods section. Upon integrating this config-
+                              uration with the vortex filament model, we evaluated how the centreline writhe and the twist varied with time as
+                              shown in Fig. 7. As can be seen, although the writhe and twist vary, their sum remains essentially constant. The
+                              jumps in the centreline torsion are again due to inflections points in the centreline and are compensated by the
+                              internal twist. The noise in the total helicity is partly caused by the finite resolution which softens the jumps in
+                              the torsion but also because the bundle is loosing its coherence at later times. For example, in Fig. 6b, the different
+                              vortices remain as single-valued functions of the azimuthal angle. However, in Fig. 6c, steepening of the Kelvin
+                              waves on individual vortices destroys the coherent alignment of the vortices. Despite this, we note that since the
+                              helicity is approximately conserved and that the twist was evaluated from the rotation of the vortices within the
+                              bundle about the centreline, as described in the Methods section, our results provide direct evidence of the emer-
+                              gence of a nontrivial quasiclassical helicity as an invariant of coherent vortex bundles.
+
+                              Conclusions
+                              When decomposing helicity into its constituent contributions, linking number, writhe, torsion, and internal twist,
+                              we find that the first three are completely prescribed by the instantaneous configuration of a vortex filament,
+                              whereas internal twist requires a spanwise vector to be defined. The sum of the first three contributions is an
+                              integer value and varies only when inflection points appear. In that regard, the torsion contribution to the heli-
+                              city should always be retained when evaluating the helicity of a superfluid vortex which would otherwise never
+                              remain conserved under deformations of the vortex (even those that do not form inflection points). This is con-
+                              sistent with the results found in ref. 25 where it was apparent that helicity was not conserved when only the writhe
+                              contribution was retained for a knotted vortex. A method that allows helicity to be evaluated directly from the
+                              wavefunction of the Gross-Pitaevskii model of a superfluid has recently been presented in ref. 19. We note that
+                              the expression presented there reduces to the linking and writhe contributions only and, therefore, the obser-
+                              vations made above would also be expected to apply to the definition of the helicity presented in that work. The
+                              term centreline helicity is sometimes invoked to refer to only the linking and writhe contributions as in ref. 25.
+                              However, in other works, the total torsion is also included in the definition of centreline helicity as in ref. 29. In
+
+
+Scientific RepoRts | 6:37571 | DOI: 10.1038/srep37571                                                                                               9
+www.nature.com/scientificreports/
+
+
+
+
+                              Figure 7. Helicity and its components for the vortex bundle as a function of time. In panel (a) the total
+                              helicity is plotted, while the panel (b) illustrates the behaviour of the writhe and the panel (c) describes the
+                              torsion and internal part of the twist helicity.
+
+
+
+                              our view, it would seem more appropriate to include the total torsion in the definition of the centreline helicity
+                              since it is a quantity that is fully determined by the instantaneous configuration of the vortex and has the desirable
+                              property that it is an integral quantity although not necessarily conserved under a diffeomorphism that produces
+                              an inflection point.
+                                  At zero temperature, the LIA (Localized Induction Approximation), where only the local term of Eq. (26) is
+                              retained, possesses an infinite number of invariants, one of them being the integral of the torsion over the vortex
+                              length. This conservation of the torsion requires that inflection points appear in pairs, one contributing a change
+                              of +1 to Ttors and the other giving a change of −1. In other words the internal twist remains constant during
+                              the LIA dynamics. Inclusion of the internal twist restores helicity conservation even when inflection points are
+                              formed. Defining the twist using the direction of the phase precludes the possibility of having an isolated twisted
+                              vortex ring. The phase of a twisted circular superfluid vortex would have a singularity at the centre. This is in con-
+                              trast to the conventional definition of the twist. A circular vortex tube may be twisted, as illustrated by our bundle
+                              calculations where the tube was modeled by using seven vortices. The twisting of vorticity lines inside the tube
+                              induces a velocity along the vortex, but does not change the velocity potential outside the vortex tube.
+                                  Whether the Seifert framing for superfluid vortices could be justified from first principles is left as an open ques-
+                              tion in this work. However, it appears to be a reasonable choice from at least three physical points. Firstly, it provides
+                              an unambiguous means to define the spanwise vector N that remains well-defined throughout the dynamics and
+                              in doing so it restores many of the characteristics of helicity that are known to hold for vortices in classical fluids.
+                              Secondly, it ensures helicity is conserved throughout the dynamics for superfluids even during reconnection events
+                              even though the different contributions would change to reflect the changing topology of the vortex lines. A conse-
+                              quence of the Seifert framing is that this choice connects the linking with the internal twist. For example, two vortex
+                              rings which separately have zero twist, become twisted if linked (e.g. a Hopf link). Thirdly and most significantly, we
+                              have shown how a nontrivial quasiclassical limit of helicity can emerge that is independent of the Seifert framing.
+
+                              Methods
+                              Dynamics with the filament model.              The dynamics of quantized vortices is typically modelled with the
+                              filament model30 such that the vortices are considered as thin tubes with cylindrically symmetric cores where the
+                              circulation generates a classical Magnus force. Given the extremely small vortex core, we may ignore the small
+                              effective mass of the vortex although in general this effect can become more important at very low temperatures
+                              and on scales comparable to the core size. At finite temperatures, one additionally needs to consider dissipation
+                              due to the mutual friction that couples the superfluid and normal components together. Setting the sum of the
+                              Magnus and mutual friction forces equal to zero results in the following equation of motion for the vortex lines:
+                                                      ds
+                                                         = v L = v s + αsˆ′ × (v n − v s ) − α′sˆ′ × [sˆ′ × (v n − v s )] .
+                                                      dt                                                                                           (25)
+                              Here vn corresponds to the normal fluid velocity while vs corresponds to the superfluid velocity which is given by
+                              vs = vBS + vEx where vEx corresponds to some externally imposed irrotational superflow which we set equal to zero.
+                              Both the normal (vn) and superfluid (vs) velocities are evaluated at the vortex (centreline), s, whereas derivatives
+                              are evaluated with respect to the arc-length, such that sˆ′ = tˆ corresponds to the unit tangent vector. The two
+                              parameters α and α′ represent mutual friction coefficients that depend on temperature and pressure. The effect of
+                              the corresponding terms is to damp out excitations such as Kelvin waves on the vortices. For calculations at finite
+                              temperature we also ignore the coupling from superfluid vortices on the normal component and take vn = 0. This
+                              approximation is especially suitable in superfluid 3He where the viscosity of the normal component is high.
+                                  Since we need to evaluate the superfluid velocity along the vortex centreline, we must introduce a cutoff to
+                              avoid the singularities in the superfluid velocity field arising from the divergent terms appearing in Eq. (7) for
+
+
+Scientific RepoRts | 6:37571 | DOI: 10.1038/srep37571                                                                                               10
+www.nature.com/scientificreports/
+
+
+                              vBS. This is accomplished by introducing a finite core size cut-off. This way the singularity in the azimuthal com-
+                              ponent of the velocity (as mentioned above, the tangential component of vBS is regular) can be avoided and the
+                              Biot-Savart velocity at a vortex point becomes
+
+                                                                        κ               ⎛2 l l ⎞                  ′ ( s − s) × d s
+                                                                                        ⎜     +−⎟  ⎟⎟ + κ
+                                                           v BS (s) =
+                                                                        4π
+                                                                           sˆ′ × s″ ln ⎜⎜ β
+                                                                                        ⎜⎜⎝ e a0 ⎟⎟⎠    4π    ∫        1
+                                                                                                                         s1 − s 3
+                                                                                                                                  1
+                                                                                                                                    .
+                                                                                                                                                                    (26)
+                              Here the derivates are again with respect to arc-length ξ, and the integral omits the short segments l± around the
+                              point s. The first term is called the local term and it produces a velocity along the binormal with amplitude pro-
+                              portional to local curvature c = |s″|. The coefficient a0 is the vortex core size and the β-parameter is related to the
+                              core structure, being 1/4 for a solid rotating core model (Rankine vortex) and 1/2 for a hollow core vortex. It is
+                              tuned such that the local term gives the same velocity for a vortex ring (or its local segment) as that of a classical
+                              vortex ring with a similar core structure. The approximation made for the local term is valid when a0  l ±  1/c .
+
+                              Twist contribution for the vortex bundle. For the initial configuration we used a bundle of seven vorti-
+                              ces where the centremost vortex, which initially is also the centreline, had a shape of the ring with a Kelvin-wave,
+                              Eq. (23). We set R = 1 mm, and A = 0.1 mm. The twist of the bundle was achieved by twisting the 6 outermost
+                              vortices by 3 times (corresponding to an angle of 6π) with respect to the untwisted bundle, which can be obtained
+                              by setting the 6 outermost vortices at directions determined by the constant phase directions of 0, 2π/6, …, 10π/6,
+                              of the centre vortex (calculated when omitting the effect of the outer vortices). The twisting angle with respect to
+                              this untwisted configuration was chosen to depend linearly on the arc-length along the centreline. The distance
+                              of the outermost vortices from the centre vortex was 0.1 mm. Around 7000 points where used to discretise the
+                              vortices. These parameters were chosen primarily due to constraints set by the numerics.
+                                  During the time evolution of the vortex bundle the centreline was determined by averaging over the azimuthal
+                              locations of the seven different vortices. When deformations from a circle are not too large, this approximation is
+                              suitable. When evaluating the internal twist for the bundle, the direction of the different vortices with respect to
+                              the Serret-Frenet basis of the centreline was determined. In other words, the angle, θ, appearing in Eq. (4), was
+                              calculated for each vortex as a function of the length along the centreline by determining the crossing point of
+                              each vortex on the plane determined by n̂ and b̂.
+                                  As long as the bundle remains coherent, the twist of the different vortices remains the same. The only excep-
+                              tion was the centremost vortex, which initially determined the centreline. Because the centremost vortex may be
+                              very close to the centreline, the twist was determined using only the initially six outermost vortices.
+
+                              References
+                               1. Moffatt, H. K. The degree of knottedness of tangled vortex lines. J. Fluid Mech. 35, 117–129 (1969).
+                               2. Moffatt, H. K. Helicity and singular structures in fluid dynamics. Proc. Natl. Acad. Sci. USA 111, 3663–3670 (2014).
+                               3. Tkalec, U., Ravnik, M., Copar, S., Žumer, S. & Muševič, I. Reconfigurable knots and links in chiral nematic colloids. Science 333,
+                                  62–65 (2011).
+                               4. Dennis, M. R., King, R. P., Jack, B., O’Holleran, K. & Padgett, M. J. Isolated optical vortex knots. Nat. Phys. 6, 118–121 (2010).
+                               5. Berry, M. V. & Dennis, M. R. Knotted and linked phase singularities in monochromatic waves. Proc. R. Soc. Lond. A 457, 2251–2263 (2001).
+                               6. Kedia, H., Bialynicki-Birula, I., Peralta-Salas, D. & Irvine, W. T. M. Tying knots in light fields. Phys. Rev. Lett. 111, 150404 (2013).
+                               7. Chichak, K. S., Cantrill, S. J., Pease, A. R., Chiu, S.-H., Cave, G. W. V., Atwood, J. L. & Stoddart, J. F. Molecular borromean rings.
+                                  Science 304, 1308–1312 (2004).
+                               8. Bekenstein, J. D. Conservation law for linked cosmic string loops. Phys. Lett. B 282, 44–49 (1992).
+                               9. Sato, M. & Yahikozawa, S. “Topological” formulation of effective vortex strings. Nucl. Phys. B 436, 100–128 (1995).
+                              10. Faddeev, L. & Niemi, A. J. Stable knot-like structures in classical field theory. Nature 387, 58–61 (1997).
+                              11. Kleckner, D. & Irvine, W. T. M. Creation and dynamics of knotted vortices. Nat. Phys. 9, 253–258 (2013).
+                              12. Hall, D. S., Ray, M. W., Tiurev, K., Ruokokoski, E., Gheorghe, A. H. & Möttönen, M. Tying quantum knots. Nat. Phys. 12, 478–483 (2016).
+                              13. Bewley, G. P., Lathrop, D. P. & Sreenivasan, K. R. Superfluid helium: Visualization of quantized vortices. Nature 441, 588 (2006).
+                              14. Maggioni, F., Alamri, S., Barenghi, C. F. & Ricca, R. L. Velocity, energy, and helicity of vortex knots and unknots. Phys. Rev. E 82,
+                                  026309 (2010).
+                              15. Proment, D., Onorato, M. & Barenghi, C. F. Vortex knots in a Bose-Einstein condensate. Phys. Rev. E 85, 036306 (2012).
+                              16. Baggaley, A. W. Helicity transfer during quantized vortex reconnection. arXiv:1403.8121.
+                              17. Kleckner, D., Kaufman, L. H. & Irvine, W. T. M. How superfluid vortex knots untie. Nat. Phys. 12, 650–655 (2016).
+                              18. Zuccher, S. & Ricca, R. L. Helicity conservation under quantum reconnection of vortex rings. Phys. Rev. E 92, 061001(R) (2015).
+                              19. di Leoni, P. C., Mininni, P. D. & Brachet, M. E. Helicity, topology and Kelvin waves in reconnecting quantum knots. Phys. Rev. A. 94,
+                                  043605 (2016).
+                              20. Winfree, A. T., Winfree, E. M. & Seifert, H. Organizing centers in a cellular excitable medium. Physica D 17, 109–115 (1985).
+                              21. Akhmet’ev, P. & Ruzmaikin, A. Borromeanism and bordism, In Moffatt, H. K., Zaslavsky, G. M., Comte, P. & Tabor, M. (eds.),
+                                  Topological Aspects of the Dynamics of Fluids and Plasmas, no. 218 in NATO ASI Series, 249–264 (Springer Netherlands, 1992).
+                              22. Moffatt, H. K. & Ricca, R. L. Helicity and the Cǎlugǎreanu invariant. Proc. R. Soc. Lond. A 439, 411–429 (1992).
+                              23. Fuller, F. B. The writhing number of a space curve. Proc. Natl. Acad. Sci. USA 68, 815–819 (1971).
+                              24. Banchoff, T. F. & White, J. H. The behaviour of the total twist and self-linking number of a closed space curve under inversions.
+                                  Math. Scand. 36, 254–262 (1975).
+                              25. Scheeler, M. W., Kleckner, D., Proment, D., Lindlmann, G. L. & Irvine, W. T. M. Helicity conservation by flow across scales in
+                                  reconnecting vortex links and knots. Proc. Natl. Acad. Sci. USA 111, 15350–15355 (2014).
+                              26. Salman, H. Breathers on quantized superfluid vortices. Phys. Rev. Lett. 111, 165301 (2013).
+                              27. Kozik, E. V. & Svistunov, B. V. Theory of decay of superfluid turbulence in the low-temperature limit. J. Low Temp. Phys. 156,
+                                  215–257 (2009).
+                              28. Alamri, S. Z., Youd, A. J. & Barenghi, C. F. Reconnection of Superfluid Vortex Bundles. Phys. Rev. Lett. 101, 215302 (2008).
+                              29. Laing, C. E., Ricca, R. L. & Sumners, D. W. L. Conservation of writhe helicity under anti-parallel reconnection. Sci. Rep. 5, 9224
+                                  (2015).
+                              30. Schwarz, K. W. Three-dimensional vortex dynamics in superfluid 4He: Line-line and line-boundary interactions. Phys. Rev. B 31,
+                                  5782–5804 (1985).
+
+
+
+Scientific RepoRts | 6:37571 | DOI: 10.1038/srep37571                                                                                                                 11
+www.nature.com/scientificreports/
+
+
+                              Acknowledgements
+                              R.H. and N.H. acknowledge support from the Academy of Finland (LTQ CoE Grant, and Grants 218211
+                              & 292766). H.S. acknowledges support for a Research Fellowship from the Leverhulme Trust under Grant
+                              R201540. We thank especially J. Karimäki, M. Krusius, R. Ricca, G.E. Volovik for fruitful discussions, comments
+                              and improvements to the paper. We also like to thank CSC - IT Center for Science, Ltd., for the allocation of
+                              computational resources.
+
+                              Author Contributions
+                              R.H. conducted the simulations and wrote the first draft of the manuscript. Some analysis tools where written by
+                              N.H. All authors contributed to the theory development and participated in the writing and review process of the
+                              manuscript.
+
+                              Additional Information
+                              Competing financial interests: The authors declare no competing financial interests.
+                              How to cite this article: Hänninen, R. et al. Helicity within the vortex filament model. Sci. Rep. 6, 37571;
+                              doi: 10.1038/srep37571 (2016).
+                              Publisher's note: Springer Nature remains neutral with regard to jurisdictional claims in published maps and
+                              institutional affiliations.
+                                             This work is licensed under a Creative Commons Attribution 4.0 International License. The images
+                                             or other third party material in this article are included in the article’s Creative Commons license,
+                              unless indicated otherwise in the credit line; if the material is not included under the Creative Commons license,
+                              users will need to obtain permission from the license holder to reproduce the material. To view a copy of this
+                              license, visit http://creativecommons.org/licenses/by/4.0/
+
+                              © The Author(s) 2016
+
+
+
+
+Scientific RepoRts | 6:37571 | DOI: 10.1038/srep37571                                                                                         12
+

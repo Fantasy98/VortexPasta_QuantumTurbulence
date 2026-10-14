@@ -1,0 +1,9 @@
+elapsed_seconds = 68.01310515403748
+reason = "target reached"
+reconnections = 1
+nodes = 144
+status = "complete"
+final_time = 0.8002802810149884
+steps = 1409
+loops = 1
+final_tstar = 1.6666648154372221

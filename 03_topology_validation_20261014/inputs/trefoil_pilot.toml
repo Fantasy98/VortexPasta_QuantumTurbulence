@@ -1,0 +1,7 @@
+name = "trefoil_pilot_v2"
+input = "trefoil_128.csv"
+end_time = 0.1
+a = 0.001
+drec = 0.08
+dt = 0.001
+wall_limit = 180.0

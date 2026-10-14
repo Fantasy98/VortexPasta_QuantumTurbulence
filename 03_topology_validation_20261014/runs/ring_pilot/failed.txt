@@ -1,0 +1,31 @@
+MethodError: no method matching init(::Vector{StaticArraysCore.SVector{3, Float64}}, ::QuinticSplineMethod)
+The function `init` exists, but no method is defined for this combination of argument types.
+
+Closest candidates are:
+  init(::Func, !Matched::Type{ClosedFilament}, Any...; kws...) where Func
+   @ VortexPasta ~/.julia/packages/VortexPasta/3Josz/src/Filaments/closed_filament.jl:146
+  init(::Func, !Matched::Type{ClosedFilament{T, Method, Parametrisation, M, Knots, Points, Coefs} where {Method<:VortexPasta.Filaments.DiscretisationMethod, Parametrisation<:AbstractParametrisation, M, Knots<:(VortexPasta.PaddedArrays.PaddedVector{M, T}), Points<:(VortexPasta.PaddedArrays.PaddedArray{M, StaticArraysCore.SVector{3, T}, 1, V} where V), Coefs<:(VortexPasta.Filaments.DiscretisationCoefs{StaticArraysCore.SVector{3, T}, Method})}}, !Matched::Integer, !Matched::Any...; kws...) where {Func, T}
+   @ VortexPasta ~/.julia/packages/VortexPasta/3Josz/src/Filaments/closed_filament.jl:182
+  init(!Matched::Type{ClosedFilament}, !Matched::Integer, Any...; kws...)
+   @ VortexPasta ~/.julia/packages/VortexPasta/3Josz/src/Filaments/closed_filament.jl:143
+  ...
+
+Stacktrace:
+ [1] (::var"#getfs##0#getfs##1"{Matrix{Float64}})(i::Float64)
+   @ Main ./none:-1
+ [2] iterate
+   @ ./generator.jl:48 [inlined]
+ [3] collect(itr::Base.Generator{Vector{Float64}, var"#getfs##0#getfs##1"{Matrix{Float64}}})
+   @ Base ./array.jl:828
+ [4] getfs(input::String)
+   @ Main ~/codes/simulations/vortexPasta/03_topology_validation_20261014/simulate.jl:32
+ [5] runone(cfg::Dict{String, Any})
+   @ Main ~/codes/simulations/vortexPasta/03_topology_validation_20261014/simulate.jl:58
+ [6] top-level scope
+   @ ~/codes/simulations/vortexPasta/03_topology_validation_20261014/simulate.jl:123
+ [7] include(mod::Module, _path::String)
+   @ Base ./Base.jl:309
+ [8] exec_options(opts::Base.JLOptions)
+   @ Base ./client.jl:344
+ [9] _start()
+   @ Base ./client.jl:577

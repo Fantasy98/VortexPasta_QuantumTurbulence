@@ -1,0 +1,38 @@
+──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+                                                                     Time                             Allocations
+                                                       ────────────────────────────────    ──────────────────────────────────
+                  Tot / % measured:                             2.21s / 98.4%                        153MiB / 66.2%
+ ────────────────────────────────────────────────────  ────────────────────────────────    ──────────────────────────────────
+ Section                                       ncalls    time    %tot     avg                alloc    %tot      avg
+──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+ Update values at nodes                           505   1.34s   61.4%  2.64ms  ████▉       67.3MiB   66.3%   136KiB  █████▎
+ └─ Biot-Savart (full)                            505   1.33s   61.3%  2.64ms  ████▉       66.4MiB   65.5%   135KiB  █████▎
+    ├─ Long-range component (async)               505   1.04s   47.9%  2.06ms  ███▉        42.0MiB   41.4%  85.2KiB  ███▍
+    │  ├─ Vorticity to Fourier                    505   548ms   25.2%  1.09ms  ██          16.4MiB   16.1%  33.2KiB  █▎
+    │  ├─ Interpolate to physical                 632   417ms   19.2%   660μs  █▌          20.3MiB   20.0%  32.9KiB  █▋
+    │  ├─ Velocity field (Fourier)                505  52.1ms    2.4%   103μs  ▎            971KiB    0.9%  1.92KiB  ▏
+    │  ├─ Copy point charges (host -> device)     505  17.6ms    0.8%  34.9μs  ▏           3.56MiB    3.5%  7.23KiB  ▎
+    │  ├─ Streamfunction field (Fourier)          127  4.68ms    0.2%  36.8μs               244KiB    0.2%  1.92KiB
+    │  ├─ Process point charges                   505   272μs    0.0%   540ns              3.19KiB    0.0%    6.46B
+    │  └─ Synchronise GPU                         505  8.18μs    0.0%  16.2ns                    ∅       ∅        ∅
+    ├─ Short-range component (async)              505   231ms   10.6%   457μs  ▉           11.5MiB   11.4%  23.4KiB  ▉
+    │  ├─ Pair interactions                       505   193ms    8.9%   382μs  ▊           1.64MiB    1.6%  3.32KiB  ▏
+    │  ├─ Copy point charges (host -> device)   1.01k  21.6ms    1.0%  21.4μs  ▏           7.11MiB    7.0%  7.21KiB  ▌
+    │  ├─ Remove self-interactions                505  6.18ms    0.3%  12.2μs               726KiB    0.7%  1.44KiB
+    │  ├─ Process point charges                   505  4.83ms    0.2%  9.57μs               935KiB    0.9%  1.85KiB  ▏
+    │  ├─ Local term (LIA)                        505  3.70ms    0.2%  7.33μs               576KiB    0.6%  1.14KiB
+    │  └─ Synchronise GPU                         505  12.1μs    0.0%  23.9ns                    ∅       ∅        ∅
+    ├─ Add point charges                          505  21.6ms    1.0%  42.8μs  ▏           1.41MiB    1.4%  2.85KiB  ▏
+    ├─ CPU-only operations (synchronous)          505  20.1ms    0.9%  39.9μs  ▏           6.32MiB    6.2%  12.8KiB  ▌
+    │  └─ Add local integrals                     505  20.0ms    0.9%  39.5μs  ▏           6.32MiB    6.2%  12.8KiB  ▌
+    ├─ Copy output (device -> host)             1.01k  13.5ms    0.6%  13.4μs              1.66MiB    1.6%  1.68KiB  ▏
+    └─ Wait for async task to finish            1.01k   352μs    0.0%   348ns                    ∅       ∅        ∅
+ After advection                                  126   820ms   37.7%  6.51ms  ███         30.5MiB   30.0%   248KiB  ██▍
+ ├─ Reconnect                                     126   811ms   37.3%  6.43ms  ███         30.1MiB   29.7%   245KiB  ██▍
+ │  ├─ Reconnection pass                          126   525ms   24.2%  4.17ms  █▉          29.9MiB   29.5%   243KiB  ██▍
+ │  └─ Set points (with vel.)                     126   285ms   13.1%  2.26ms  █            238KiB    0.2%  1.89KiB
+ └─ Fold and refine                               126  9.14ms    0.4%  72.6μs               313KiB    0.3%  2.48KiB
+ Advect filaments                                 504  15.8ms    0.7%  31.3μs              1.80MiB    1.8%  3.65KiB  ▏
+ Prepare interpolable fields                      127  4.27ms    0.2%  33.6μs              1.93MiB    1.9%  15.6KiB  ▏
+ Resize timestepping cache                        126   153μs    0.0%  1.22μs                    ∅       ∅        ∅
+──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────

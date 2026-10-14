@@ -1,0 +1,8 @@
+name = "hopf_prepared_wide"
+input = "hopf_prepared_64.csv"
+end_time = 2.5
+a = 0.1171875
+drec = 0.08
+dt = 0.001
+wall_limit = 900.0
+label = "prepared GHOST centerline, exploratory wide core"

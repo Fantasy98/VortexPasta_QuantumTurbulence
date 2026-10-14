@@ -1,0 +1,26 @@
+{
+  "files_sha256": {
+    "Project.toml": "347aa571e70991be6733e7ade15adb16c02e56234d84e75e72f6de7fc5677043",
+    "Manifest.toml": "5a650febf8e19a047a6f9311ca4b6dd5b10276a9306461e7654c8ba42d80a38d",
+    "simulate.jl": "bb21ad73a245bac3365c61c316fd225d564fc8a701a53df38439e1d600108834",
+    "prepare.py": "44266a9f2418393e176ba502f89e1293a41a44e4e28e6d89568fded6e841d970",
+    "analyze.py": "a4da0a55ea0d9fa8f9a2362c46110feebd600dc8357e21273daa3ff0cccbec3e",
+    "compare.py": "698dbde02880573c8ad2aa53f09065d08ec6bcdb69e132891c2fd65454fabbcc",
+    "instrument_reconnections.jl": "8eb85f98d4d8005a0ef5a0d3b148a2e2a0525de540baf177f0e9851ce5db806e"
+  },
+  "julia": "1.13.1",
+  "VortexPasta": "0.34.19",
+  "Julia_threads_per_process": 2,
+  "BLAS_threads": 1,
+  "OMP_threads": 1,
+  "maximum_simultaneous_simulation_processes": 2,
+  "source_groups": {
+    "pilot_v2": "runs/ring_pilot_v2/simulate_source.jl",
+    "preliminary_8_runs": "sources/simulate_preliminary_loaded.jl",
+    "convergence_13_runs": "sources/simulate_convergence_loaded.jl",
+    "prepared_runs": "each run simulate_source.jl captures in-memory source at process startup"
+  },
+  "source_copy_note": "For preliminary and convergence groups use the group source files above. Per-run source copies in those older drivers read the current disk file, which was edited while their batch ran; the loaded group source is authoritative. Corrected in the prepared driver.",
+  "system": "Linux aero-1060-02 6.8.0-124-generic #124~22.04.1-Ubuntu SMP PREEMPT_DYNAMIC Tue May 26 21:05:19 UTC  x86_64 x86_64 x86_64 GNU/Linux\n",
+  "cpu": "Architecture:                            x86_64\nCPU op-mode(s):                          32-bit, 64-bit\nAddress sizes:                           46 bits physical, 48 bits virtual\nByte Order:                              Little Endian\nCPU(s):                                  14\nOn-line CPU(s) list:                     0-13\nVendor ID:                               GenuineIntel\nModel name:                              Intel(R) Core(TM) Ultra 5 235\nCPU family:                              6\nModel:                                   198\nThread(s) per core:                      1\nCore(s) per socket:                      1\nSocket(s):                               14\nStepping:                                2\nCPU max MHz:                             6200.0000\nCPU min MHz:                             800.0000\nBogoMIPS:                                6758.40\nFlags:                                   fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc cpuid aperfmperf tsc_known_freq pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch cpuid_fault epb intel_ppin ssbd ibrs ibpb stibp ibrs_enhanced tpr_shadow flexpriority ept vpid ept_ad fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid rdt_a rdseed adx smap clflushopt clwb intel_pt sha_ni xsaveopt xsavec xgetbv1 xsaves split_lock_detect user_shstk avx_vnni lam wbnoinvd dtherm ida arat pln pts hwp hwp_notify hwp_act_window hwp_epp hwp_pkg_req hfi vnmi umip pku ospke waitpkg gfni vaes vpclmulqdq tme rdpid bus_lock_detect movdiri movdir64b fsrm md_clear serialize pconfig arch_lbr ibt flush_l1d arch_capabilities ibpb_exit_to_user\nVirtualization:                          VT-x\nL1d cache:                               416 KiB (10 instances)\nL1i cache:                               640 KiB (10 instances)\nL2 cache:                                26 MiB (8 instances)\nL3 cache:                                24 MiB (1 instance)\nNUMA node(s):                            1\nNUMA node0 CPU(s):                       0-13\nVulnerability Gather data sampling:      Not affected\nVulnerability Indirect target selection: Not affected\nVulnerability Itlb multihit:             Not affected\nVulnerability L1tf:                      Not affected\nVulnerability Mds:                       Not affected\nVulnerability Meltdown:                  Not affected\nVulnerability Mmio stale data:           Not affected\nVulnerability Reg file data sampling:    Not affected\nVulnerability Retbleed:                  Not affected\nVulnerability Spec rstack overflow:      Not affected\nVulnerability Spec store bypass:         Mitigation; Speculative Store Bypass disabled via prctl\nVulnerability Spectre v1:                Mitigation; usercopy/swapgs barriers and __user pointer sanitization\nVulnerability Spectre v2:                Mitigation; Enhanced / Automatic IBRS; IBPB conditional; PBRSB-eIBRS Not affected; BHI BHI_DIS_S\nVulnerability Srbds:                     Not affected\nVulnerability Tsa:                       Not affected\nVulnerability Tsx async abort:           Not affected\nVulnerability Vmscape:                   Mitigation; IBPB before exit to userspace\n"
+}

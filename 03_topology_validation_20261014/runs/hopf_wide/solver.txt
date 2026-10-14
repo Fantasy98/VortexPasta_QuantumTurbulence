@@ -1,0 +1,26 @@
+VortexFilamentSolver with fields:
+ ├─ prob: VortexFilamentProblem with fields:
+ │  ├─ p: ParamsBiotSavart{Float64}(Γ ≈ 2.08, a ≈ 0.117, Δ ≈ 0.615, splitting = GaussianSplitting(Ls ≈ (6.28, 6.28, 6.28), rcut ≈ 1.58, Ns = (32, 32, 32), α ≈ 2.21, rtol ≈ 2.4e-7), …)
+ │  ├─ tspan: (0.0, 2.5) -- simulation timespan
+ │  └─ fs: 2-element VectorOfVectors -- vortex filaments at t = 0.0
+ ├─ fs: 2-element VectorOfVectors -- vortex filaments
+ ├─ vL: 2-element VectorOfVectors -- vortex line velocity (vs + mutual friction + forcing)
+ ├─ vs: 2-element VectorOfVectors -- self-induced superfluid velocity
+ ├─ ψs: 2-element VectorOfVectors -- streamfunction vector
+ ├─ time: TimeInfo(nstep = 0, t = 0.0, dt = 0.001, dt_prev = 0.001, nrejected = 0)
+ ├─ stats: VortexPasta.Timestepping.SimulationStats{Float64}(...)
+ ├─ dtmin: 0.0
+ ├─ refinement: RefineBasedOnSegmentLength(0.06378797662564152, 0.13738948811676632; ρℓ_max = Inf)
+ ├─ adaptivity: AdaptBasedOnVelocity(0.009568196493846227; safety_factor = 0.8) | MaximumTimestep(0.001)
+ ├─ reconnect: ReconnectFast(0.08; nthreads = 1, max_passes = 2, use_velocity = true, cos_max = 0.97, decrease_length = true)
+ ├─ fast_term: LocalTerm(nothing)
+ ├─ LIA: false
+ ├─ fold_periodic: false
+ ├─ reparametrise_arclength: false
+ ├─ cache_bs: BiotSavartCache
+ ├─ cache_timestepper: TemporalSchemeCache(RK4())
+ ├─ step_diagnostics: 1
+ ├─ step_adaptivity: 1
+ ├─ step_refinement: 1
+ ├─ step_reconnect: 1
+ └─ to: TimerOutputs.TimerOutput

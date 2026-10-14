@@ -1,0 +1,374 @@
+{
+  "ring_64": {
+    "knot": {
+      "diagrams": [
+        {
+          "crossings": 0,
+          "determinant": 1,
+          "writhe": 0
+        },
+        {
+          "crossings": 0,
+          "determinant": 1,
+          "writhe": 0
+        },
+        {
+          "crossings": 0,
+          "determinant": 1,
+          "writhe": 0
+        }
+      ],
+      "determinant_three": false,
+      "trefoil": false
+    }
+  },
+  "hopf_64": {
+    "link": -1.0000111555288649,
+    "reflected_link": 1.0000111555288649
+  },
+  "trefoil_128": {
+    "knot": {
+      "diagrams": [
+        {
+          "crossings": 3,
+          "determinant": 3,
+          "writhe": -3
+        },
+        {
+          "crossings": 3,
+          "determinant": 3,
+          "writhe": -3
+        },
+        {
+          "crossings": 3,
+          "determinant": 3,
+          "writhe": -3
+        }
+      ],
+      "determinant_three": true,
+      "trefoil": true
+    }
+  },
+  "runs": {
+    "trefoil_wide": {
+      "finite": true,
+      "event_count_consistent": true,
+      "checkpoint_retained": true,
+      "target_reached": true,
+      "final_time": 1.0000000000000007
+    },
+    "trefoil_fine": {
+      "finite": true,
+      "event_count_consistent": true,
+      "checkpoint_retained": true,
+      "target_reached": true,
+      "final_time": 0.5000088723429456
+    },
+    "trefoil_slender": {
+      "finite": true,
+      "event_count_consistent": true,
+      "checkpoint_retained": true,
+      "target_reached": true,
+      "final_time": 1.0001528891563198
+    },
+    "ring_base": {
+      "finite": true,
+      "event_count_consistent": true,
+      "checkpoint_retained": true,
+      "target_reached": true,
+      "final_time": 1.0007444800144305
+    },
+    "ring_slender": {
+      "finite": true,
+      "event_count_consistent": true,
+      "checkpoint_retained": true,
+      "target_reached": true,
+      "final_time": 1.000744480494939
+    },
+    "hopf_fine": {
+      "finite": true,
+      "event_count_consistent": true,
+      "checkpoint_retained": true,
+      "target_reached": true,
+      "final_time": 1.200074986286918
+    },
+    "trefoil_operation_audit": {
+      "finite": true,
+      "event_count_consistent": true,
+      "checkpoint_retained": true,
+      "target_reached": true,
+      "final_time": 0.36778587757450387
+    },
+    "trefoil_prepared_slender": {
+      "finite": true,
+      "event_count_consistent": true,
+      "checkpoint_retained": true,
+      "target_reached": true,
+      "final_time": 0.8000842304445857
+    },
+    "trefoil_prepared_halfdt": {
+      "finite": true,
+      "event_count_consistent": true,
+      "checkpoint_retained": true,
+      "target_reached": true,
+      "final_time": 0.6004999999999893
+    },
+    "trefoil_prepared_wide": {
+      "finite": true,
+      "event_count_consistent": true,
+      "checkpoint_retained": true,
+      "target_reached": true,
+      "final_time": 1.0000000000000007
+    },
+    "hopf_slender": {
+      "finite": true,
+      "event_count_consistent": true,
+      "checkpoint_retained": true,
+      "target_reached": true,
+      "final_time": 2.0003441011634027
+    },
+    "trefoil_d060": {
+      "finite": true,
+      "event_count_consistent": true,
+      "checkpoint_retained": true,
+      "target_reached": true,
+      "final_time": 0.5001679111951765
+    },
+    "hopf_prepared_wide": {
+      "finite": true,
+      "event_count_consistent": true,
+      "checkpoint_retained": true,
+      "target_reached": true,
+      "final_time": 2.5001602610984146
+    },
+    "trefoil_halfdt": {
+      "finite": true,
+      "event_count_consistent": true,
+      "checkpoint_retained": true,
+      "target_reached": true,
+      "final_time": 0.5000684151168456
+    },
+    "trefoil_prepared_fine": {
+      "finite": true,
+      "event_count_consistent": true,
+      "checkpoint_retained": true,
+      "target_reached": true,
+      "final_time": 0.6002499999999616
+    },
+    "hopf_d100": {
+      "finite": true,
+      "event_count_consistent": true,
+      "checkpoint_retained": true,
+      "target_reached": true,
+      "final_time": 0.800005149095427
+    },
+    "trefoil_base": {
+      "finite": true,
+      "event_count_consistent": true,
+      "checkpoint_retained": true,
+      "target_reached": true,
+      "final_time": 0.8001404018840738
+    },
+    "hopf_base": {
+      "finite": true,
+      "event_count_consistent": true,
+      "checkpoint_retained": true,
+      "target_reached": true,
+      "final_time": 1.2000246385428956
+    },
+    "ring_halfdt": {
+      "finite": true,
+      "event_count_consistent": true,
+      "checkpoint_retained": true,
+      "target_reached": true,
+      "final_time": 1.0003239990319506
+    },
+    "ring_pilot_v2": {
+      "finite": true,
+      "event_count_consistent": true,
+      "checkpoint_retained": true,
+      "target_reached": true,
+      "final_time": 0.10007449349611076
+    },
+    "hopf_pilot_v2": {
+      "finite": true,
+      "event_count_consistent": true,
+      "checkpoint_retained": true,
+      "target_reached": true,
+      "final_time": 0.10073602391434915
+    },
+    "trefoil_d100": {
+      "finite": true,
+      "event_count_consistent": true,
+      "checkpoint_retained": true,
+      "target_reached": true,
+      "final_time": 0.5001066322627634
+    },
+    "trefoil_prepared_ref": {
+      "finite": true,
+      "event_count_consistent": true,
+      "checkpoint_retained": true,
+      "target_reached": true,
+      "final_time": 0.6000000000000004
+    },
+    "hopf_prepared_halfdt": {
+      "finite": true,
+      "event_count_consistent": true,
+      "checkpoint_retained": true,
+      "target_reached": true,
+      "final_time": 2.100499999999869
+    },
+    "hopf_wide": {
+      "finite": true,
+      "event_count_consistent": true,
+      "checkpoint_retained": true,
+      "target_reached": true,
+      "final_time": 2.5009999999998356
+    },
+    "hopf_halfdt": {
+      "finite": true,
+      "event_count_consistent": true,
+      "checkpoint_retained": true,
+      "target_reached": true,
+      "final_time": 0.8000944583376949
+    },
+    "hopf_operation_audit": {
+      "finite": true,
+      "event_count_consistent": true,
+      "checkpoint_retained": true,
+      "target_reached": true,
+      "final_time": 0.6182790321672799
+    },
+    "hopf_prepared_slender": {
+      "finite": true,
+      "event_count_consistent": true,
+      "checkpoint_retained": true,
+      "target_reached": true,
+      "final_time": 1.2002673764332883
+    },
+    "trefoil_pilot_v2": {
+      "finite": true,
+      "event_count_consistent": true,
+      "checkpoint_retained": true,
+      "target_reached": true,
+      "final_time": 0.10016621734590345
+    },
+    "ring_wide": {
+      "finite": true,
+      "event_count_consistent": true,
+      "checkpoint_retained": true,
+      "target_reached": true,
+      "final_time": 1.0000000000000007
+    },
+    "hopf_prepared_fine": {
+      "finite": true,
+      "event_count_consistent": true,
+      "checkpoint_retained": true,
+      "target_reached": true,
+      "final_time": 2.100000000000196
+    },
+    "ring_fine": {
+      "finite": true,
+      "event_count_consistent": true,
+      "checkpoint_retained": true,
+      "target_reached": true,
+      "final_time": 1.000086031764761
+    },
+    "hopf_d060": {
+      "finite": true,
+      "event_count_consistent": true,
+      "checkpoint_retained": true,
+      "target_reached": true,
+      "final_time": 0.8002802810149884
+    },
+    "hopf_prepared_ref": {
+      "finite": true,
+      "event_count_consistent": true,
+      "checkpoint_retained": true,
+      "target_reached": true,
+      "final_time": 2.1009999999998796
+    }
+  },
+  "trefoil_site_matching": {
+    "trefoil_fine": [
+      {
+        "base_event": 1,
+        "test_event": 3,
+        "distance": 0.05489447846482246,
+        "time": 0.3731403692908677
+      },
+      {
+        "base_event": 2,
+        "test_event": 2,
+        "distance": 0.05018884846267561,
+        "time": 0.37209282995492937
+      },
+      {
+        "base_event": 3,
+        "test_event": 1,
+        "distance": 0.023500681956171124,
+        "time": 0.37031255347133074
+      }
+    ],
+    "trefoil_halfdt": [
+      {
+        "base_event": 1,
+        "test_event": 1,
+        "distance": 0.0005973537969407996,
+        "time": 0.3611676958136557
+      },
+      {
+        "base_event": 2,
+        "test_event": 2,
+        "distance": 0.00016829744790737095,
+        "time": 0.3617883693510953
+      },
+      {
+        "base_event": 3,
+        "test_event": 3,
+        "distance": 0.0006263721785448579,
+        "time": 0.36546796557113986
+      }
+    ],
+    "trefoil_d060": [
+      {
+        "base_event": 1,
+        "test_event": 3,
+        "distance": 0.023786825586303875,
+        "time": 0.3683735733545412
+      },
+      {
+        "base_event": 2,
+        "test_event": 1,
+        "distance": 0.006565453560331007,
+        "time": 0.36388253308560103
+      },
+      {
+        "base_event": 3,
+        "test_event": 2,
+        "distance": 0.00039054054384470455,
+        "time": 0.3657642163508746
+      }
+    ],
+    "trefoil_d100": [
+      {
+        "base_event": 1,
+        "test_event": 1,
+        "distance": 2.3914935841127266e-15,
+        "time": 0.3613559173100642
+      },
+      {
+        "base_event": 2,
+        "test_event": 2,
+        "distance": 9.81025129326275e-15,
+        "time": 0.36184165384577394
+      },
+      {
+        "base_event": 3,
+        "test_event": 3,
+        "distance": 1.2481988174211264e-14,
+        "time": 0.3656412491957325
+      }
+    ]
+  }
+}

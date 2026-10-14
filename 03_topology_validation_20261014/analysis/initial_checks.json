@@ -1,0 +1,404 @@
+{
+  "ring_64": {
+    "nodes": [
+      64
+    ],
+    "ds_min": 0.09813534865483285,
+    "ds_max": 0.09813534865483935,
+    "length": 6.280662313909506,
+    "knots": [
+      {
+        "diagrams": [
+          {
+            "crossings": 0,
+            "determinant": 1,
+            "writhe": 0
+          },
+          {
+            "crossings": 0,
+            "determinant": 1,
+            "writhe": 0
+          },
+          {
+            "crossings": 0,
+            "determinant": 1,
+            "writhe": 0
+          }
+        ],
+        "determinant_three": false,
+        "trefoil": false
+      }
+    ]
+  },
+  "ring_128": {
+    "nodes": [
+      128
+    ],
+    "ds_min": 0.049082457045822335,
+    "ds_max": 0.049082457045827185,
+    "length": 6.282554501865546,
+    "knots": [
+      {
+        "diagrams": [
+          {
+            "crossings": 0,
+            "determinant": 1,
+            "writhe": 0
+          },
+          {
+            "crossings": 0,
+            "determinant": 1,
+            "writhe": 0
+          },
+          {
+            "crossings": 0,
+            "determinant": 1,
+            "writhe": 0
+          }
+        ],
+        "determinant_three": false,
+        "trefoil": false
+      }
+    ]
+  },
+  "hopf_64": {
+    "nodes": [
+      64,
+      64
+    ],
+    "ds_min": 0.0981353486548331,
+    "ds_max": 0.09813534865484015,
+    "length": 12.561324627819012,
+    "knots": [
+      {
+        "diagrams": [
+          {
+            "crossings": 0,
+            "determinant": 1,
+            "writhe": 0
+          },
+          {
+            "crossings": 0,
+            "determinant": 1,
+            "writhe": 0
+          },
+          {
+            "crossings": 0,
+            "determinant": 1,
+            "writhe": 0
+          }
+        ],
+        "determinant_three": false,
+        "trefoil": false
+      },
+      {
+        "diagrams": [
+          {
+            "crossings": 0,
+            "determinant": 1,
+            "writhe": 0
+          },
+          {
+            "crossings": 0,
+            "determinant": 1,
+            "writhe": 0
+          },
+          {
+            "crossings": 0,
+            "determinant": 1,
+            "writhe": 0
+          }
+        ],
+        "determinant_three": false,
+        "trefoil": false
+      }
+    ],
+    "link": -1.000025100237454
+  },
+  "hopf_128": {
+    "nodes": [
+      128,
+      128
+    ],
+    "ds_min": 0.04908245704582213,
+    "ds_max": 0.04908245704582737,
+    "length": 12.565109003731092,
+    "knots": [
+      {
+        "diagrams": [
+          {
+            "crossings": 0,
+            "determinant": 1,
+            "writhe": 0
+          },
+          {
+            "crossings": 0,
+            "determinant": 1,
+            "writhe": 0
+          },
+          {
+            "crossings": 0,
+            "determinant": 1,
+            "writhe": 0
+          }
+        ],
+        "determinant_three": false,
+        "trefoil": false
+      },
+      {
+        "diagrams": [
+          {
+            "crossings": 0,
+            "determinant": 1,
+            "writhe": 0
+          },
+          {
+            "crossings": 0,
+            "determinant": 1,
+            "writhe": 0
+          },
+          {
+            "crossings": 0,
+            "determinant": 1,
+            "writhe": 0
+          }
+        ],
+        "determinant_three": false,
+        "trefoil": false
+      }
+    ],
+    "link": -1.000025100237454
+  },
+  "trefoil_128": {
+    "nodes": [
+      128
+    ],
+    "ds_min": 0.07497333962452277,
+    "ds_max": 0.07506158740676803,
+    "length": 9.603239549592333,
+    "knots": [
+      {
+        "diagrams": [
+          {
+            "crossings": 3,
+            "determinant": 3,
+            "writhe": -3
+          },
+          {
+            "crossings": 3,
+            "determinant": 3,
+            "writhe": -3
+          },
+          {
+            "crossings": 3,
+            "determinant": 3,
+            "writhe": -3
+          }
+        ],
+        "determinant_three": true,
+        "trefoil": true
+      }
+    ]
+  },
+  "trefoil_256": {
+    "nodes": [
+      256
+    ],
+    "ds_min": 0.03752230332883783,
+    "ds_max": 0.037533373388865296,
+    "length": 9.6073818681596,
+    "knots": [
+      {
+        "diagrams": [
+          {
+            "crossings": 3,
+            "determinant": 3,
+            "writhe": -3
+          },
+          {
+            "crossings": 3,
+            "determinant": 3,
+            "writhe": -3
+          },
+          {
+            "crossings": 3,
+            "determinant": 3,
+            "writhe": -3
+          }
+        ],
+        "determinant_three": true,
+        "trefoil": true
+      }
+    ]
+  },
+  "hopf_prepared_64": {
+    "nodes": [
+      64,
+      64
+    ],
+    "ds_min": 0.09516932433801871,
+    "ds_max": 0.09525753485094945,
+    "length": 12.189522756424777,
+    "knots": [
+      {
+        "diagrams": [
+          {
+            "crossings": 0,
+            "determinant": 1,
+            "writhe": 0
+          },
+          {
+            "crossings": 0,
+            "determinant": 1,
+            "writhe": 0
+          },
+          {
+            "crossings": 0,
+            "determinant": 1,
+            "writhe": 0
+          }
+        ],
+        "determinant_three": false,
+        "trefoil": false
+      },
+      {
+        "diagrams": [
+          {
+            "crossings": 0,
+            "determinant": 1,
+            "writhe": 0
+          },
+          {
+            "crossings": 0,
+            "determinant": 1,
+            "writhe": 0
+          },
+          {
+            "crossings": 0,
+            "determinant": 1,
+            "writhe": 0
+          }
+        ],
+        "determinant_three": false,
+        "trefoil": false
+      }
+    ],
+    "link": -1.0000250315375032
+  },
+  "hopf_prepared_128": {
+    "nodes": [
+      128,
+      128
+    ],
+    "ds_min": 0.047596218107863304,
+    "ds_max": 0.04764081921182925,
+    "length": 12.193763085021178,
+    "knots": [
+      {
+        "diagrams": [
+          {
+            "crossings": 0,
+            "determinant": 1,
+            "writhe": 0
+          },
+          {
+            "crossings": 0,
+            "determinant": 1,
+            "writhe": 0
+          },
+          {
+            "crossings": 0,
+            "determinant": 1,
+            "writhe": 0
+          }
+        ],
+        "determinant_three": false,
+        "trefoil": false
+      },
+      {
+        "diagrams": [
+          {
+            "crossings": 0,
+            "determinant": 1,
+            "writhe": 0
+          },
+          {
+            "crossings": 0,
+            "determinant": 1,
+            "writhe": 0
+          },
+          {
+            "crossings": 0,
+            "determinant": 1,
+            "writhe": 0
+          }
+        ],
+        "determinant_three": false,
+        "trefoil": false
+      }
+    ],
+    "link": -1.0000250315375032
+  },
+  "trefoil_prepared_128": {
+    "nodes": [
+      128
+    ],
+    "ds_min": 0.06862321777250005,
+    "ds_max": 0.06924805627952317,
+    "length": 8.848844209042634,
+    "knots": [
+      {
+        "diagrams": [
+          {
+            "crossings": 3,
+            "determinant": 3,
+            "writhe": -3
+          },
+          {
+            "crossings": 3,
+            "determinant": 3,
+            "writhe": -3
+          },
+          {
+            "crossings": 3,
+            "determinant": 3,
+            "writhe": -3
+          }
+        ],
+        "determinant_three": true,
+        "trefoil": true
+      }
+    ]
+  },
+  "trefoil_prepared_256": {
+    "nodes": [
+      256
+    ],
+    "ds_min": 0.03428191089120932,
+    "ds_max": 0.0346292502007523,
+    "length": 8.858184390310857,
+    "knots": [
+      {
+        "diagrams": [
+          {
+            "crossings": 3,
+            "determinant": 3,
+            "writhe": -3
+          },
+          {
+            "crossings": 3,
+            "determinant": 3,
+            "writhe": -3
+          },
+          {
+            "crossings": 3,
+            "determinant": 3,
+            "writhe": -3
+          }
+        ],
+        "determinant_three": true,
+        "trefoil": true
+      }
+    ]
+  }
+}

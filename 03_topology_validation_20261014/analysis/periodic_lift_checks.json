@@ -1,0 +1,82 @@
+{
+  "trefoil_wide": {
+    "maximum_absolute_winding_residual": 0.0,
+    "closed_curve_checks": 51
+  },
+  "trefoil_slender": {
+    "maximum_absolute_winding_residual": 2.8271597168564594e-16,
+    "closed_curve_checks": 87
+  },
+  "ring_base": {
+    "maximum_absolute_winding_residual": 0.0,
+    "closed_curve_checks": 51
+  },
+  "ring_slender": {
+    "maximum_absolute_winding_residual": 0.0,
+    "closed_curve_checks": 51
+  },
+  "hopf_fine": {
+    "maximum_absolute_winding_residual": 7.067899292141149e-16,
+    "closed_curve_checks": 92
+  },
+  "trefoil_prepared_wide": {
+    "maximum_absolute_winding_residual": 7.067899292141149e-17,
+    "closed_curve_checks": 51
+  },
+  "hopf_slender": {
+    "maximum_absolute_winding_residual": 3.5339496460705744e-16,
+    "closed_curve_checks": 132
+  },
+  "hopf_prepared_wide": {
+    "maximum_absolute_winding_residual": 1.3429008655068181e-15,
+    "closed_curve_checks": 1315
+  },
+  "hopf_base": {
+    "maximum_absolute_winding_residual": 4.240739575284689e-16,
+    "closed_curve_checks": 92
+  },
+  "ring_halfdt": {
+    "maximum_absolute_winding_residual": 0.0,
+    "closed_curve_checks": 51
+  },
+  "ring_pilot_v2": {
+    "maximum_absolute_winding_residual": 0.0,
+    "closed_curve_checks": 6
+  },
+  "hopf_pilot_v2": {
+    "maximum_absolute_winding_residual": 2.1203697876423444e-16,
+    "closed_curve_checks": 12
+  },
+  "hopf_wide": {
+    "maximum_absolute_winding_residual": 9.188269079783492e-16,
+    "closed_curve_checks": 254
+  },
+  "hopf_halfdt": {
+    "maximum_absolute_winding_residual": 3.5339496460705744e-16,
+    "closed_curve_checks": 73
+  },
+  "trefoil_pilot_v2": {
+    "maximum_absolute_winding_residual": 0.0,
+    "closed_curve_checks": 6
+  },
+  "ring_wide": {
+    "maximum_absolute_winding_residual": 0.0,
+    "closed_curve_checks": 51
+  },
+  "hopf_prepared_fine": {
+    "maximum_absolute_winding_residual": 7.067899292141149e-16,
+    "closed_curve_checks": 212
+  },
+  "ring_fine": {
+    "maximum_absolute_winding_residual": 0.0,
+    "closed_curve_checks": 51
+  },
+  "hopf_d060": {
+    "maximum_absolute_winding_residual": 2.8271597168564594e-16,
+    "closed_curve_checks": 72
+  },
+  "hopf_prepared_ref": {
+    "maximum_absolute_winding_residual": 6.361109362927033e-16,
+    "closed_curve_checks": 214
+  }
+}

@@ -1,0 +1,80 @@
+Local reproduction (existing results are deliberately protected)
+
+Work in this directory. Julia 1.13.1 and VortexPasta 0.34.19 are pinned by
+Project.toml and Manifest.toml. Python versions are in requirements-analysis.txt;
+ffmpeg is used only for movies. No remote execution is involved.
+
+To repeat a final baseline without overwriting it, copy its input TOML and change
+only the name to a fresh run name, for example:
+
+  cp inputs/ring_base.toml inputs/ring_repeat.toml
+  sed -i 's/name = "ring_base"/name = "ring_repeat"/' inputs/ring_repeat.toml
+  ./run.sh inputs/ring_repeat.toml
+
+Repeat with hopf_base / trefoil_base as appropriate. The launch script sets
+JULIA_NUM_THREADS=2, OPENBLAS_NUM_THREADS=1, and OMP_NUM_THREADS=1. It uses CPU
+execution. Existing result names cause an error rather than an overwrite.
+
+Final numerical checks are *_fine (double initial nodes), *_halfdt (half all
+coarse timestep caps), and *_d060 / *_d100 (threshold 0.06 / 0.10). The final
+baseline threshold is 0.08 at both spatial resolutions. End times differ for
+some representative checks: compare only common physical-time intervals.
+
+Prepared-centerline files are inputs/hopf_prepared_*.csv and
+trefoil_prepared_*.csv. *_prepared_ref / *_prepared_fine /
+*_prepared_halfdt use the exploratory wide core a=0.1171875; *_prepared_slender
+uses a=0.001. The prepared fine wide-core run also reduces the timestep, so it
+is not a pure spatial comparison. All have Delta=0.615, Gamma=2.0826013772617338,
+R=1 and a periodic side length 2*pi.
+
+The original batch argument lists are retained in inputs/*_args.txt. Original
+stdout/stderr and /usr/bin/time -v records are in the top-level *.log and
+*_resources.txt. Exact effective parameters are also recorded alongside each
+run. Failed preflight setup evidence is under runs/ring_pilot and pilot.log.
+
+Important source provenance:
+- Preliminary pilots and the eight *_slender / *_wide batches used Fourier
+  mesh 32, beta=3.5, quadrature 4. Use sources/simulate_preliminary_loaded.jl
+  as simulate.jl in a fresh copy of the project to reproduce that older driver.
+- The thirteen final analytic convergence runs used the loaded source preserved
+  in sources/simulate_convergence_loaded.jl (mesh 48, beta=4.5, quadrature 10).
+- The later prepared and operation-audit runs record source at process startup.
+  analysis/provenance.json explains older per-run source-copy limitations.
+- The installed package was not edited. instrument_reconnections.jl copies its
+  serial algorithm and adds only a read-only logging call; the exact-source
+  comparison is in analysis/instrumentation_check.json.
+
+Analysis of completed runs:
+  OPENBLAS_NUM_THREADS=1 python3 batch_analysis.py
+  OPENBLAS_NUM_THREADS=1 python3 compare.py
+  OPENBLAS_NUM_THREADS=1 python3 extra_analysis.py
+  OPENBLAS_NUM_THREADS=1 python3 candidate_sites.py
+  OPENBLAS_NUM_THREADS=1 python3 scale_check.py
+  OPENBLAS_NUM_THREADS=1 python3 validation.py
+  OPENBLAS_NUM_THREADS=1 python3 report.py
+
+The analysis script caches geometry; delete neither raw results nor original
+cached analyses to force changes. For a new diagnostic implementation, keep the
+old derived files with a revision suffix before regenerating them.
+
+Checkpoints:
+Each run contains initial, final, and sparse intermediate VTKHDF checkpoints.
+The executed exact-state restart test is in benchmark_final.jl and returns zero
+node/time/step difference against uninterrupted stepping. It uses
+load_checkpoint(file, Float64, QuinticSplineMethod()) and
+VortexFilamentProblem(checkpoint, additional_duration, matching_parameters).
+Pass the original refinement, reconnection and adaptivity parameters explicitly
+when continuing an interacting run; its config.toml records them.
+restart.jl is an optional geometry/clock helper that resets cumulative counters;
+it was not separately exercised as a production restart. Do not confuse it with
+the executed exact-state checkpoint test.
+
+Scientific quantities:
+The package energy is E_total/(rho*V), normalized impulse is I/(rho*Gamma), and
+native helicity is Gamma*integral(v_BS.ds). H/Gamma^2 is stored. Geometric
+sum(Wr)+2*sum(Lk) is recorded separately, with endpoint convergence checks and
+an independent exact-polygon crosscheck. No ribbon twist is added.
+Operation-budget CSV t is the start of the advancing step; derived JSON records
+both step-start and post-step times. Each before/after operation energy is
+measured on the same advected geometry. Straight-edge reconnection length-loss
+statistics need not equal the integrated spline-length change after refitting.

@@ -1,0 +1,104 @@
+{
+  "skew_segment_control": {
+    "quadrature": -0.03469438785396989,
+    "solid_angle": -0.03469438785396988
+  },
+  "endpoints": {
+    "hopf_base": {
+      "t": 1.2000246385428956,
+      "H_native": -2.112614442993657,
+      "exact_polygon_values": [
+        {
+          "samples_per_loop": 384,
+          "writhe": -2.1002970937202696,
+          "linking": 0,
+          "H_centerline": -2.1002970937202696
+        },
+        {
+          "samples_per_loop": 768,
+          "writhe": -2.111328442862019,
+          "linking": 0,
+          "H_centerline": -2.111328442862019
+        },
+        {
+          "samples_per_loop": 1536,
+          "writhe": -2.1141308492938466,
+          "linking": 0,
+          "H_centerline": -2.1141308492938466
+        }
+      ]
+    },
+    "hopf_fine": {
+      "t": 1.200074986286918,
+      "H_native": -2.30047049573766,
+      "exact_polygon_values": [
+        {
+          "samples_per_loop": 384,
+          "writhe": -2.2675353756135634,
+          "linking": 0,
+          "H_centerline": -2.2675353756135634
+        },
+        {
+          "samples_per_loop": 768,
+          "writhe": -2.2936666754941806,
+          "linking": 0,
+          "H_centerline": -2.2936666754941806
+        },
+        {
+          "samples_per_loop": 1536,
+          "writhe": -2.3006264090357633,
+          "linking": 0,
+          "H_centerline": -2.3006264090357633
+        }
+      ]
+    },
+    "trefoil_base": {
+      "t": 0.8001404018840738,
+      "H_native": -2.191673044446887,
+      "exact_polygon_values": [
+        {
+          "samples_per_loop": 384,
+          "writhe": -2.259795244037492,
+          "linking": -1.488124108775031e-16,
+          "H_centerline": -2.2597952440374924
+        },
+        {
+          "samples_per_loop": 768,
+          "writhe": -2.2756786463883607,
+          "linking": 2.6145705584600264e-16,
+          "H_centerline": -2.2756786463883603
+        },
+        {
+          "samples_per_loop": 1536,
+          "writhe": -2.2797045613012927,
+          "linking": 3.273734994397018e-16,
+          "H_centerline": -2.2797045613012923
+        }
+      ]
+    },
+    "trefoil_fine": {
+      "t": 0.5000088723429456,
+      "H_native": -2.74622119551739,
+      "exact_polygon_values": [
+        {
+          "samples_per_loop": 384,
+          "writhe": -2.6686223886814924,
+          "linking": -1.5461029701558764e-17,
+          "H_centerline": -2.6686223886814924
+        },
+        {
+          "samples_per_loop": 768,
+          "writhe": -2.7122859654169686,
+          "linking": -7.288771145020559e-17,
+          "H_centerline": -2.7122859654169686
+        },
+        {
+          "samples_per_loop": 1536,
+          "writhe": -2.7239297714509214,
+          "linking": 1.6896696745274932e-16,
+          "H_centerline": -2.723929771450921
+        }
+      ]
+    }
+  }
+}

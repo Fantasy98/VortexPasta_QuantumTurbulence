@@ -1,0 +1,10 @@
+name = "hopf_prepared_halfdt"
+input = "hopf_prepared_64.csv"
+end_time = 2.1
+a = 0.1171875
+drec = 0.08
+dt = 0.0005
+wall_limit = 900.0
+mesh = 48
+beta = 4.5
+quad = 10

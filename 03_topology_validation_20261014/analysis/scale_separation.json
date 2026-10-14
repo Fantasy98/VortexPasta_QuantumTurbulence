@@ -1,0 +1,302 @@
+[
+  {
+    "run": "hopf_base",
+    "a": 0.001,
+    "min_segment_over_a": 65.15360780873289,
+    "max_a_kappa": 0.02694776575131142,
+    "initial_a_kappa": 0.0010000001296463978,
+    "max_nodes": 147,
+    "min_nonlocal_separation_over_a": 90.98240610401162
+  },
+  {
+    "run": "hopf_d060",
+    "a": 0.001,
+    "min_segment_over_a": 68.43461778402599,
+    "max_a_kappa": 0.04514967797681135,
+    "initial_a_kappa": 0.0010000001296463978,
+    "max_nodes": 144,
+    "min_nonlocal_separation_over_a": 95.32500918140377
+  },
+  {
+    "run": "hopf_d100",
+    "a": 0.001,
+    "min_segment_over_a": 68.62520149623553,
+    "max_a_kappa": 0.02728333853421296,
+    "initial_a_kappa": 0.0010000001296463978,
+    "max_nodes": 142,
+    "min_nonlocal_separation_over_a": 76.70934603867398
+  },
+  {
+    "run": "hopf_fine",
+    "a": 0.001,
+    "min_segment_over_a": 33.64279025113095,
+    "max_a_kappa": 0.04718012639699284,
+    "initial_a_kappa": 0.0010000000080779706,
+    "max_nodes": 295,
+    "min_nonlocal_separation_over_a": 40.25986493036055
+  },
+  {
+    "run": "hopf_halfdt",
+    "a": 0.001,
+    "min_segment_over_a": 68.51915714895398,
+    "max_a_kappa": 0.026980294500830747,
+    "initial_a_kappa": 0.0010000001296463978,
+    "max_nodes": 143,
+    "min_nonlocal_separation_over_a": 90.35190306359812
+  },
+  {
+    "run": "hopf_operation_audit",
+    "a": 0.001,
+    "min_segment_over_a": 69.95732453322587,
+    "max_a_kappa": 0.027811698701583253,
+    "initial_a_kappa": 0.002009352015582708,
+    "max_nodes": 140
+  },
+  {
+    "run": "hopf_pilot_v2",
+    "a": 0.001,
+    "min_segment_over_a": 92.4075338669953,
+    "max_a_kappa": 0.0011260229893457938,
+    "initial_a_kappa": 0.0010000001296463978,
+    "max_nodes": 128
+  },
+  {
+    "run": "hopf_prepared_fine",
+    "a": 0.1171875,
+    "min_segment_over_a": 0.26404699999400183,
+    "max_a_kappa": 0.6312363167351143,
+    "initial_a_kappa": 0.3664524144563324,
+    "max_nodes": 419,
+    "min_nonlocal_separation_over_a": 0.9442492686743322
+  },
+  {
+    "run": "hopf_prepared_halfdt",
+    "a": 0.1171875,
+    "min_segment_over_a": 0.5280452025265276,
+    "max_a_kappa": 0.5203980419411577,
+    "initial_a_kappa": 0.14345417883720868,
+    "max_nodes": 210,
+    "min_nonlocal_separation_over_a": 0.9390582575334567
+  },
+  {
+    "run": "hopf_prepared_ref",
+    "a": 0.1171875,
+    "min_segment_over_a": 0.5280427421172148,
+    "max_a_kappa": 0.5211370023422132,
+    "initial_a_kappa": 0.14345417883720868,
+    "max_nodes": 210,
+    "min_nonlocal_separation_over_a": 0.9381178467746003
+  },
+  {
+    "run": "hopf_prepared_slender",
+    "a": 0.001,
+    "min_segment_over_a": 65.56331010326826,
+    "max_a_kappa": 0.033712696167180624,
+    "initial_a_kappa": 0.001224142326077514,
+    "max_nodes": 146,
+    "min_nonlocal_separation_over_a": 84.30693327524949
+  },
+  {
+    "run": "hopf_prepared_wide",
+    "a": 0.1171875,
+    "min_segment_over_a": 0.2147526825453707,
+    "max_a_kappa": 46.7065491362686,
+    "initial_a_kappa": 0.14345417883720868,
+    "max_nodes": 1141
+  },
+  {
+    "run": "hopf_slender",
+    "a": 0.001,
+    "min_segment_over_a": 63.95265651132882,
+    "max_a_kappa": 0.02693452977202961,
+    "initial_a_kappa": 0.0010000001296463978,
+    "max_nodes": 150,
+    "min_nonlocal_separation_over_a": 90.82587775812104
+  },
+  {
+    "run": "hopf_wide",
+    "a": 0.1171875,
+    "min_segment_over_a": 0.5444028566088075,
+    "max_a_kappa": 1.159246203005913,
+    "initial_a_kappa": 0.11718751519293724,
+    "max_nodes": 533,
+    "min_nonlocal_separation_over_a": 0.683598887628626
+  },
+  {
+    "run": "ring_base",
+    "a": 0.001,
+    "min_segment_over_a": 98.1352616220513,
+    "max_a_kappa": 0.0010000552160984975,
+    "initial_a_kappa": 0.0010000001296465348,
+    "max_nodes": 64,
+    "min_nonlocal_separation_over_a": 985.7929602849034
+  },
+  {
+    "run": "ring_fine",
+    "a": 0.001,
+    "min_segment_over_a": 49.08241422256179,
+    "max_a_kappa": 0.001000055090160151,
+    "initial_a_kappa": 0.001000000008076492,
+    "max_nodes": 128,
+    "min_nonlocal_separation_over_a": 985.7929420601055
+  },
+  {
+    "run": "ring_halfdt",
+    "a": 0.001,
+    "min_segment_over_a": 98.13526162205518,
+    "max_a_kappa": 0.0010000552161008411,
+    "initial_a_kappa": 0.0010000001296465348,
+    "max_nodes": 64,
+    "min_nonlocal_separation_over_a": 985.792960284917
+  },
+  {
+    "run": "ring_pilot_v2",
+    "a": 0.001,
+    "min_segment_over_a": 98.13531129375666,
+    "max_a_kappa": 0.0010000237878891624,
+    "initial_a_kappa": 0.0010000001296465348,
+    "max_nodes": 64
+  },
+  {
+    "run": "ring_slender",
+    "a": 0.001,
+    "min_segment_over_a": 98.13526168544668,
+    "max_a_kappa": 0.0010000551765764465,
+    "initial_a_kappa": 0.0010000001296465348,
+    "max_nodes": 64,
+    "min_nonlocal_separation_over_a": 985.7929635505168
+  },
+  {
+    "run": "ring_wide",
+    "a": 0.1171875,
+    "min_segment_over_a": 0.8373960751842281,
+    "max_a_kappa": 0.11722461267892662,
+    "initial_a_kappa": 0.1171875151929533,
+    "max_nodes": 64,
+    "min_nonlocal_separation_over_a": 8.411878213762453
+  },
+  {
+    "run": "trefoil_base",
+    "a": 0.001,
+    "min_segment_over_a": 46.86229869023886,
+    "max_a_kappa": 0.04967618035409173,
+    "initial_a_kappa": 0.002330594238860297,
+    "max_nodes": 154,
+    "min_nonlocal_separation_over_a": 40.568093842723194
+  },
+  {
+    "run": "trefoil_d060",
+    "a": 0.001,
+    "min_segment_over_a": 48.79026431478152,
+    "max_a_kappa": 0.08969765832508057,
+    "initial_a_kappa": 0.002330594238860297,
+    "max_nodes": 149,
+    "min_nonlocal_separation_over_a": 42.2993065615554
+  },
+  {
+    "run": "trefoil_d100",
+    "a": 0.001,
+    "min_segment_over_a": 47.76785284120065,
+    "max_a_kappa": 0.0459068395406005,
+    "initial_a_kappa": 0.002330594238860297,
+    "max_nodes": 150,
+    "min_nonlocal_separation_over_a": 40.56809384271293
+  },
+  {
+    "run": "trefoil_fine",
+    "a": 0.001,
+    "min_segment_over_a": 22.89232470113029,
+    "max_a_kappa": 0.13972135462492663,
+    "initial_a_kappa": 0.002330423257358462,
+    "max_nodes": 300,
+    "min_nonlocal_separation_over_a": 23.35216767626867
+  },
+  {
+    "run": "trefoil_halfdt",
+    "a": 0.001,
+    "min_segment_over_a": 48.19223850161707,
+    "max_a_kappa": 0.05064950429651128,
+    "initial_a_kappa": 0.002330594238860297,
+    "max_nodes": 150,
+    "min_nonlocal_separation_over_a": 40.22083870537139
+  },
+  {
+    "run": "trefoil_operation_audit",
+    "a": 0.001,
+    "min_segment_over_a": 48.739262410335975,
+    "max_a_kappa": 0.045906839540601596,
+    "initial_a_kappa": 0.0035917258250227125,
+    "max_nodes": 147
+  },
+  {
+    "run": "trefoil_pilot_v2",
+    "a": 0.001,
+    "min_segment_over_a": 64.29378923769396,
+    "max_a_kappa": 0.0023816148665711887,
+    "initial_a_kappa": 0.002330594238860297,
+    "max_nodes": 128
+  },
+  {
+    "run": "trefoil_prepared_fine",
+    "a": 0.1171875,
+    "min_segment_over_a": 0.1901973154679191,
+    "max_a_kappa": 1.4190779499299575,
+    "initial_a_kappa": 1.321284880696205,
+    "max_nodes": 344,
+    "min_nonlocal_separation_over_a": 1.729039151014469
+  },
+  {
+    "run": "trefoil_prepared_halfdt",
+    "a": 0.1171875,
+    "min_segment_over_a": 0.3806939711035412,
+    "max_a_kappa": 0.7896715265465317,
+    "initial_a_kappa": 0.4500997389893153,
+    "max_nodes": 174,
+    "min_nonlocal_separation_over_a": 1.729285296572945
+  },
+  {
+    "run": "trefoil_prepared_ref",
+    "a": 0.1171875,
+    "min_segment_over_a": 0.3807263532116936,
+    "max_a_kappa": 0.785032784299718,
+    "initial_a_kappa": 0.4500997389893153,
+    "max_nodes": 174,
+    "min_nonlocal_separation_over_a": 1.7318548492276926
+  },
+  {
+    "run": "trefoil_prepared_slender",
+    "a": 0.001,
+    "min_segment_over_a": 44.60767955207992,
+    "max_a_kappa": 0.08125137589500146,
+    "initial_a_kappa": 0.0038408511060421574,
+    "max_nodes": 155,
+    "min_nonlocal_separation_over_a": 41.17169640434179
+  },
+  {
+    "run": "trefoil_prepared_wide",
+    "a": 0.1171875,
+    "min_segment_over_a": 0.290763410532632,
+    "max_a_kappa": 1.075628728500242,
+    "initial_a_kappa": 0.4500997389893153,
+    "max_nodes": 530,
+    "min_nonlocal_separation_over_a": 0.6804713043037467
+  },
+  {
+    "run": "trefoil_slender",
+    "a": 0.001,
+    "min_segment_over_a": 43.466397792494455,
+    "max_a_kappa": 0.04589188405633341,
+    "initial_a_kappa": 0.002330594238860297,
+    "max_nodes": 155,
+    "min_nonlocal_separation_over_a": 40.498582163580295
+  },
+  {
+    "run": "trefoil_wide",
+    "a": 0.1171875,
+    "min_segment_over_a": 0.41598060256875086,
+    "max_a_kappa": 0.7066755844657664,
+    "initial_a_kappa": 0.273116512366441,
+    "max_nodes": 220,
+    "min_nonlocal_separation_over_a": 1.0523260923466886
+  }
+]
