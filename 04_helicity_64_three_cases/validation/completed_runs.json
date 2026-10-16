@@ -1,0 +1,64 @@
+{
+  "single_ring": {
+    "target_reached": true,
+    "finite_diagnostics": true,
+    "monotonic_time": true,
+    "snapshot_files_present": true,
+    "event_count_consistent": true,
+    "final_checkpoint_present": true,
+    "final_time": 10.0,
+    "final_loops": 1,
+    "final_nodes": 64,
+    "reconnections": 0,
+    "removed_loops": 0,
+    "H_initial_over_Gamma2": -1.666964511244472e-15,
+    "H_final_over_Gamma2": 2.8118199395668984e-15,
+    "relative_energy_change": 7.30562277340141e-11,
+    "maximum_relative_energy_change": 7.871059359843002e-11,
+    "actual_thread_counts": [
+      2
+    ]
+  },
+  "hopf_link": {
+    "target_reached": true,
+    "finite_diagnostics": true,
+    "monotonic_time": true,
+    "snapshot_files_present": true,
+    "event_count_consistent": true,
+    "final_checkpoint_present": true,
+    "final_time": 10.0,
+    "final_loops": 1,
+    "final_nodes": 152,
+    "reconnections": 1,
+    "removed_loops": 0,
+    "H_initial_over_Gamma2": -1.9999999986328376,
+    "H_final_over_Gamma2": -2.139422905502819,
+    "relative_energy_change": -0.0045161240264395275,
+    "maximum_relative_energy_change": 0.005440336253452527,
+    "actual_thread_counts": [
+      2,
+      2
+    ]
+  },
+  "trefoil": {
+    "target_reached": true,
+    "finite_diagnostics": true,
+    "monotonic_time": true,
+    "snapshot_files_present": true,
+    "event_count_consistent": true,
+    "final_checkpoint_present": true,
+    "final_time": 10.0,
+    "final_loops": 1,
+    "final_nodes": 112,
+    "reconnections": 7,
+    "removed_loops": 3,
+    "H_initial_over_Gamma2": -3.354124677246634,
+    "H_final_over_Gamma2": -0.9109390756638458,
+    "relative_energy_change": -0.19874529253577278,
+    "maximum_relative_energy_change": 0.19874529253577278,
+    "actual_thread_counts": [
+      2,
+      4
+    ]
+  }
+}

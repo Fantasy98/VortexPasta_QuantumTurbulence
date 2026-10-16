@@ -1,0 +1,5402 @@
+[
+  {
+    "t": 0.0,
+    "tstar": 0.0,
+    "loops": 1,
+    "periodic_winding": [
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "component_coordinate_spans": [
+      [
+        1.9975909124103577,
+        1.997590912410363,
+        0.0
+      ]
+    ],
+    "samples_per_loop": 256,
+    "writhe": 0.0,
+    "linking": 0,
+    "H_geometry": 0.0,
+    "component_writhe": [
+      0.0
+    ],
+    "pair_linking": []
+  },
+  {
+    "t": 0.0504577358611964,
+    "tstar": 0.1050833501980364,
+    "loops": 1,
+    "periodic_winding": [
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "component_coordinate_spans": [
+      [
+        1.9975918109987942,
+        1.9975918109987938,
+        2.253057358903021e-06
+      ]
+    ],
+    "samples_per_loop": 256,
+    "writhe": -1.3683162272497684e-20,
+    "linking": 0,
+    "H_geometry": -1.3683162272497684e-20,
+    "component_writhe": [
+      -1.3683162272497684e-20
+    ],
+    "pair_linking": []
+  },
+  {
+    "t": 0.10091545482642071,
+    "tstar": 0.21016666520849805,
+    "loops": 1,
+    "periodic_winding": [
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "component_coordinate_spans": [
+      [
+        1.9975940534086276,
+        1.9975940534086227,
+        3.385236052810825e-06
+      ]
+    ],
+    "samples_per_loop": 256,
+    "writhe": 7.47518569467977e-20,
+    "linking": 0,
+    "H_geometry": 7.47518569467977e-20,
+    "component_writhe": [
+      7.47518569467977e-20
+    ],
+    "pair_linking": []
+  },
+  {
+    "t": 0.15137314829135295,
+    "tstar": 0.3152499271120163,
+    "loops": 1,
+    "periodic_winding": [
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "component_coordinate_spans": [
+      [
+        1.9975965283852513,
+        1.9975965283852415,
+        2.8332877941572576e-06
+      ]
+    ],
+    "samples_per_loop": 256,
+    "writhe": -6.943362294039342e-19,
+    "linking": 0,
+    "H_geometry": -6.943362294039342e-19,
+    "component_writhe": [
+      -6.943362294039342e-19
+    ],
+    "pair_linking": []
+  },
+  {
+    "t": 0.2018308202700134,
+    "tstar": 0.42033314426819535,
+    "loops": 1,
+    "periodic_winding": [
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "component_coordinate_spans": [
+      [
+        1.9975980036754373,
+        1.9975980036754453,
+        8.718040160893281e-07
+      ]
+    ],
+    "samples_per_loop": 256,
+    "writhe": -3.2900253720227187e-19,
+    "linking": 0,
+    "H_geometry": -3.2900253720227187e-19,
+    "component_writhe": [
+      -3.2900253720227187e-19
+    ],
+    "pair_linking": []
+  },
+  {
+    "t": 0.252288485538735,
+    "tstar": 0.5254163474502466,
+    "loops": 1,
+    "periodic_winding": [
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "component_coordinate_spans": [
+      [
+        1.997597742648269,
+        1.9975977426482814,
+        1.5233943035930508e-06
+      ]
+    ],
+    "samples_per_loop": 256,
+    "writhe": 3.4410119902020034e-20,
+    "linking": 0,
+    "H_geometry": 3.4410119902020034e-20,
+    "component_writhe": [
+      3.4410119902020034e-20
+    ],
+    "pair_linking": []
+  },
+  {
+    "t": 0.30274616215662153,
+    "tstar": 0.6304995742680842,
+    "loops": 1,
+    "periodic_winding": [
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "component_coordinate_spans": [
+      [
+        1.9975958806616991,
+        1.9975958806617173,
+        3.1607180561721293e-06
+      ]
+    ],
+    "samples_per_loop": 256,
+    "writhe": 3.3789996291640833e-19,
+    "linking": 0,
+    "H_geometry": 3.3789996291640833e-19,
+    "component_writhe": [
+      3.3789996291640833e-19
+    ],
+    "pair_linking": []
+  },
+  {
+    "t": 0.3532038625568308,
+    "tstar": 0.7355828506150199,
+    "loops": 1,
+    "periodic_winding": [
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "component_coordinate_spans": [
+      [
+        1.9975933374596355,
+        1.9975933374596448,
+        3.225612205337569e-06
+      ]
+    ],
+    "samples_per_loop": 256,
+    "writhe": -1.8125134655540036e-19,
+    "linking": 0,
+    "H_geometry": -1.8125134655540036e-19,
+    "component_writhe": [
+      -1.8125134655540036e-19
+    ],
+    "pair_linking": []
+  },
+  {
+    "t": 0.40366158736247676,
+    "tstar": 0.8406661777887517,
+    "loops": 1,
+    "periodic_winding": [
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "component_coordinate_spans": [
+      [
+        1.9975913838501111,
+        1.997591383850124,
+        1.6857902385147838e-06
+      ]
+    ],
+    "samples_per_loop": 256,
+    "writhe": -3.480780786954583e-19,
+    "linking": 0,
+    "H_geometry": -3.480780786954583e-19,
+    "component_writhe": [
+      -3.480780786954583e-19
+    ],
+    "pair_linking": []
+  },
+  {
+    "t": 0.4541193249989125,
+    "tstar": 0.9457495316839041,
+    "loops": 1,
+    "periodic_winding": [
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "component_coordinate_spans": [
+      [
+        1.9975909889039123,
+        1.9975909889039478,
+        6.926998228351522e-07
+      ]
+    ],
+    "samples_per_loop": 256,
+    "writhe": 2.343662818791845e-19,
+    "linking": 0,
+    "H_geometry": 2.343662818791845e-19,
+    "component_writhe": [
+      2.343662818791845e-19
+    ],
+    "pair_linking": []
+  },
+  {
+    "t": 0.5045770575815496,
+    "tstar": 1.0508328750540084,
+    "loops": 1,
+    "periodic_winding": [
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "component_coordinate_spans": [
+      [
+        1.997592348291191,
+        1.997592348291208,
+        2.726576985967455e-06
+      ]
+    ],
+    "samples_per_loop": 256,
+    "writhe": -3.400569146046838e-20,
+    "linking": 0,
+    "H_geometry": -3.400569146046838e-20,
+    "component_writhe": [
+      -3.400569146046838e-20
+    ],
+    "pair_linking": []
+  },
+  {
+    "t": 0.5550347696727411,
+    "tstar": 1.1559161757485998,
+    "loops": 1,
+    "periodic_winding": [
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "component_coordinate_spans": [
+      [
+        1.9975947899300457,
+        1.9975947899300661,
+        3.4040034111448847e-06
+      ]
+    ],
+    "samples_per_loop": 256,
+    "writhe": 9.645618331006988e-20,
+    "linking": 0,
+    "H_geometry": 9.645618331006988e-20,
+    "component_writhe": [
+      9.645618331006988e-20
+    ],
+    "pair_linking": []
+  },
+  {
+    "t": 0.6054924560692936,
+    "tstar": 1.2609994229315007,
+    "loops": 1,
+    "periodic_winding": [
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "component_coordinate_spans": [
+      [
+        1.9975970928582405,
+        1.9975970928582871,
+        2.387966680839071e-06
+      ]
+    ],
+    "samples_per_loop": 256,
+    "writhe": 5.978800460938643e-20,
+    "linking": 0,
+    "H_geometry": 5.978800460938643e-20,
+    "component_writhe": [
+      5.978800460938643e-20
+    ],
+    "pair_linking": []
+  },
+  {
+    "t": 0.6559501243506404,
+    "tstar": 1.3660826323876492,
+    "loops": 1,
+    "periodic_winding": [
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "component_coordinate_spans": [
+      [
+        1.9975981177465085,
+        1.9975981177465227,
+        1.839378986900897e-07
+      ]
+    ],
+    "samples_per_loop": 256,
+    "writhe": 1.259289059881468e-19,
+    "linking": 0,
+    "H_geometry": 1.259289059881468e-19,
+    "component_writhe": [
+      1.259289059881468e-19
+    ],
+    "pair_linking": []
+  },
+  {
+    "t": 0.7064077910686417,
+    "tstar": 1.4711658385879722,
+    "loops": 1,
+    "periodic_winding": [
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "component_coordinate_spans": [
+      [
+        1.9975973502755724,
+        1.9975973502755942,
+        2.1115983868114085e-06
+      ]
+    ],
+    "samples_per_loop": 256,
+    "writhe": -5.658627944710249e-20,
+    "linking": 0,
+    "H_geometry": -5.658627944710249e-20,
+    "component_writhe": [
+      -5.658627944710249e-20
+    ],
+    "pair_linking": []
+  },
+  {
+    "t": 0.7568654736200072,
+    "tstar": 1.5762490777628815,
+    "loops": 1,
+    "periodic_winding": [
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "component_coordinate_spans": [
+      [
+        1.9975951733884423,
+        1.9975951733884734,
+        3.356633518691865e-06
+      ]
+    ],
+    "samples_per_loop": 256,
+    "writhe": -2.0895469480168878e-21,
+    "linking": 0,
+    "H_geometry": -2.0895469480168878e-21,
+    "component_writhe": [
+      -2.0895469480168878e-21
+    ],
+    "pair_linking": []
+  },
+  {
+    "t": 0.8073231814511528,
+    "tstar": 1.6813323695854954,
+    "loops": 1,
+    "periodic_winding": [
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "component_coordinate_spans": [
+      [
+        1.9975926726058542,
+        1.9975926726059088,
+        2.9317719540955522e-06
+      ]
+    ],
+    "samples_per_loop": 256,
+    "writhe": 2.1973945324306624e-19,
+    "linking": 0,
+    "H_geometry": 2.1973945324306624e-19,
+    "component_writhe": [
+      2.1973945324306624e-19
+    ],
+    "pair_linking": []
+  },
+  {
+    "t": 0.8577809114885581,
+    "tstar": 1.7864157076548963,
+    "loops": 1,
+    "periodic_winding": [
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "component_coordinate_spans": [
+      [
+        1.9975910866382702,
+        1.997591086638327,
+        1.0483768999591803e-06
+      ]
+    ],
+    "samples_per_loop": 256,
+    "writhe": -7.792156485745879e-19,
+    "linking": 0,
+    "H_geometry": -7.792156485745879e-19,
+    "component_writhe": [
+      -7.792156485745879e-19
+    ],
+    "pair_linking": []
+  },
+  {
+    "t": 0.9082386495893646,
+    "tstar": 1.891499062517148,
+    "loops": 1,
+    "periodic_winding": [
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "component_coordinate_spans": [
+      [
+        1.9975912110653642,
+        1.9975912110653953,
+        1.3565778251845018e-06
+      ]
+    ],
+    "samples_per_loop": 256,
+    "writhe": 5.41428576127279e-19,
+    "linking": 0,
+    "H_geometry": 5.41428576127279e-19,
+    "component_writhe": [
+      5.41428576127279e-19
+    ],
+    "pair_linking": []
+  },
+  {
+    "t": 0.9586963775795277,
+    "tstar": 1.9965823963229596,
+    "loops": 1,
+    "periodic_winding": [
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "component_coordinate_spans": [
+      [
+        1.9975929783166553,
+        1.9975929783166921,
+        3.0866450924094124e-06
+      ]
+    ],
+    "samples_per_loop": 256,
+    "writhe": 2.2634511778840995e-19,
+    "linking": 0,
+    "H_geometry": 2.2634511778840995e-19,
+    "component_writhe": [
+      2.2634511778840995e-19
+    ],
+    "pair_linking": []
+  },
+  {
+    "t": 1.009154082370027,
+    "tstar": 2.101665681813119,
+    "loops": 1,
+    "periodic_winding": [
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "component_coordinate_spans": [
+      [
+        1.9975955121774,
+        1.997595512177468,
+        3.2811309145230894e-06
+      ]
+    ],
+    "samples_per_loop": 256,
+    "writhe": -5.221171180431875e-19,
+    "linking": 0,
+    "H_geometry": -5.221171180431875e-19,
+    "component_writhe": [
+      -5.221171180431875e-19
+    ],
+    "pair_linking": []
+  },
+  {
+    "t": 1.059611762340485,
+    "tstar": 2.206748915613027,
+    "loops": 1,
+    "periodic_winding": [
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "component_coordinate_spans": [
+      [
+        1.997597552724931,
+        1.9975975527249847,
+        1.8432824075986787e-06
+      ]
+    ],
+    "samples_per_loop": 256,
+    "writhe": -9.865020760548761e-19,
+    "linking": 0,
+    "H_geometry": -9.865020760548761e-19,
+    "component_writhe": [
+      -9.865020760548761e-19
+    ],
+    "pair_linking": []
+  },
+  {
+    "t": 1.1100694282862924,
+    "tstar": 2.311832120205178,
+    "loops": 1,
+    "periodic_winding": [
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "component_coordinate_spans": [
+      [
+        1.9975980807278155,
+        1.9975980807278448,
+        5.115822006018789e-07
+      ]
+    ],
+    "samples_per_loop": 256,
+    "writhe": -2.2169419071056594e-19,
+    "linking": 0,
+    "H_geometry": -2.2169419071056594e-19,
+    "component_writhe": [
+      -2.2169419071056594e-19
+    ],
+    "pair_linking": []
+  },
+  {
+    "t": 1.160527097938348,
+    "tstar": 2.4169153325159667,
+    "loops": 1,
+    "periodic_winding": [
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "component_coordinate_spans": [
+      [
+        1.9975968397244324,
+        1.9975968397244404,
+        2.6119392746437597e-06
+      ]
+    ],
+    "samples_per_loop": 256,
+    "writhe": -4.088097496684653e-20,
+    "linking": 0,
+    "H_geometry": -4.088097496684653e-20,
+    "component_writhe": [
+      -4.088097496684653e-20
+    ],
+    "pair_linking": []
+  },
+  {
+    "t": 1.2109847871857815,
+    "tstar": 2.521998585636116,
+    "loops": 1,
+    "periodic_winding": [
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "component_coordinate_spans": [
+      [
+        1.9975944407068709,
+        1.9975944407069233,
+        3.412879981290473e-06
+      ]
+    ],
+    "samples_per_loop": 256,
+    "writhe": 1.861044878540202e-19,
+    "linking": 0,
+    "H_geometry": 1.861044878540202e-19,
+    "component_writhe": [
+      1.861044878540202e-19
+    ],
+    "pair_linking": []
+  },
+  {
+    "t": 1.261442502207381,
+    "tstar": 2.627081892433579,
+    "loops": 1,
+    "periodic_winding": [
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "component_coordinate_spans": [
+      [
+        1.997592081728822,
+        1.997592081728833,
+        2.5159414658304513e-06
+      ]
+    ],
+    "samples_per_loop": 256,
+    "writhe": 2.085165639900078e-19,
+    "linking": 0,
+    "H_geometry": 2.085165639900078e-19,
+    "component_writhe": [
+      2.085165639900078e-19
+    ],
+    "pair_linking": []
+  },
+  {
+    "t": 1.3119002362931886,
+    "tstar": 2.7321652389341886,
+    "loops": 1,
+    "periodic_winding": [
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "component_coordinate_spans": [
+      [
+        1.9975909350717074,
+        1.9975909350717016,
+        3.6734165576035593e-07
+      ]
+    ],
+    "samples_per_loop": 256,
+    "writhe": 1.149714228998566e-18,
+    "linking": 0,
+    "H_geometry": 1.149714228998566e-18,
+    "component_writhe": [
+      1.149714228998566e-18
+    ],
+    "pair_linking": []
+  },
+  {
+    "t": 1.3623579733224953,
+    "tstar": 2.8372485915649333,
+    "loops": 1,
+    "periodic_winding": [
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "component_coordinate_spans": [
+      [
+        1.9975915687997428,
+        1.9975915687997476,
+        1.9640079669258625e-06
+      ]
+    ],
+    "samples_per_loop": 256,
+    "writhe": 5.363058158676247e-19,
+    "linking": 0,
+    "H_geometry": 5.363058158676247e-19,
+    "component_writhe": [
+      5.363058158676247e-19
+    ],
+    "pair_linking": []
+  },
+  {
+    "t": 1.4128156956525422,
+    "tstar": 2.942331913582979,
+    "loops": 1,
+    "periodic_winding": [
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "component_coordinate_spans": [
+      [
+        1.9975936729527697,
+        1.9975936729527821,
+        3.3182785550422977e-06
+      ]
+    ],
+    "samples_per_loop": 256,
+    "writhe": -9.007969488160544e-19,
+    "linking": 0,
+    "H_geometry": -9.007969488160544e-19,
+    "component_writhe": [
+      -9.007969488160544e-19
+    ],
+    "pair_linking": []
+  },
+  {
+    "t": 1.4632733929769675,
+    "tstar": 3.0474151835242824,
+    "loops": 1,
+    "periodic_winding": [
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "component_coordinate_spans": [
+      [
+        1.9975961941667868,
+        1.997596194166798,
+        3.021732737806815e-06
+      ]
+    ],
+    "samples_per_loop": 256,
+    "writhe": -2.965134523976222e-19,
+    "linking": 0,
+    "H_geometry": -2.965134523976222e-19,
+    "component_writhe": [
+      -2.965134523976222e-19
+    ],
+    "pair_linking": []
+  },
+  {
+    "t": 1.5137310674474445,
+    "tstar": 3.152498405869922,
+    "loops": 1,
+    "periodic_winding": [
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "component_coordinate_spans": [
+      [
+        1.997597883906859,
+        1.997597883906833,
+        1.2219014324799105e-06
+      ]
+    ],
+    "samples_per_loop": 256,
+    "writhe": -6.276560901031049e-19,
+    "linking": 0,
+    "H_geometry": -6.276560901031049e-19,
+    "component_writhe": [
+      -6.276560901031049e-19
+    ],
+    "pair_linking": []
+  },
+  {
+    "t": 1.5641887325314572,
+    "tstar": 3.2575816086672984,
+    "loops": 1,
+    "periodic_winding": [
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "component_coordinate_spans": [
+      [
+        1.9975978984216867,
+        1.9975978984216534,
+        1.1858146464760466e-06
+      ]
+    ],
+    "samples_per_loop": 256,
+    "writhe": 6.069796860287766e-20,
+    "linking": 0,
+    "H_geometry": 6.069796860287766e-20,
+    "component_writhe": [
+      6.069796860287766e-20
+    ],
+    "pair_linking": []
+  },
+  {
+    "t": 1.6146464064388597,
+    "tstar": 3.3626648298402784,
+    "loops": 1,
+    "periodic_winding": [
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "component_coordinate_spans": [
+      [
+        1.9975962299982055,
+        1.9975962299981922,
+        3.003598935791274e-06
+      ]
+    ],
+    "samples_per_loop": 256,
+    "writhe": 7.495407116757352e-20,
+    "linking": 0,
+    "H_geometry": 7.495407116757352e-20,
+    "component_writhe": [
+      7.495407116757352e-20
+    ],
+    "pair_linking": []
+  },
+  {
+    "t": 1.665104102921256,
+    "tstar": 3.467748098027972,
+    "loops": 1,
+    "periodic_winding": [
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "component_coordinate_spans": [
+      [
+        1.9975937126120877,
+        1.997593712612061,
+        3.3271192965145246e-06
+      ]
+    ],
+    "samples_per_loop": 256,
+    "writhe": -2.54115870774957e-20,
+    "linking": 0,
+    "H_geometry": -2.54115870774957e-20,
+    "component_writhe": [
+      -2.54115870774957e-20
+    ],
+    "pair_linking": []
+  },
+  {
+    "t": 1.7155618245424928,
+    "tstar": 3.5728314185698484,
+    "loops": 1,
+    "periodic_winding": [
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "component_coordinate_spans": [
+      [
+        1.9975915924810321,
+        1.997591592480997,
+        1.9954249692588633e-06
+      ]
+    ],
+    "samples_per_loop": 256,
+    "writhe": 4.711254320375496e-19,
+    "linking": 0,
+    "H_geometry": 4.711254320375496e-19,
+    "component_writhe": [
+      4.711254320375496e-19
+    ],
+    "pair_linking": []
+  },
+  {
+    "t": 1.7660195613561842,
+    "tstar": 3.6779147707515523,
+    "loops": 1,
+    "periodic_winding": [
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "component_coordinate_spans": [
+      [
+        1.9975909307841704,
+        1.9975909307841664,
+        3.2897824642219575e-07
+      ]
+    ],
+    "samples_per_loop": 256,
+    "writhe": 1.6065919840639522e-19,
+    "linking": 0,
+    "H_geometry": 1.6065919840639522e-19,
+    "component_writhe": [
+      1.6065919840639522e-19
+    ],
+    "pair_linking": []
+  },
+  {
+    "t": 1.8164772958211912,
+    "tstar": 3.7829981180418826,
+    "loops": 1,
+    "periodic_winding": [
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "component_coordinate_spans": [
+      [
+        1.997592052033959,
+        1.997592052033915,
+        2.489717346065845e-06
+      ]
+    ],
+    "samples_per_loop": 256,
+    "writhe": 1.5715415191294752e-19,
+    "linking": 0,
+    "H_geometry": 1.5715415191294752e-19,
+    "component_writhe": [
+      1.5715415191294752e-19
+    ],
+    "pair_linking": []
+  },
+  {
+    "t": 1.8669350116303216,
+    "tstar": 3.8880814264794585,
+    "loops": 1,
+    "periodic_winding": [
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "component_coordinate_spans": [
+      [
+        1.9975943998649077,
+        1.9975943998649153,
+        3.4118413827499694e-06
+      ]
+    ],
+    "samples_per_loop": 256,
+    "writhe": -7.391603816759094e-19,
+    "linking": 0,
+    "H_geometry": -7.391603816759094e-19,
+    "component_writhe": [
+      -7.391603816759094e-19
+    ],
+    "pair_linking": []
+  },
+  {
+    "t": 1.91739270168382,
+    "tstar": 3.99316468127832,
+    "loops": 1,
+    "periodic_winding": [
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "component_coordinate_spans": [
+      [
+        1.9975968084892122,
+        1.997596808489205,
+        2.636602657979381e-06
+      ]
+    ],
+    "samples_per_loop": 256,
+    "writhe": -1.1399826696237295e-18,
+    "linking": 0,
+    "H_geometry": -1.1399826696237295e-18,
+    "component_writhe": [
+      -1.1399826696237295e-18
+    ],
+    "pair_linking": []
+  },
+  {
+    "t": 1.9678503717539393,
+    "tstar": 4.098247894459769,
+    "loops": 1,
+    "periodic_winding": [
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "component_coordinate_spans": [
+      [
+        1.997598074418125,
+        1.9975980744181028,
+        5.496776189772845e-07
+      ]
+    ],
+    "samples_per_loop": 256,
+    "writhe": -4.632475030198246e-19,
+    "linking": 0,
+    "H_geometry": -4.632475030198246e-19,
+    "component_writhe": [
+      -4.632475030198246e-19
+    ],
+    "pair_linking": []
+  },
+  {
+    "t": 2.0183080375291484,
+    "tstar": 4.203331098696632,
+    "loops": 1,
+    "periodic_winding": [
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "component_coordinate_spans": [
+      [
+        1.997597574416425,
+        1.9975975744164551,
+        1.8107072135009616e-06
+      ]
+    ],
+    "samples_per_loop": 256,
+    "writhe": -9.441718991724694e-19,
+    "linking": 0,
+    "H_geometry": -9.441718991724694e-19,
+    "component_writhe": [
+      -9.441718991724694e-19
+    ],
+    "pair_linking": []
+  },
+  {
+    "t": 2.068765716818414,
+    "tstar": 4.308414331077887,
+    "loops": 1,
+    "periodic_winding": [
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "component_coordinate_spans": [
+      [
+        1.997595551406433,
+        1.9975955514063957,
+        3.2702815975227395e-06
+      ]
+    ],
+    "samples_per_loop": 256,
+    "writhe": 1.8765479687996824e-19,
+    "linking": 0,
+    "H_geometry": 1.8765479687996824e-19,
+    "component_writhe": [
+      1.8765479687996824e-19
+    ],
+    "pair_linking": []
+  },
+  {
+    "t": 2.119223420760159,
+    "tstar": 4.41349761480043,
+    "loops": 1,
+    "periodic_winding": [
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "component_coordinate_spans": [
+      [
+        1.997593015078436,
+        1.997593015078468,
+        3.102919006181537e-06
+      ]
+    ],
+    "samples_per_loop": 256,
+    "writhe": 8.98639997127779e-19,
+    "linking": 0,
+    "H_geometry": 8.98639997127779e-19,
+    "component_writhe": [
+      8.98639997127779e-19
+    ],
+    "pair_linking": []
+  },
+  {
+    "t": 2.1696811481560765,
+    "tstar": 4.5185809473686644,
+    "loops": 1,
+    "periodic_winding": [
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "component_coordinate_spans": [
+      [
+        1.9975912275666645,
+        1.9975912275666978,
+        1.391878867273988e-06
+      ]
+    ],
+    "samples_per_loop": 256,
+    "writhe": -5.287901873287898e-19,
+    "linking": 0,
+    "H_geometry": -5.287901873287898e-19,
+    "component_writhe": [
+      -5.287901873287898e-19
+    ],
+    "pair_linking": []
+  },
+  {
+    "t": 2.2201388862089373,
+    "tstar": 4.623664302131065,
+    "loops": 1,
+    "periodic_winding": [
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "component_coordinate_spans": [
+      [
+        1.9975910743234229,
+        1.9975910743234242,
+        1.0116106974322747e-06
+      ]
+    ],
+    "samples_per_loop": 256,
+    "writhe": 1.7558934837367716e-19,
+    "linking": 0,
+    "H_geometry": 1.7558934837367716e-19,
+    "component_writhe": [
+      1.7558934837367716e-19
+    ],
+    "pair_linking": []
+  },
+  {
+    "t": 2.2705966167752085,
+    "tstar": 4.728747641301882,
+    "loops": 1,
+    "periodic_winding": [
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "component_coordinate_spans": [
+      [
+        1.9975926376893929,
+        1.9975926376894826,
+        2.9118312614428987e-06
+      ]
+    ],
+    "samples_per_loop": 256,
+    "writhe": -9.04301995309502e-19,
+    "linking": 0,
+    "H_geometry": -9.04301995309502e-19,
+    "component_writhe": [
+      -9.04301995309502e-19
+    ],
+    "pair_linking": []
+  },
+  {
+    "t": 2.3210543254415508,
+    "tstar": 4.833830934863878,
+    "loops": 1,
+    "periodic_winding": [
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "component_coordinate_spans": [
+      [
+        1.9975951334391349,
+        1.9975951334392028,
+        3.363438620063164e-06
+      ]
+    ],
+    "samples_per_loop": 256,
+    "writhe": -5.935661427173133e-19,
+    "linking": 0,
+    "H_geometry": -5.935661427173133e-19,
+    "component_writhe": [
+      -5.935661427173133e-19
+    ],
+    "pair_linking": []
+  },
+  {
+    "t": 2.3715120087247104,
+    "tstar": 4.9389141755628225,
+    "loops": 1,
+    "periodic_winding": [
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "component_coordinate_spans": [
+      [
+        1.9975973247462644,
+        1.997597324746275,
+        2.141763893348525e-06
+      ]
+    ],
+    "samples_per_loop": 256,
+    "writhe": -9.356451995297554e-19,
+    "linking": 0,
+    "H_geometry": -9.356451995297554e-19,
+    "component_writhe": [
+      -9.356451995297554e-19
+    ],
+    "pair_linking": []
+  },
+  {
+    "t": 2.4219696757047044,
+    "tstar": 5.043997382308772,
+    "loops": 1,
+    "periodic_winding": [
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "component_coordinate_spans": [
+      [
+        1.9975981198503736,
+        1.9975981198503954,
+        1.4541900572595523e-07
+      ]
+    ],
+    "samples_per_loop": 256,
+    "writhe": -7.757506236456688e-19,
+    "linking": 0,
+    "H_geometry": -7.757506236456688e-19,
+    "component_writhe": [
+      -7.757506236456688e-19
+    ],
+    "pair_linking": []
+  },
+  {
+    "t": 2.472427343646084,
+    "tstar": 5.149080591056905,
+    "loops": 1,
+    "periodic_winding": [
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "component_coordinate_spans": [
+      [
+        1.9975971211067876,
+        1.9975971211067667,
+        2.360257060907145e-06
+      ]
+    ],
+    "samples_per_loop": 256,
+    "writhe": -8.017793853761574e-20,
+    "linking": 0,
+    "H_geometry": -8.017793853761574e-20,
+    "component_writhe": [
+      -8.017793853761574e-20
+    ],
+    "pair_linking": []
+  },
+  {
+    "t": 2.5228850292752467,
+    "tstar": 5.254163836641639,
+    "loops": 1,
+    "periodic_winding": [
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "component_coordinate_spans": [
+      [
+        1.9975948305016886,
+        1.9975948305017224,
+        3.400888488158671e-06
+      ]
+    ],
+    "samples_per_loop": 256,
+    "writhe": 5.526514653803375e-19,
+    "linking": 0,
+    "H_geometry": 5.526514653803375e-19,
+    "component_writhe": [
+      5.526514653803375e-19
+    ],
+    "pair_linking": []
+  },
+  {
+    "t": 2.5733427405461056,
+    "tstar": 5.359247135627804,
+    "loops": 1,
+    "periodic_winding": [
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "component_coordinate_spans": [
+      [
+        1.9975923810528302,
+        1.9975923810528617,
+        2.7496067671606284e-06
+      ]
+    ],
+    "samples_per_loop": 256,
+    "writhe": 2.6051932109952488e-20,
+    "linking": 0,
+    "H_geometry": 2.6051932109952488e-20,
+    "component_writhe": [
+      2.6051932109952488e-20
+    ],
+    "pair_linking": []
+  },
+  {
+    "t": 2.6238004726704562,
+    "tstar": 5.46433047804348,
+    "loops": 1,
+    "periodic_winding": [
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "component_coordinate_spans": [
+      [
+        1.9975909972389494,
+        1.9975909972389556,
+        7.304172786604113e-07
+      ]
+    ],
+    "samples_per_loop": 256,
+    "writhe": 6.019411816944455e-19,
+    "linking": 0,
+    "H_geometry": 6.019411816944455e-19,
+    "component_writhe": [
+      6.019411816944455e-19
+    ],
+    "pair_linking": []
+  },
+  {
+    "t": 2.6742582104343535,
+    "tstar": 5.569413832204084,
+    "loops": 1,
+    "periodic_winding": [
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "component_coordinate_spans": [
+      [
+        1.9975913640967469,
+        1.9975913640968255,
+        1.6521494536902992e-06
+      ]
+    ],
+    "samples_per_loop": 256,
+    "writhe": -6.787657344041955e-20,
+    "linking": 0,
+    "H_geometry": -6.787657344041955e-20,
+    "component_writhe": [
+      -6.787657344041955e-20
+    ],
+    "pair_linking": []
+  },
+  {
+    "t": 2.7247159358901603,
+    "tstar": 5.674497160731842,
+    "loops": 1,
+    "periodic_winding": [
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "component_coordinate_spans": [
+      [
+        1.9975932989463976,
+        1.9975932989464487,
+        3.212784218220577e-06
+      ]
+    ],
+    "samples_per_loop": 256,
+    "writhe": -1.1172335697864488e-18,
+    "linking": 0,
+    "H_geometry": -1.1172335697864488e-18,
+    "component_writhe": [
+      -1.1172335697864488e-18
+    ],
+    "pair_linking": []
+  },
+  {
+    "t": 2.7751736371434648,
+    "tstar": 5.779580438855435,
+    "loops": 1,
+    "periodic_winding": [
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "component_coordinate_spans": [
+      [
+        1.9975958429043672,
+        1.9975958429044223,
+        3.175084865247868e-06
+      ]
+    ],
+    "samples_per_loop": 256,
+    "writhe": -1.1473634886820472e-18,
+    "linking": 0,
+    "H_geometry": -1.1473634886820472e-18,
+    "component_writhe": [
+      -1.1473634886820472e-18
+    ],
+    "pair_linking": []
+  },
+  {
+    "t": 2.825631314386402,
+    "tstar": 5.884663666975004,
+    "loops": 1,
+    "periodic_winding": [
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "component_coordinate_spans": [
+      [
+        1.997597724330162,
+        1.9975977243301979,
+        1.5578084422429583e-06
+      ]
+    ],
+    "samples_per_loop": 256,
+    "writhe": -3.0544458048188797e-19,
+    "linking": 0,
+    "H_geometry": -3.0544458048188797e-19,
+    "component_writhe": [
+      -3.0544458048188797e-19
+    ],
+    "pair_linking": []
+  },
+  {
+    "t": 2.8760889797485607,
+    "tstar": 5.989746870351647,
+    "loops": 1,
+    "periodic_winding": [
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "component_coordinate_spans": [
+      [
+        1.9975980137231946,
+        1.997598013723155,
+        8.344634911949811e-07
+      ]
+    ],
+    "samples_per_loop": 256,
+    "writhe": -4.554538299274229e-19,
+    "linking": 0,
+    "H_geometry": -4.554538299274229e-19,
+    "component_writhe": [
+      -4.554538299274229e-19
+    ],
+    "pair_linking": []
+  },
+  {
+    "t": 2.9265466512366873,
+    "tstar": 6.0948300864862395,
+    "loops": 1,
+    "periodic_winding": [
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "component_coordinate_spans": [
+      [
+        1.9975965622145484,
+        1.997596562214576,
+        2.8115975165832197e-06
+      ]
+    ],
+    "samples_per_loop": 256,
+    "writhe": -3.180155645401186e-19,
+    "linking": 0,
+    "H_geometry": -3.180155645401186e-19,
+    "component_writhe": [
+      -3.180155645401186e-19
+    ],
+    "pair_linking": []
+  },
+  {
+    "t": 2.9770043438736646,
+    "tstar": 6.199913346665458,
+    "loops": 1,
+    "periodic_winding": [
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "component_coordinate_spans": [
+      [
+        1.9975940936777317,
+        1.9975940936777263,
+        3.389986904522857e-06
+      ]
+    ],
+    "samples_per_loop": 256,
+    "writhe": -4.778996084335398e-19,
+    "linking": 0,
+    "H_geometry": -4.778996084335398e-19,
+    "component_writhe": [
+      -4.778996084335398e-19
+    ],
+    "pair_linking": []
+  },
+  {
+    "t": 3.0274620620870536,
+    "tstar": 6.304996660110146,
+    "loops": 1,
+    "periodic_winding": [
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "component_coordinate_spans": [
+      [
+        1.9975918381225397,
+        1.997591838122533,
+        2.2818858402828823e-06
+      ]
+    ],
+    "samples_per_loop": 256,
+    "writhe": -1.2975412499782286e-19,
+    "linking": 0,
+    "H_geometry": -1.2975412499782286e-19,
+    "component_writhe": [
+      -1.2975412499782286e-19
+    ],
+    "pair_linking": []
+  },
+  {
+    "t": 3.077919797641291,
+    "tstar": 6.410080009668909,
+    "loops": 1,
+    "periodic_winding": [
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "component_coordinate_spans": [
+      [
+        1.9975909126516185,
+        1.9975909126516793,
+        3.856408259395039e-08
+      ]
+    ],
+    "samples_per_loop": 256,
+    "writhe": 2.0939124581476992e-19,
+    "linking": 0,
+    "H_geometry": 2.0939124581476992e-19,
+    "component_writhe": [
+      2.0939124581476992e-19
+    ],
+    "pair_linking": []
+  },
+  {
+    "t": 3.1283775336451556,
+    "tstar": 6.515163360164067,
+    "loops": 1,
+    "periodic_winding": [
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "component_coordinate_spans": [
+      [
+        1.9975917841991921,
+        1.997591784199157,
+        2.223943267765094e-06
+      ]
+    ],
+    "samples_per_loop": 256,
+    "writhe": -6.855062084300564e-20,
+    "linking": 0,
+    "H_geometry": -6.855062084300564e-20,
+    "component_writhe": [
+      -6.855062084300564e-20
+    ],
+    "pair_linking": []
+  },
+  {
+    "t": 3.1788352529711243,
+    "tstar": 6.620246675925816,
+    "loops": 1,
+    "periodic_winding": [
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "component_coordinate_spans": [
+      [
+        1.9975940132084906,
+        1.9975940132084857,
+        3.380055885848776e-06
+      ]
+    ],
+    "samples_per_loop": 256,
+    "writhe": 1.6082771025704173e-19,
+    "linking": 0,
+    "H_geometry": 1.6082771025704173e-19,
+    "component_writhe": [
+      1.6082771025704173e-19
+    ],
+    "pair_linking": []
+  },
+  {
+    "t": 3.22929294683877,
+    "tstar": 6.725329938668025,
+    "loops": 1,
+    "periodic_winding": [
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "component_coordinate_spans": [
+      [
+        1.997596494303318,
+        1.997596494303301,
+        2.854618465164549e-06
+      ]
+    ],
+    "samples_per_loop": 256,
+    "writhe": -6.075189239508454e-19,
+    "linking": 0,
+    "H_geometry": -6.075189239508454e-19,
+    "component_writhe": [
+      -6.075189239508454e-19
+    ],
+    "pair_linking": []
+  },
+  {
+    "t": 3.279750619061461,
+    "tstar": 6.830413156332423,
+    "loops": 1,
+    "periodic_winding": [
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "component_coordinate_spans": [
+      [
+        1.9975979931689238,
+        1.997597993168907,
+        9.090336341444072e-07
+      ]
+    ],
+    "samples_per_loop": 256,
+    "writhe": 1.953052348993204e-19,
+    "linking": 0,
+    "H_geometry": 1.953052348993204e-19,
+    "component_writhe": [
+      1.953052348993204e-19
+    ],
+    "pair_linking": []
+  },
+  {
+    "t": 3.3302082842912784,
+    "tstar": 6.9354963594334516,
+    "loops": 1,
+    "periodic_winding": [
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "component_coordinate_spans": [
+      [
+        1.9975977605793807,
+        1.9975977605793878,
+        1.4887873565072596e-06
+      ]
+    ],
+    "samples_per_loop": 256,
+    "writhe": -8.891696311214443e-19,
+    "linking": 0,
+    "H_geometry": -8.891696311214443e-19,
+    "component_writhe": [
+      -8.891696311214443e-19
+    ],
+    "pair_linking": []
+  },
+  {
+    "t": 3.380665960611787,
+    "tstar": 7.04057958563197,
+    "loops": 1,
+    "periodic_winding": [
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "component_coordinate_spans": [
+      [
+        1.997595918222955,
+        1.9975959182228924,
+        3.1459501634856224e-06
+      ]
+    ],
+    "samples_per_loop": 256,
+    "writhe": -7.128051282347932e-19,
+    "linking": 0,
+    "H_geometry": -7.128051282347932e-19,
+    "component_writhe": [
+      -7.128051282347932e-19
+    ],
+    "pair_linking": []
+  },
+  {
+    "t": 3.4311236605983346,
+    "tstar": 7.1456628611174136,
+    "loops": 1,
+    "periodic_winding": [
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "component_coordinate_spans": [
+      [
+        1.9975933761390041,
+        1.99759337613895,
+        3.2380302252832394e-06
+      ]
+    ],
+    "samples_per_loop": 256,
+    "writhe": -3.275196329165825e-19,
+    "linking": 0,
+    "H_geometry": -3.275196329165825e-19,
+    "component_writhe": [
+      -3.275196329165825e-19
+    ],
+    "pair_linking": []
+  },
+  {
+    "t": 3.481581385084413,
+    "tstar": 7.250746187625613,
+    "loops": 1,
+    "periodic_winding": [
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "component_coordinate_spans": [
+      [
+        1.997591403997927,
+        1.9975914039979545,
+        1.7192162458101734e-06
+      ]
+    ],
+    "samples_per_loop": 256,
+    "writhe": -1.881940348020371e-19,
+    "linking": 0,
+    "H_geometry": -1.881940348020371e-19,
+    "component_writhe": [
+      -1.881940348020371e-19
+    ],
+    "pair_linking": []
+  },
+  {
+    "t": 3.5320391226523835,
+    "tstar": 7.35582954137818,
+    "loops": 1,
+    "periodic_winding": [
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "component_coordinate_spans": [
+      [
+        1.997590981007872,
+        1.9975909810079164,
+        6.54895032425884e-07
+      ]
+    ],
+    "samples_per_loop": 256,
+    "writhe": 4.488313141970146e-19,
+    "linking": 0,
+    "H_geometry": 4.488313141970146e-19,
+    "component_writhe": [
+      4.488313141970146e-19
+    ],
+    "pair_linking": []
+  },
+  {
+    "t": 3.5824968554504615,
+    "tstar": 7.4609128851969615,
+    "loops": 1,
+    "periodic_winding": [
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "component_coordinate_spans": [
+      [
+        1.9975923158251256,
+        1.9975923158251239,
+        2.703200754794466e-06
+      ]
+    ],
+    "samples_per_loop": 256,
+    "writhe": -5.825454676850307e-19,
+    "linking": 0,
+    "H_geometry": -5.825454676850307e-19,
+    "component_writhe": [
+      -5.825454676850307e-19
+    ],
+    "pair_linking": []
+  },
+  {
+    "t": 3.632954567937916,
+    "tstar": 7.565996186716811,
+    "loops": 1,
+    "periodic_winding": [
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "component_coordinate_spans": [
+      [
+        1.997594749300017,
+        1.9975947492999793,
+        3.4066850354008693e-06
+      ]
+    ],
+    "samples_per_loop": 256,
+    "writhe": -2.8060593369659043e-18,
+    "linking": 0,
+    "H_geometry": -2.8060593369659043e-18,
+    "component_writhe": [
+      -2.8060593369659043e-18
+    ],
+    "pair_linking": []
+  },
+  {
+    "t": 3.683412254708776,
+    "tstar": 7.671079434679245,
+    "loops": 1,
+    "periodic_winding": [
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "component_coordinate_spans": [
+      [
+        1.9975970643031467,
+        1.997597064303124,
+        2.4153721991382326e-06
+      ]
+    ],
+    "samples_per_loop": 256,
+    "writhe": -1.2957550243613755e-18,
+    "linking": 0,
+    "H_geometry": -1.2957550243613755e-18,
+    "component_writhe": [
+      -1.2957550243613755e-18
+    ],
+    "pair_linking": []
+  },
+  {
+    "t": 3.733869923161675,
+    "tstar": 7.776162644492668,
+    "loops": 1,
+    "periodic_winding": [
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "component_coordinate_spans": [
+      [
+        1.9975981151746751,
+        1.9975981151747364,
+        2.2243347785888545e-07
+      ]
+    ],
+    "samples_per_loop": 256,
+    "writhe": -5.465092084242717e-19,
+    "linking": 0,
+    "H_geometry": -5.465092084242717e-19,
+    "component_writhe": [
+      -5.465092084242717e-19
+    ],
+    "pair_linking": []
+  },
+  {
+    "t": 3.7843275897596507,
+    "tstar": 7.881245850443026,
+    "loops": 1,
+    "periodic_winding": [
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "component_coordinate_spans": [
+      [
+        1.9975973754424188,
+        1.9975973754424463,
+        2.081163884781745e-06
+      ]
+    ],
+    "samples_per_loop": 256,
+    "writhe": 7.567193165132771e-19,
+    "linking": 0,
+    "H_geometry": 7.567193165132771e-19,
+    "component_writhe": [
+      7.567193165132771e-19
+    ],
+    "pair_linking": []
+  },
+  {
+    "t": 3.834785271959573,
+    "tstar": 7.98632908888602,
+    "loops": 1,
+    "periodic_winding": [
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "component_coordinate_spans": [
+      [
+        1.997595213269522,
+        1.9975952132695638,
+        3.3494008775392103e-06
+      ]
+    ],
+    "samples_per_loop": 256,
+    "writhe": 1.8108957517877967e-18,
+    "linking": 0,
+    "H_geometry": 1.8108957517877967e-18,
+    "component_writhe": [
+      1.8108957517877967e-18
+    ],
+    "pair_linking": []
+  },
+  {
+    "t": 3.8852429793854237,
+    "tstar": 8.091412379864565,
+    "loops": 1,
+    "periodic_winding": [
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "component_coordinate_spans": [
+      [
+        1.9975927077340692,
+        1.9975927077341047,
+        2.951339654444496e-06
+      ]
+    ],
+    "samples_per_loop": 256,
+    "writhe": 1.0134976745284492e-18,
+    "linking": 0,
+    "H_geometry": 1.0134976745284492e-18,
+    "component_writhe": [
+      1.0134976745284492e-18
+    ],
+    "pair_linking": []
+  },
+  {
+    "t": 3.9357007091602787,
+    "tstar": 8.19649571738718,
+    "loops": 1,
+    "periodic_winding": [
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "component_coordinate_spans": [
+      [
+        1.9975910994122552,
+        1.9975910994123924,
+        1.0850103127069133e-06
+      ]
+    ],
+    "samples_per_loop": 256,
+    "writhe": -3.9687911064269143e-19,
+    "linking": 0,
+    "H_geometry": -3.9687911064269143e-19,
+    "component_writhe": [
+      -3.9687911064269143e-19
+    ],
+    "pair_linking": []
+  },
+  {
+    "t": 3.9861584472776603,
+    "tstar": 8.30157907228395,
+    "loops": 1,
+    "periodic_winding": [
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "component_coordinate_spans": [
+      [
+        1.997591194967805,
+        1.9975911949678729,
+        1.3211035909677094e-06
+      ]
+    ],
+    "samples_per_loop": 256,
+    "writhe": -6.056315912236044e-20,
+    "linking": 0,
+    "H_geometry": -6.056315912236044e-20,
+    "component_writhe": [
+      -6.056315912236044e-20
+    ],
+    "pair_linking": []
+  },
+  {
+    "t": 4.036616175550609,
+    "tstar": 8.406662406678691,
+    "loops": 1,
+    "periodic_winding": [
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "component_coordinate_spans": [
+      [
+        1.9975929417550042,
+        1.9975929417550686,
+        3.0699782236354167e-06
+      ]
+    ],
+    "samples_per_loop": 256,
+    "writhe": -1.1782348597204903e-19,
+    "linking": 0,
+    "H_geometry": -1.1782348597204903e-19,
+    "component_writhe": [
+      -1.1782348597204903e-19
+    ],
+    "pair_linking": []
+  },
+  {
+    "t": 4.087073880751531,
+    "tstar": 8.511745693023599,
+    "loops": 1,
+    "periodic_winding": [
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "component_coordinate_spans": [
+      [
+        1.9975954728310805,
+        1.9975954728311685,
+        3.2915631678065438e-06
+      ]
+    ],
+    "samples_per_loop": 256,
+    "writhe": -1.4355187532876018e-18,
+    "linking": 0,
+    "H_geometry": -1.4355187532876018e-18,
+    "component_writhe": [
+      -1.4355187532876018e-18
+    ],
+    "pair_linking": []
+  },
+  {
+    "t": 4.137531561056983,
+    "tstar": 8.616828927521164,
+    "loops": 1,
+    "periodic_winding": [
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "component_coordinate_spans": [
+      [
+        1.997597530628326,
+        1.997597530628349,
+        1.8756239530404173e-06
+      ]
+    ],
+    "samples_per_loop": 256,
+    "writhe": -3.4902174505907883e-19,
+    "linking": 0,
+    "H_geometry": -3.4902174505907883e-19,
+    "component_writhe": [
+      -3.4902174505907883e-19
+    ],
+    "pair_linking": []
+  },
+  {
+    "t": 4.18798922709171,
+    "tstar": 8.721912132298499,
+    "loops": 1,
+    "periodic_winding": [
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "component_coordinate_spans": [
+      [
+        1.997598086608356,
+        1.9975980866085061,
+        4.7342130571337293e-07
+      ]
+    ],
+    "samples_per_loop": 256,
+    "writhe": 1.6562187240793532e-19,
+    "linking": 0,
+    "H_geometry": 1.6562187240793532e-19,
+    "component_writhe": [
+      1.6562187240793532e-19
+    ],
+    "pair_linking": []
+  },
+  {
+    "t": 4.238446896547984,
+    "tstar": 8.826995344201553,
+    "loops": 1,
+    "periodic_winding": [
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "component_coordinate_spans": [
+      [
+        1.9975968706435316,
+        1.997596870643508,
+        2.5869436530712164e-06
+      ]
+    ],
+    "samples_per_loop": 256,
+    "writhe": -2.5620541772297387e-19,
+    "linking": 0,
+    "H_geometry": -2.5620541772297387e-19,
+    "component_writhe": [
+      -2.5620541772297387e-19
+    ],
+    "pair_linking": []
+  },
+  {
+    "t": 4.288904585406882,
+    "tstar": 8.932078596512538,
+    "loops": 1,
+    "periodic_winding": [
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "component_coordinate_spans": [
+      [
+        1.997594481569763,
+        1.9975944815697781,
+        3.4134848760913883e-06
+      ]
+    ],
+    "samples_per_loop": 256,
+    "writhe": 4.753382283037127e-19,
+    "linking": 0,
+    "H_geometry": 4.753382283037127e-19,
+    "component_writhe": [
+      4.753382283037127e-19
+    ],
+    "pair_linking": []
+  },
+  {
+    "t": 4.339362300044067,
+    "tstar": 9.03716190250942,
+    "loops": 1,
+    "periodic_winding": [
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "component_coordinate_spans": [
+      [
+        1.9975921117357989,
+        1.9975921117358966,
+        2.541846033210504e-06
+      ]
+    ],
+    "samples_per_loop": 256,
+    "writhe": -1.3777191885158444e-18,
+    "linking": 0,
+    "H_geometry": -1.3777191885158444e-18,
+    "component_writhe": [
+      -1.3777191885158444e-18
+    ],
+    "pair_linking": []
+  },
+  {
+    "t": 4.389820033940246,
+    "tstar": 9.142245248615106,
+    "loops": 1,
+    "periodic_winding": [
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "component_coordinate_spans": [
+      [
+        1.997590939800992,
+        1.9975909398010114,
+        4.056585041212202e-07
+      ]
+    ],
+    "samples_per_loop": 256,
+    "writhe": 1.426402262167625e-18,
+    "linking": 0,
+    "H_geometry": 1.426402262167625e-18,
+    "component_writhe": [
+      1.426402262167625e-18
+    ],
+    "pair_linking": []
+  },
+  {
+    "t": 4.440277771066453,
+    "tstar": 9.247328601447657,
+    "loops": 1,
+    "periodic_winding": [
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "component_coordinate_spans": [
+      [
+        1.997591545516599,
+        1.9975915455166517,
+        1.932341417543171e-06
+      ]
+    ],
+    "samples_per_loop": 256,
+    "writhe": -1.8792441584100267e-19,
+    "linking": 0,
+    "H_geometry": -1.8792441584100267e-19,
+    "component_writhe": [
+      -1.8792441584100267e-19
+    ],
+    "pair_linking": []
+  },
+  {
+    "t": 4.4907354937366915,
+    "tstar": 9.352411924174186,
+    "loops": 1,
+    "periodic_winding": [
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "component_coordinate_spans": [
+      [
+        1.9975936333776434,
+        1.9975936333775977,
+        3.3090160602711194e-06
+      ]
+    ],
+    "samples_per_loop": 256,
+    "writhe": -5.22723760705515e-19,
+    "linking": 0,
+    "H_geometry": -5.22723760705515e-19,
+    "component_writhe": [
+      -5.22723760705515e-19
+    ],
+    "pair_linking": []
+  },
+  {
+    "t": 4.5411931914695876,
+    "tstar": 9.457495194966171,
+    "loops": 1,
+    "periodic_winding": [
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "component_coordinate_spans": [
+      [
+        1.9975961581382435,
+        1.9975961581381796,
+        3.039482274758143e-06
+      ]
+    ],
+    "samples_per_loop": 256,
+    "writhe": -1.115481046539725e-18,
+    "linking": 0,
+    "H_geometry": -1.115481046539725e-18,
+    "component_writhe": [
+      -1.115481046539725e-18
+    ],
+    "pair_linking": []
+  },
+  {
+    "t": 4.591650866218363,
+    "tstar": 9.562578417891396,
+    "loops": 1,
+    "periodic_winding": [
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "component_coordinate_spans": [
+      [
+        1.9975978689577647,
+        1.9975978689578624,
+        1.2578326131773565e-06
+      ]
+    ],
+    "samples_per_loop": 256,
+    "writhe": 3.4127019992933877e-19,
+    "linking": 0,
+    "H_geometry": 3.4127019992933877e-19,
+    "component_writhe": [
+      3.4127019992933877e-19
+    ],
+    "pair_linking": []
+  },
+  {
+    "t": 4.642108531309818,
+    "tstar": 9.667661620704271,
+    "loops": 1,
+    "periodic_winding": [
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "component_coordinate_spans": [
+      [
+        1.9975979124974108,
+        1.9975979124973797,
+        1.1495774110414914e-06
+      ]
+    ],
+    "samples_per_loop": 256,
+    "writhe": 3.117974772512619e-19,
+    "linking": 0,
+    "H_geometry": 3.117974772512619e-19,
+    "component_writhe": [
+      3.117974772512619e-19
+    ],
+    "pair_linking": []
+  },
+  {
+    "t": 4.6925662049491255,
+    "tstar": 9.772744841318916,
+    "loops": 1,
+    "periodic_winding": [
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "component_coordinate_spans": [
+      [
+        1.9975962656310764,
+        1.9975962656310333,
+        2.9850831797517685e-06
+      ]
+    ],
+    "samples_per_loop": 256,
+    "writhe": 7.589773753119405e-20,
+    "linking": 0,
+    "H_geometry": 7.589773753119405e-20,
+    "component_writhe": [
+      7.589773753119405e-20
+    ],
+    "pair_linking": []
+  },
+  {
+    "t": 4.74302390102516,
+    "tstar": 9.87782810866032,
+    "loops": 1,
+    "periodic_winding": [
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "component_coordinate_spans": [
+      [
+        1.9975937523507445,
+        1.9975937523508098,
+        3.335536383985982e-06
+      ]
+    ],
+    "samples_per_loop": 256,
+    "writhe": 1.0869014366700746e-18,
+    "linking": 0,
+    "H_geometry": 1.0869014366700746e-18,
+    "component_writhe": [
+      1.0869014366700746e-18
+    ],
+    "pair_linking": []
+  },
+  {
+    "t": 4.793481622298352,
+    "tstar": 9.982911428477358,
+    "loops": 1,
+    "periodic_winding": [
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "component_coordinate_spans": [
+      [
+        1.9975916165565057,
+        1.9975916165565137,
+        2.0265874738356615e-06
+      ]
+    ],
+    "samples_per_loop": 256,
+    "writhe": 7.235898866761706e-20,
+    "linking": 0,
+    "H_geometry": 7.235898866761706e-20,
+    "component_writhe": [
+      7.235898866761706e-20
+    ],
+    "pair_linking": []
+  },
+  {
+    "t": 4.843939359000975,
+    "tstar": 10.087994780427751,
+    "loops": 1,
+    "periodic_winding": [
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "component_coordinate_spans": [
+      [
+        1.9975909269421952,
+        1.9975909269421739,
+        2.9057363803985936e-07
+      ]
+    ],
+    "samples_per_loop": 256,
+    "writhe": 1.5006401579699507e-19,
+    "linking": 0,
+    "H_geometry": 1.5006401579699507e-19,
+    "component_writhe": [
+      1.5006401579699507e-19
+    ],
+    "pair_linking": []
+  },
+  {
+    "t": 4.894397093643447,
+    "tstar": 10.19307812808767,
+    "loops": 1,
+    "periodic_winding": [
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "component_coordinate_spans": [
+      [
+        1.9975920226515282,
+        1.9975920226514519,
+        2.4631763082538782e-06
+      ]
+    ],
+    "samples_per_loop": 256,
+    "writhe": 1.2345852225766876e-18,
+    "linking": 0,
+    "H_geometry": 1.2345852225766876e-18,
+    "component_writhe": [
+      1.2345852225766876e-18
+    ],
+    "pair_linking": []
+  },
+  {
+    "t": 4.944854809831016,
+    "tstar": 10.298161437313382,
+    "loops": 1,
+    "periodic_winding": [
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "component_coordinate_spans": [
+      [
+        1.9975943590517122,
+        1.9975943590516847,
+        3.410367822809235e-06
+      ]
+    ],
+    "samples_per_loop": 256,
+    "writhe": -6.007784499249845e-19,
+    "linking": 0,
+    "H_geometry": -6.007784499249845e-19,
+    "component_writhe": [
+      -6.007784499249845e-19
+    ],
+    "pair_linking": []
+  },
+  {
+    "t": 4.9953125002781285,
+    "tstar": 10.403244692931985,
+    "loops": 1,
+    "periodic_winding": [
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "component_coordinate_spans": [
+      [
+        1.9975967769395537,
+        1.9975967769396137,
+        2.6609296472912547e-06
+      ]
+    ],
+    "samples_per_loop": 256,
+    "writhe": 6.396709850542021e-19,
+    "linking": 0,
+    "H_geometry": 6.396709850542021e-19,
+    "component_writhe": [
+      6.396709850542021e-19
+    ],
+    "pair_linking": []
+  },
+  {
+    "t": 5.0457701705563265,
+    "tstar": 10.508327906546779,
+    "loops": 1,
+    "periodic_winding": [
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "component_coordinate_spans": [
+      [
+        1.997598067678684,
+        1.9975980676786698,
+        5.877027291489867e-07
+      ]
+    ],
+    "samples_per_loop": 256,
+    "writhe": -2.288315101446994e-18,
+    "linking": 0,
+    "H_geometry": -2.288315101446994e-18,
+    "component_writhe": [
+      -2.288315101446994e-18
+    ],
+    "pair_linking": []
+  },
+  {
+    "t": 5.09622783625633,
+    "tstar": 10.613411110627018,
+    "loops": 1,
+    "periodic_winding": [
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "component_coordinate_spans": [
+      [
+        1.9975975957014014,
+        1.9975975957014098,
+        1.7779010033081022e-06
+      ]
+    ],
+    "samples_per_loop": 256,
+    "writhe": -2.2398595187935865e-19,
+    "linking": 0,
+    "H_geometry": -2.2398595187935865e-19,
+    "component_writhe": [
+      -2.2398595187935865e-19
+    ],
+    "pair_linking": []
+  },
+  {
+    "t": 5.1466855152196915,
+    "tstar": 10.718494342329546,
+    "loops": 1,
+    "periodic_winding": [
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "component_coordinate_spans": [
+      [
+        1.9975955905093619,
+        1.9975955905094076,
+        3.259014981438213e-06
+      ]
+    ],
+    "samples_per_loop": 256,
+    "writhe": -1.3158753393285703e-18,
+    "linking": 0,
+    "H_geometry": -1.3158753393285703e-18,
+    "component_writhe": [
+      -1.3158753393285703e-18
+    ],
+    "pair_linking": []
+  },
+  {
+    "t": 5.197143218749325,
+    "tstar": 10.823577625193824,
+    "loops": 1,
+    "periodic_winding": [
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "component_coordinate_spans": [
+      [
+        1.997593052039608,
+        1.9975930520395693,
+        3.1187970694901423e-06
+      ]
+    ],
+    "samples_per_loop": 256,
+    "writhe": 1.5503090259480136e-20,
+    "linking": 0,
+    "H_geometry": 1.5503090259480136e-20,
+    "component_writhe": [
+      1.5503090259480136e-20
+    ],
+    "pair_linking": []
+  },
+  {
+    "t": 5.247600945852791,
+    "tstar": 10.928660957153,
+    "loops": 1,
+    "periodic_winding": [
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "component_coordinate_spans": [
+      [
+        1.997591244468313,
+        1.9975912444683614,
+        1.4270026742480013e-06
+      ]
+    ],
+    "samples_per_loop": 256,
+    "writhe": 1.822624176592795e-19,
+    "linking": 0,
+    "H_geometry": 1.822624176592795e-19,
+    "component_writhe": [
+      1.822624176592795e-19
+    ],
+    "pair_linking": []
+  },
+  {
+    "t": 5.2980586838745625,
+    "tstar": 11.033744311850652,
+    "loops": 1,
+    "periodic_winding": [
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "component_coordinate_spans": [
+      [
+        1.9975910624710425,
+        1.9975910624709834,
+        9.747149913863495e-07
+      ]
+    ],
+    "samples_per_loop": 256,
+    "writhe": 5.817197596168627e-19,
+    "linking": 0,
+    "H_geometry": 5.817197596168627e-19,
+    "component_writhe": [
+      5.817197596168627e-19
+    ],
+    "pair_linking": []
+  },
+  {
+    "t": 5.348516414692109,
+    "tstar": 11.138827651544776,
+    "loops": 1,
+    "periodic_winding": [
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "component_coordinate_spans": [
+      [
+        1.9975926029913684,
+        1.9975926029913897,
+        2.8915189034250943e-06
+      ]
+    ],
+    "samples_per_loop": 256,
+    "writhe": -2.049778151264308e-19,
+    "linking": 0,
+    "H_geometry": -2.049778151264308e-19,
+    "component_writhe": [
+      -2.049778151264308e-19
+    ],
+    "pair_linking": []
+  },
+  {
+    "t": 5.398974123761536,
+    "tstar": 11.243910945946237,
+    "loops": 1,
+    "periodic_winding": [
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "component_coordinate_spans": [
+      [
+        1.9975950934239113,
+        1.9975950934239126,
+        3.3698150723182607e-06
+      ]
+    ],
+    "samples_per_loop": 256,
+    "writhe": -3.1262318531942983e-19,
+    "linking": 0,
+    "H_geometry": -3.1262318531942983e-19,
+    "component_writhe": [
+      -3.1262318531942983e-19
+    ],
+    "pair_linking": []
+  },
+  {
+    "t": 5.449431807402854,
+    "tstar": 11.348994187391082,
+    "loops": 1,
+    "periodic_winding": [
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "component_coordinate_spans": [
+      [
+        1.9975972988606356,
+        1.997597298860669,
+        2.1716570230978505e-06
+      ]
+    ],
+    "samples_per_loop": 256,
+    "writhe": -6.983805138194508e-19,
+    "linking": 0,
+    "H_geometry": -6.983805138194508e-19,
+    "component_writhe": [
+      -6.983805138194508e-19
+    ],
+    "pair_linking": []
+  },
+  {
+    "t": 5.499889474517035,
+    "tstar": 11.45407739441649,
+    "loops": 1,
+    "periodic_winding": [
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "component_coordinate_spans": [
+      [
+        1.9975981214817837,
+        1.9975981214818095,
+        1.068808721527148e-07
+      ]
+    ],
+    "samples_per_loop": 256,
+    "writhe": -6.810069420177942e-19,
+    "linking": 0,
+    "H_geometry": -6.810069420177942e-19,
+    "component_writhe": [
+      -6.810069420177942e-19
+    ],
+    "pair_linking": []
+  },
+  {
+    "t": 5.5503471422995165,
+    "tstar": 11.559160602833702,
+    "loops": 1,
+    "periodic_winding": [
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "component_coordinate_spans": [
+      [
+        1.9975971490453626,
+        1.9975971490453506,
+        2.3322463587049924e-06
+      ]
+    ],
+    "samples_per_loop": 256,
+    "writhe": -3.798931160975219e-19,
+    "linking": 0,
+    "H_geometry": -3.798931160975219e-19,
+    "component_writhe": [
+      -3.798931160975219e-19
+    ],
+    "pair_linking": []
+  },
+  {
+    "t": 5.600804827560563,
+    "tstar": 11.664243847651797,
+    "loops": 1,
+    "periodic_winding": [
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "component_coordinate_spans": [
+      [
+        1.9975948710092797,
+        1.9975948710093356,
+        3.3973403947840097e-06
+      ]
+    ],
+    "samples_per_loop": 256,
+    "writhe": -8.833391210890746e-19,
+    "linking": 0,
+    "H_geometry": -8.833391210890746e-19,
+    "component_writhe": [
+      -8.833391210890746e-19
+    ],
+    "pair_linking": []
+  },
+  {
+    "t": 5.651262538431447,
+    "tstar": 11.769327145804974,
+    "loops": 1,
+    "periodic_winding": [
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "component_coordinate_spans": [
+      [
+        1.997592414103928,
+        1.9975924141040653,
+        2.772286507024546e-06
+      ]
+    ],
+    "samples_per_loop": 256,
+    "writhe": 1.175437562999758e-18,
+    "linking": 0,
+    "H_geometry": 1.175437562999758e-18,
+    "component_writhe": [
+      1.175437562999758e-18
+    ],
+    "pair_linking": []
+  },
+  {
+    "t": 5.701720270327842,
+    "tstar": 11.874410487745909,
+    "loops": 1,
+    "periodic_winding": [
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "component_coordinate_spans": [
+      [
+        1.997591006016696,
+        1.997591006016683,
+        7.680418363520403e-07
+      ]
+    ],
+    "samples_per_loop": 256,
+    "writhe": -5.014744163389884e-19,
+    "linking": 0,
+    "H_geometry": -5.014744163389884e-19,
+    "component_writhe": [
+      -5.014744163389884e-19
+    ],
+    "pair_linking": []
+  },
+  {
+    "t": 5.752178008146713,
+    "tstar": 11.979493842021002,
+    "loops": 1,
+    "periodic_winding": [
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "component_coordinate_spans": [
+      [
+        1.997591344738705,
+        1.9975913447386566,
+        1.6182982918167e-06
+      ]
+    ],
+    "samples_per_loop": 256,
+    "writhe": -1.812884191625426e-18,
+    "linking": 0,
+    "H_geometry": -1.812884191625426e-18,
+    "component_writhe": [
+      -1.812884191625426e-18
+    ],
+    "pair_linking": []
+  },
+  {
+    "t": 5.8026357339123615,
+    "tstar": 12.084577171194036,
+    "loops": 1,
+    "periodic_winding": [
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "component_coordinate_spans": [
+      [
+        1.997593260607582,
+        1.997593260607605,
+        3.199546942056486e-06
+      ]
+    ],
+    "samples_per_loop": 256,
+    "writhe": 5.98284474535416e-19,
+    "linking": 0,
+    "H_geometry": 5.98284474535416e-19,
+    "component_writhe": [
+      5.98284474535416e-19
+    ],
+    "pair_linking": []
+  },
+  {
+    "t": 5.853093435579901,
+    "tstar": 12.189660450180316,
+    "loops": 1,
+    "periodic_winding": [
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "component_coordinate_spans": [
+      [
+        1.9975958049542668,
+        1.9975958049543823,
+        3.1890469571749236e-06
+      ]
+    ],
+    "samples_per_loop": 256,
+    "writhe": 3.0568049707279306e-19,
+    "linking": 0,
+    "H_geometry": 3.0568049707279306e-19,
+    "component_writhe": [
+      3.0568049707279306e-19
+    ],
+    "pair_linking": []
+  },
+  {
+    "t": 5.903551113129886,
+    "tstar": 12.294743678939343,
+    "loops": 1,
+    "periodic_winding": [
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "component_coordinate_spans": [
+      [
+        1.9975977056242997,
+        1.99759770562433,
+        1.5920238514155471e-06
+      ]
+    ],
+    "samples_per_loop": 256,
+    "writhe": 1.1877052257268248e-18,
+    "linking": 0,
+    "H_geometry": 1.1877052257268248e-18,
+    "component_writhe": [
+      1.1877052257268248e-18
+    ],
+    "pair_linking": []
+  },
+  {
+    "t": 5.954008778544725,
+    "tstar": 12.399826882425696,
+    "loops": 1,
+    "periodic_winding": [
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "component_coordinate_spans": [
+      [
+        1.9975980233120425,
+        1.9975980233120483,
+        7.970168471871375e-07
+      ]
+    ],
+    "samples_per_loop": 256,
+    "writhe": 1.4945316033840143e-19,
+    "linking": 0,
+    "H_geometry": 1.4945316033840143e-19,
+    "component_writhe": [
+      1.4945316033840143e-19
+    ],
+    "pair_linking": []
+  },
+  {
+    "t": 6.004466449801036,
+    "tstar": 12.504910098077511,
+    "loops": 1,
+    "periodic_winding": [
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "component_coordinate_spans": [
+      [
+        1.9975965957829063,
+        1.9975965957829263,
+        2.789548918968876e-06
+      ]
+    ],
+    "samples_per_loop": 256,
+    "writhe": -1.2587161195892696e-18,
+    "linking": 0,
+    "H_geometry": -1.2587161195892696e-18,
+    "component_writhe": [
+      -1.2587161195892696e-18
+    ],
+    "pair_linking": []
+  },
+  {
+    "t": 6.054924142038021,
+    "tstar": 12.609993357423704,
+    "loops": 1,
+    "periodic_winding": [
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "component_coordinate_spans": [
+      [
+        1.9975941340147743,
+        1.997594134014808,
+        3.39430530615914e-06
+      ]
+    ],
+    "samples_per_loop": 256,
+    "writhe": -5.817703131720567e-19,
+    "linking": 0,
+    "H_geometry": -5.817703131720567e-19,
+    "component_writhe": [
+      -5.817703131720567e-19
+    ],
+    "pair_linking": []
+  },
+  {
+    "t": 6.1053818598844485,
+    "tstar": 12.715076670104159,
+    "loops": 1,
+    "periodic_winding": [
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "component_coordinate_spans": [
+      [
+        1.9975918655669642,
+        1.9975918655670717,
+        2.310422944518109e-06
+      ]
+    ],
+    "samples_per_loop": 256,
+    "writhe": -1.4167465331255792e-18,
+    "linking": 0,
+    "H_geometry": -1.4167465331255792e-18,
+    "component_writhe": [
+      -1.4167465331255792e-18
+    ],
+    "pair_linking": []
+  },
+  {
+    "t": 6.155839595282561,
+    "tstar": 12.820160019337775,
+    "loops": 1,
+    "periodic_winding": [
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "component_coordinate_spans": [
+      [
+        1.9975909133769543,
+        1.9975909133768623,
+        7.712286098637833e-08
+      ]
+    ],
+    "samples_per_loop": 256,
+    "writhe": 1.1857231050835952e-19,
+    "linking": 0,
+    "H_geometry": 1.1857231050835952e-19,
+    "component_writhe": [
+      1.1857231050835952e-19
+    ],
+    "pair_linking": []
+  },
+  {
+    "t": 6.206297331424573,
+    "tstar": 12.92524337012064,
+    "loops": 1,
+    "periodic_winding": [
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "component_coordinate_spans": [
+      [
+        1.9975917577298765,
+        1.997591757729908,
+        2.1945456580851896e-06
+      ]
+    ],
+    "samples_per_loop": 256,
+    "writhe": -1.5476802410779278e-18,
+    "linking": 0,
+    "H_geometry": -1.5476802410779278e-18,
+    "component_writhe": [
+      -1.5476802410779278e-18
+    ],
+    "pair_linking": []
+  },
+  {
+    "t": 6.256755051109244,
+    "tstar": 13.03032668662942,
+    "loops": 1,
+    "periodic_winding": [
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "component_coordinate_spans": [
+      [
+        1.997593973078616,
+        1.9975939730787444,
+        3.3744442404781694e-06
+      ]
+    ],
+    "samples_per_loop": 256,
+    "writhe": 1.9210350973703644e-18,
+    "linking": 0,
+    "H_geometry": 1.9210350973703644e-18,
+    "component_writhe": [
+      1.9210350973703644e-18
+    ],
+    "pair_linking": []
+  },
+  {
+    "t": 6.307212745380305,
+    "tstar": 13.135409950211784,
+    "loops": 1,
+    "periodic_winding": [
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "component_coordinate_spans": [
+      [
+        1.9975964599752944,
+        1.9975964599753158,
+        2.8755844372341244e-06
+      ]
+    ],
+    "samples_per_loop": 256,
+    "writhe": -1.1652931495908372e-18,
+    "linking": 0,
+    "H_geometry": -1.1652931495908372e-18,
+    "component_writhe": [
+      -1.1652931495908372e-18
+    ],
+    "pair_linking": []
+  },
+  {
+    "t": 6.357670417850986,
+    "tstar": 13.240493168392646,
+    "loops": 1,
+    "periodic_winding": [
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "component_coordinate_spans": [
+      [
+        1.9975979822007286,
+        1.9975979822007681,
+        9.461468923888106e-07
+      ]
+    ],
+    "samples_per_loop": 256,
+    "writhe": -4.447027738561747e-19,
+    "linking": 0,
+    "H_geometry": -4.447027738561747e-19,
+    "component_writhe": [
+      -4.447027738561747e-19
+    ],
+    "pair_linking": []
+  },
+  {
+    "t": 6.408128083046425,
+    "tstar": 13.34557637142208,
+    "loops": 1,
+    "periodic_winding": [
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "component_coordinate_spans": [
+      [
+        1.9975977781209204,
+        1.9975977781208583,
+        1.453990369881808e-06
+      ]
+    ],
+    "samples_per_loop": 256,
+    "writhe": -1.4236218166319572e-18,
+    "linking": 0,
+    "H_geometry": -1.4236218166319572e-18,
+    "component_writhe": [
+      -1.4236218166319572e-18
+    ],
+    "pair_linking": []
+  },
+  {
+    "t": 6.4585857590727285,
+    "tstar": 13.450659597007885,
+    "loops": 1,
+    "periodic_winding": [
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "component_coordinate_spans": [
+      [
+        1.9975959555842633,
+        1.9975959555843072,
+        3.1307803407543133e-06
+      ]
+    ],
+    "samples_per_loop": 256,
+    "writhe": 3.3864141505925304e-19,
+    "linking": 0,
+    "H_geometry": 3.3864141505925304e-19,
+    "component_writhe": [
+      3.3864141505925304e-19
+    ],
+    "pair_linking": []
+  },
+  {
+    "t": 6.509043458645984,
+    "tstar": 13.555742871632606,
+    "loops": 1,
+    "periodic_winding": [
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "component_coordinate_spans": [
+      [
+        1.9975934149775854,
+        1.997593414977652,
+        3.2500344069319453e-06
+      ]
+    ],
+    "samples_per_loop": 256,
+    "writhe": -1.1195927356955001e-18,
+    "linking": 0,
+    "H_geometry": -1.1195927356955001e-18,
+    "component_writhe": [
+      -1.1195927356955001e-18
+    ],
+    "pair_linking": []
+  },
+  {
+    "t": 6.559501182809302,
+    "tstar": 13.660826197468625,
+    "loops": 1,
+    "periodic_winding": [
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "component_coordinate_spans": [
+      [
+        1.9975914245429514,
+        1.9975914245429034,
+        1.7524227722276464e-06
+      ]
+    ],
+    "samples_per_loop": 256,
+    "writhe": 1.1813017754022569e-18,
+    "linking": 0,
+    "H_geometry": 1.1813017754022569e-18,
+    "component_writhe": [
+      1.1813017754022569e-18
+    ],
+    "pair_linking": []
+  },
+  {
+    "t": 6.609958920304463,
+    "tstar": 13.765909551069557,
+    "loops": 1,
+    "periodic_winding": [
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "component_coordinate_spans": [
+      [
+        1.9975909735502682,
+        1.9975909735502246,
+        6.170062842869584e-07
+      ]
+    ],
+    "samples_per_loop": 256,
+    "writhe": -3.152519701895156e-19,
+    "linking": 0,
+    "H_geometry": -3.152519701895156e-19,
+    "component_writhe": [
+      -3.152519701895156e-19
+    ],
+    "pair_linking": []
+  },
+  {
+    "t": 6.660416653313811,
+    "tstar": 13.87099289532833,
+    "loops": 1,
+    "periodic_winding": [
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "component_coordinate_spans": [
+      [
+        1.9975922836614135,
+        1.9975922836614544,
+        2.679478910749822e-06
+      ]
+    ],
+    "samples_per_loop": 256,
+    "writhe": 1.5096302652019427e-18,
+    "linking": 0,
+    "H_geometry": 1.5096302652019427e-18,
+    "component_writhe": [
+      1.5096302652019427e-18
+    ],
+    "pair_linking": []
+  },
+  {
+    "t": 6.710874366196162,
+    "tstar": 13.976076197670592,
+    "loops": 1,
+    "periodic_winding": [
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "component_coordinate_spans": [
+      [
+        1.997594708616683,
+        1.997594708616698,
+        3.4089316738317166e-06
+      ]
+    ],
+    "samples_per_loop": 256,
+    "writhe": -1.80348123035935e-18,
+    "linking": 0,
+    "H_geometry": -1.80348123035935e-18,
+    "component_writhe": [
+      -1.80348123035935e-18
+    ],
+    "pair_linking": []
+  },
+  {
+    "t": 6.761332053343312,
+    "tstar": 14.081159446416688,
+    "loops": 1,
+    "periodic_winding": [
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "component_coordinate_spans": [
+      [
+        1.997597035441744,
+        1.9975970354417782,
+        2.4424697695479836e-06
+      ]
+    ],
+    "samples_per_loop": 256,
+    "writhe": -1.4640646607871228e-18,
+    "linking": 0,
+    "H_geometry": -1.4640646607871228e-18,
+    "component_writhe": [
+      -1.4640646607871228e-18
+    ],
+    "pair_linking": []
+  },
+  {
+    "t": 6.8117897219717385,
+    "tstar": 14.186242656595665,
+    "loops": 1,
+    "periodic_winding": [
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "component_coordinate_spans": [
+      [
+        1.9975981121368007,
+        1.997598112136763,
+        2.609011531262695e-07
+      ]
+    ],
+    "samples_per_loop": 256,
+    "writhe": 7.280849402921667e-19,
+    "linking": 0,
+    "H_geometry": 7.280849402921667e-19,
+    "component_writhe": [
+      7.280849402921667e-19
+    ],
+    "pair_linking": []
+  },
+  {
+    "t": 6.862247388454408,
+    "tstar": 14.291325862305886,
+    "loops": 1,
+    "periodic_winding": [
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "component_coordinate_spans": [
+      [
+        1.9975974002382784,
+        1.9975974002382797,
+        2.0504634381524056e-06
+      ]
+    ],
+    "samples_per_loop": 256,
+    "writhe": 1.3560822668928308e-18,
+    "linking": 0,
+    "H_geometry": 1.3560822668928308e-18,
+    "component_writhe": [
+      1.3560822668928308e-18
+    ],
+    "pair_linking": []
+  },
+  {
+    "t": 6.912705070305111,
+    "tstar": 14.396409100021595,
+    "loops": 1,
+    "periodic_winding": [
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "component_coordinate_spans": [
+      [
+        1.9975952530789325,
+        1.9975952530789467,
+        3.3417409408542653e-06
+      ]
+    ],
+    "samples_per_loop": 256,
+    "writhe": 1.4692885281571651e-18,
+    "linking": 0,
+    "H_geometry": 1.4692885281571651e-18,
+    "component_writhe": [
+      1.4692885281571651e-18
+    ],
+    "pair_linking": []
+  },
+  {
+    "t": 6.963162777325018,
+    "tstar": 14.501492390154722,
+    "loops": 1,
+    "periodic_winding": [
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "component_coordinate_spans": [
+      [
+        1.9975927430691613,
+        1.997592743069112,
+        2.9705310886640746e-06
+      ]
+    ],
+    "samples_per_loop": 256,
+    "writhe": 4.3179476609665106e-19,
+    "linking": 0,
+    "H_geometry": 4.3179476609665106e-19,
+    "component_writhe": [
+      4.3179476609665106e-19
+    ],
+    "pair_linking": []
+  },
+  {
+    "t": 7.0136205068337505,
+    "tstar": 14.606575727123108,
+    "loops": 1,
+    "periodic_winding": [
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "component_coordinate_spans": [
+      [
+        1.9975911126446322,
+        1.997591112644594,
+        1.121505590617744e-06
+      ]
+    ],
+    "samples_per_loop": 256,
+    "writhe": 3.840385076234264e-19,
+    "linking": 0,
+    "H_geometry": 3.840385076234264e-19,
+    "component_writhe": [
+      3.840385076234264e-19
+    ],
+    "pair_linking": []
+  },
+  {
+    "t": 7.064078244962856,
+    "tstar": 14.711659082044294,
+    "loops": 1,
+    "periodic_winding": [
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "component_coordinate_spans": [
+      [
+        1.997591179281331,
+        1.9975911792813736,
+        1.285460761835111e-06
+      ]
+    ],
+    "samples_per_loop": 256,
+    "writhe": -1.0116440441713373e-18,
+    "linking": 0,
+    "H_geometry": -1.0116440441713373e-18,
+    "component_writhe": [
+      -1.0116440441713373e-18
+    ],
+    "pair_linking": []
+  },
+  {
+    "t": 7.11453597351543,
+    "tstar": 14.816742417021384,
+    "loops": 1,
+    "periodic_winding": [
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "component_coordinate_spans": [
+      [
+        1.9975929053963668,
+        1.9975929053964046,
+        3.052919868906656e-06
+      ]
+    ],
+    "samples_per_loop": 256,
+    "writhe": -7.0741274901410435e-19,
+    "linking": 0,
+    "H_geometry": -7.0741274901410435e-19,
+    "component_writhe": [
+      -7.0741274901410435e-19
+    ],
+    "pair_linking": []
+  },
+  {
+    "t": 7.164993679126037,
+    "tstar": 14.921825704219502,
+    "loops": 1,
+    "periodic_winding": [
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "component_coordinate_spans": [
+      [
+        1.9975954333756927,
+        1.9975954333757184,
+        3.3015757878729346e-06
+      ]
+    ],
+    "samples_per_loop": 256,
+    "writhe": 1.6171071235442953e-18,
+    "linking": 0,
+    "H_geometry": 1.6171071235442953e-18,
+    "component_writhe": [
+      1.6171071235442953e-18
+    ],
+    "pair_linking": []
+  },
+  {
+    "t": 7.215451359769367,
+    "tstar": 15.026908939420734,
+    "loops": 1,
+    "periodic_winding": [
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "component_coordinate_spans": [
+      [
+        1.9975975081256747,
+        1.9975975081257782,
+        1.907726124628084e-06
+      ]
+    ],
+    "samples_per_loop": 256,
+    "writhe": -1.1035167051438219e-18,
+    "linking": 0,
+    "H_geometry": -1.1035167051438219e-18,
+    "component_writhe": [
+      -1.1035167051438219e-18
+    ],
+    "pair_linking": []
+  },
+  {
+    "t": 7.265909025897495,
+    "tstar": 15.131992144392587,
+    "loops": 1,
+    "periodic_winding": [
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "component_coordinate_spans": [
+      [
+        1.997598092056708,
+        1.9975980920566885,
+        4.3520009818109884e-07
+      ]
+    ],
+    "samples_per_loop": 256,
+    "writhe": -1.3277048712439564e-19,
+    "linking": 0,
+    "H_geometry": -1.3277048712439564e-19,
+    "component_writhe": [
+      -1.3277048712439564e-19
+    ],
+    "pair_linking": []
+  },
+  {
+    "t": 7.31636669516197,
+    "tstar": 15.237075355896199,
+    "loops": 1,
+    "periodic_winding": [
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "component_coordinate_spans": [
+      [
+        1.997596901242892,
+        1.9975969012428973,
+        2.561618201113447e-06
+      ]
+    ],
+    "samples_per_loop": 256,
+    "writhe": 6.628245133330343e-19,
+    "linking": 0,
+    "H_geometry": 6.628245133330343e-19,
+    "component_writhe": [
+      6.628245133330343e-19
+    ],
+    "pair_linking": []
+  },
+  {
+    "t": 7.366824383634161,
+    "tstar": 15.342158607401828,
+    "loops": 1,
+    "periodic_winding": [
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "component_coordinate_spans": [
+      [
+        1.997594522444985,
+        1.9975945224450573,
+        3.4136543369811534e-06
+      ]
+    ],
+    "samples_per_loop": 256,
+    "writhe": -1.3817971753014903e-20,
+    "linking": 0,
+    "H_geometry": -1.3817971753014903e-20,
+    "component_writhe": [
+      -1.3817971753014903e-20
+    ],
+    "pair_linking": []
+  },
+  {
+    "t": 7.417282097884981,
+    "tstar": 15.447241912594064,
+    "loops": 1,
+    "periodic_winding": [
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "component_coordinate_spans": [
+      [
+        1.9975921420560225,
+        1.9975921420559821,
+        2.567426099275849e-06
+      ]
+    ],
+    "samples_per_loop": 256,
+    "writhe": 5.971385939510196e-19,
+    "linking": 0,
+    "H_geometry": 5.971385939510196e-19,
+    "component_writhe": [
+      5.971385939510196e-19
+    ],
+    "pair_linking": []
+  },
+  {
+    "t": 7.467739831587622,
+    "tstar": 15.552325258296689,
+    "loops": 1,
+    "periodic_winding": [
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "component_coordinate_spans": [
+      [
+        1.9975909449699367,
+        1.9975909449700735,
+        4.439233638464657e-07
+      ]
+    ],
+    "samples_per_loop": 256,
+    "writhe": 2.507245697806957e-18,
+    "linking": 0,
+    "H_geometry": 2.507245697806957e-18,
+    "component_writhe": [
+      2.507245697806957e-18
+    ],
+    "pair_linking": []
+  },
+  {
+    "t": 7.518197568806053,
+    "tstar": 15.657408611321303,
+    "loops": 1,
+    "periodic_winding": [
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "component_coordinate_spans": [
+      [
+        1.9975915226362497,
+        1.9975915226361636,
+        1.9004284990131737e-06
+      ]
+    ],
+    "samples_per_loop": 256,
+    "writhe": 6.57027705670794e-19,
+    "linking": 0,
+    "H_geometry": 6.57027705670794e-19,
+    "component_writhe": [
+      6.57027705670794e-19
+    ],
+    "pair_linking": []
+  },
+  {
+    "t": 7.568655291813734,
+    "tstar": 15.762491934750592,
+    "loops": 1,
+    "periodic_winding": [
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "component_coordinate_spans": [
+      [
+        1.9975935938924292,
+        1.997593593892558,
+        3.299331334361e-06
+      ]
+    ],
+    "samples_per_loop": 256,
+    "writhe": 5.637058427827494e-19,
+    "linking": 0,
+    "H_geometry": 5.637058427827494e-19,
+    "component_writhe": [
+      5.637058427827494e-19
+    ],
+    "pair_linking": []
+  },
+  {
+    "t": 7.619112989955739,
+    "tstar": 15.867575206394589,
+    "loops": 1,
+    "periodic_winding": [
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "component_coordinate_spans": [
+      [
+        1.997596121913939,
+        1.9975961219140044,
+        3.0568436084621453e-06
+      ]
+    ],
+    "samples_per_loop": 256,
+    "writhe": -4.845052729788835e-19,
+    "linking": 0,
+    "H_geometry": -4.845052729788835e-19,
+    "component_writhe": [
+      -4.845052729788835e-19
+    ],
+    "pair_linking": []
+  },
+  {
+    "t": 7.66957066498596,
+    "tstar": 15.972658429905952,
+    "loops": 1,
+    "periodic_winding": [
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "component_coordinate_spans": [
+      [
+        1.9975978535798995,
+        1.9975978535798498,
+        1.2936029989418785e-06
+      ]
+    ],
+    "samples_per_loop": 256,
+    "writhe": 2.9031221629383016e-19,
+    "linking": 0,
+    "H_geometry": 2.9031221629383016e-19,
+    "component_writhe": [
+      2.9031221629383016e-19
+    ],
+    "pair_linking": []
+  },
+  {
+    "t": 7.72002833008976,
+    "tstar": 16.077741632744537,
+    "loops": 1,
+    "periodic_winding": [
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "component_coordinate_spans": [
+      [
+        1.9975979261289893,
+        1.9975979261290382,
+        1.1131935586661257e-06
+      ]
+    ],
+    "samples_per_loop": 256,
+    "writhe": 6.405640978626286e-19,
+    "linking": 0,
+    "H_geometry": 6.405640978626286e-19,
+    "component_writhe": [
+      6.405640978626286e-19
+    ],
+    "pair_linking": []
+  },
+  {
+    "t": 7.770486003464339,
+    "tstar": 16.182824852807858,
+    "loops": 1,
+    "periodic_winding": [
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "component_coordinate_spans": [
+      [
+        1.9975963010628242,
+        1.9975963010627522,
+        2.9661862868124445e-06
+      ]
+    ],
+    "samples_per_loop": 256,
+    "writhe": 1.5182917743251741e-18,
+    "linking": 0,
+    "H_geometry": 1.5182917743251741e-18,
+    "component_writhe": [
+      1.5182917743251741e-18
+    ],
+    "pair_linking": []
+  },
+  {
+    "t": 7.820943699134748,
+    "tstar": 16.287908119304504,
+    "loops": 1,
+    "periodic_winding": [
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "component_coordinate_spans": [
+      [
+        1.9975937921637832,
+        1.997593792163741,
+        3.343527467336571e-06
+      ]
+    ],
+    "samples_per_loop": 256,
+    "writhe": -6.717556414173001e-19,
+    "linking": 0,
+    "H_geometry": -6.717556414173001e-19,
+    "component_writhe": [
+      -6.717556414173001e-19
+    ],
+    "pair_linking": []
+  },
+  {
+    "t": 7.871401420057482,
+    "tstar": 16.39299143839168,
+    "loops": 1,
+    "periodic_winding": [
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "component_coordinate_spans": [
+      [
+        1.997591641021045,
+        1.9975916410211183,
+        2.057491105489362e-06
+      ]
+    ],
+    "samples_per_loop": 256,
+    "writhe": -2.2155938123004873e-19,
+    "linking": 0,
+    "H_geometry": -2.2155938123004873e-19,
+    "component_writhe": [
+      -2.2155938123004873e-19
+    ],
+    "pair_linking": []
+  },
+  {
+    "t": 7.921859156644323,
+    "tstar": 16.498074790100944,
+    "loops": 1,
+    "periodic_winding": [
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "component_coordinate_spans": [
+      [
+        1.997590923549363,
+        1.9975909235492968,
+        2.52131782119136e-07
+      ]
+    ],
+    "samples_per_loop": 256,
+    "writhe": 1.2083184378571607e-18,
+    "linking": 0,
+    "H_geometry": 1.2083184378571607e-18,
+    "component_writhe": [
+      1.2083184378571607e-18
+    ],
+    "pair_linking": []
+  },
+  {
+    "t": 7.9723168914603075,
+    "tstar": 16.60315813812222,
+    "loops": 1,
+    "periodic_winding": [
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "component_coordinate_spans": [
+      [
+        1.9975919935817052,
+        1.9975919935817932,
+        2.436320597709596e-06
+      ]
+    ],
+    "samples_per_loop": 256,
+    "writhe": -6.682505949238524e-19,
+    "linking": 0,
+    "H_geometry": -6.682505949238524e-19,
+    "component_writhe": [
+      -6.682505949238524e-19
+    ],
+    "pair_linking": []
+  },
+  {
+    "t": 8.022774608024218,
+    "tstar": 16.7082414481317,
+    "loops": 1,
+    "periodic_winding": [
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "component_coordinate_spans": [
+      [
+        1.9975943182753375,
+        1.9975943182753526,
+        3.4084587081650852e-06
+      ]
+    ],
+    "samples_per_loop": 256,
+    "writhe": -7.813557490777988e-19,
+    "linking": 0,
+    "H_geometry": -7.813557490777988e-19,
+    "component_writhe": [
+      -7.813557490777988e-19
+    ],
+    "pair_linking": []
+  },
+  {
+    "t": 8.073232298866495,
+    "tstar": 16.813324704573276,
+    "loops": 1,
+    "periodic_winding": [
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "component_coordinate_spans": [
+      [
+        1.9975967450786483,
+        1.9975967450786283,
+        2.684916948325622e-06
+      ]
+    ],
+    "samples_per_loop": 256,
+    "writhe": -1.239741685206471e-18,
+    "linking": 0,
+    "H_geometry": -1.239741685206471e-18,
+    "component_writhe": [
+      -1.239741685206471e-18
+    ],
+    "pair_linking": []
+  },
+  {
+    "t": 8.12368996935679,
+    "tstar": 16.918407918629782,
+    "loops": 1,
+    "periodic_winding": [
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "component_coordinate_spans": [
+      [
+        1.9975980605092412,
+        1.9975980605092292,
+        6.25653200359011e-07
+      ]
+    ],
+    "samples_per_loop": 256,
+    "writhe": -2.741350786317639e-19,
+    "linking": 0,
+    "H_geometry": -2.741350786317639e-19,
+    "component_writhe": [
+      -2.741350786317639e-19
+    ],
+    "pair_linking": []
+  },
+  {
+    "t": 8.174147634985996,
+    "tstar": 17.02349112256258,
+    "loops": 1,
+    "periodic_winding": [
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "component_coordinate_spans": [
+      [
+        1.9975976165794718,
+        1.9975976165793794,
+        1.7448675269093883e-06
+      ]
+    ],
+    "samples_per_loop": 256,
+    "writhe": -3.2270019398809194e-19,
+    "linking": 0,
+    "H_geometry": -3.2270019398809194e-19,
+    "component_writhe": [
+      -3.2270019398809194e-19
+    ],
+    "pair_linking": []
+  },
+  {
+    "t": 8.224605313626588,
+    "tstar": 17.128574353592906,
+    "loops": 1,
+    "periodic_winding": [
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "component_coordinate_spans": [
+      [
+        1.997595629477423,
+        1.9975956294773618,
+        3.2473322271187044e-06
+      ]
+    ],
+    "samples_per_loop": 256,
+    "writhe": -9.72111164009663e-19,
+    "linking": 0,
+    "H_geometry": -9.72111164009663e-19,
+    "component_writhe": [
+      -9.72111164009663e-19
+    ],
+    "pair_linking": []
+  },
+  {
+    "t": 8.275063016743607,
+    "tstar": 17.233657635597872,
+    "loops": 1,
+    "periodic_winding": [
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "component_coordinate_spans": [
+      [
+        1.9975930891985922,
+        1.9975930891985882,
+        3.134277383409767e-06
+      ]
+    ],
+    "samples_per_loop": 256,
+    "writhe": 8.263821155705498e-19,
+    "linking": 0,
+    "H_geometry": 8.263821155705498e-19,
+    "component_writhe": [
+      8.263821155705498e-19
+    ],
+    "pair_linking": []
+  },
+  {
+    "t": 8.325520743551557,
+    "tstar": 17.338740966941607,
+    "loops": 1,
+    "periodic_winding": [
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "component_coordinate_spans": [
+      [
+        1.997591261766852,
+        1.9975912617667388,
+        1.461944865610576e-06
+      ]
+    ],
+    "samples_per_loop": 256,
+    "writhe": 2.042565844056637e-18,
+    "linking": 0,
+    "H_geometry": 2.042565844056637e-18,
+    "component_writhe": [
+      2.042565844056637e-18
+    ],
+    "pair_linking": []
+  },
+  {
+    "t": 8.375978481537544,
+    "tstar": 17.443824321564733,
+    "loops": 1,
+    "periodic_winding": [
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "component_coordinate_spans": [
+      [
+        1.9975910510838033,
+        1.997591051083769,
+        9.376945957484395e-07
+      ]
+    ],
+    "samples_per_loop": 256,
+    "writhe": -2.602665533235551e-19,
+    "linking": 0,
+    "H_geometry": -2.602665533235551e-19,
+    "component_writhe": [
+      -2.602665533235551e-19
+    ],
+    "pair_linking": []
+  },
+  {
+    "t": 8.426436212602546,
+    "tstar": 17.54890766177421,
+    "loops": 1,
+    "periodic_winding": [
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "component_coordinate_spans": [
+      [
+        1.9975925685188236,
+        1.9975925685188556,
+        2.870837754187505e-06
+      ]
+    ],
+    "samples_per_loop": 256,
+    "writhe": 3.568406949290775e-19,
+    "linking": 0,
+    "H_geometry": 3.568406949290775e-19,
+    "component_writhe": [
+      3.568406949290775e-19
+    ],
+    "pair_linking": []
+  },
+  {
+    "t": 8.476893922074321,
+    "tstar": 17.6539909570136,
+    "loops": 1,
+    "periodic_winding": [
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "component_coordinate_spans": [
+      [
+        1.997595053344432,
+        1.99759505334454,
+        3.375761750135098e-06
+      ]
+    ],
+    "samples_per_loop": 256,
+    "writhe": -2.732992598525572e-18,
+    "linking": 0,
+    "H_geometry": -2.732992598525572e-18,
+    "component_writhe": [
+      -2.732992598525572e-18
+    ],
+    "pair_linking": []
+  },
+  {
+    "t": 8.527351606075817,
+    "tstar": 17.759074199208552,
+    "loops": 1,
+    "periodic_winding": [
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "component_coordinate_spans": [
+      [
+        1.9975972726243367,
+        1.9975972726243438,
+        2.2012731619724946e-06
+      ]
+    ],
+    "samples_per_loop": 256,
+    "writhe": 2.4663394460625133e-19,
+    "linking": 0,
+    "H_geometry": 2.4663394460625133e-19,
+    "component_writhe": [
+      2.4663394460625133e-19
+    ],
+    "pair_linking": []
+  },
+  {
+    "t": 8.577809273328825,
+    "tstar": 17.86415740652308,
+    "loops": 1,
+    "periodic_winding": [
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "component_coordinate_spans": [
+      [
+        1.9975981226360076,
+        1.9975981226359707,
+        6.832921606303444e-08
+      ]
+    ],
+    "samples_per_loop": 256,
+    "writhe": -4.520720077247604e-19,
+    "linking": 0,
+    "H_geometry": -4.520720077247604e-19,
+    "component_writhe": [
+      -4.520720077247604e-19
+    ],
+    "pair_linking": []
+  },
+  {
+    "t": 8.628266940956602,
+    "tstar": 17.969240614618105,
+    "loops": 1,
+    "periodic_winding": [
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "component_coordinate_spans": [
+      [
+        1.9975971766705332,
+        1.9975971766704226,
+        2.3039381424894145e-06
+      ]
+    ],
+    "samples_per_loop": 256,
+    "writhe": -2.1266195551591229e-19,
+    "linking": 0,
+    "H_geometry": -2.1266195551591229e-19,
+    "component_writhe": [
+      -2.1266195551591229e-19
+    ],
+    "pair_linking": []
+  },
+  {
+    "t": 8.678724625851613,
+    "tstar": 18.074323858673896,
+    "loops": 1,
+    "periodic_winding": [
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "component_coordinate_spans": [
+      [
+        1.9975949114490228,
+        1.997594911449108,
+        3.39335892363124e-06
+      ]
+    ],
+    "samples_per_loop": 256,
+    "writhe": 3.587280276563186e-19,
+    "linking": 0,
+    "H_geometry": 3.587280276563186e-19,
+    "component_writhe": [
+      3.587280276563186e-19
+    ],
+    "pair_linking": []
+  },
+  {
+    "t": 8.729182336321502,
+    "tstar": 18.17940715599196,
+    "loops": 1,
+    "periodic_winding": [
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "component_coordinate_spans": [
+      [
+        1.9975924474392674,
+        1.9975924474393083,
+        2.794612530720997e-06
+      ]
+    ],
+    "samples_per_loop": 256,
+    "writhe": 9.122220522898886e-19,
+    "linking": 0,
+    "H_geometry": 9.122220522898886e-19,
+    "component_writhe": [
+      9.122220522898886e-19
+    ],
+    "pair_linking": []
+  },
+  {
+    "t": 8.77964006798584,
+    "tstar": 18.28449049744961,
+    "loops": 1,
+    "periodic_winding": [
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "component_coordinate_spans": [
+      [
+        1.9975910152410377,
+        1.997591015241154,
+        8.055683959895532e-07
+      ]
+    ],
+    "samples_per_loop": 256,
+    "writhe": -1.7611004999217494e-18,
+    "linking": 0,
+    "H_geometry": -1.7611004999217494e-18,
+    "component_writhe": [
+      -1.7611004999217494e-18
+    ],
+    "pair_linking": []
+  },
+  {
+    "t": 8.830097805855344,
+    "tstar": 18.389573851830153,
+    "loops": 1,
+    "periodic_winding": [
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "component_coordinate_spans": [
+      [
+        1.9975913257753914,
+        1.9975913257754447,
+        1.5842405414190353e-06
+      ]
+    ],
+    "samples_per_loop": 256,
+    "writhe": -8.528384761220539e-19,
+    "linking": 0,
+    "H_geometry": -8.528384761220539e-19,
+    "component_writhe": [
+      -8.528384761220539e-19
+    ],
+    "pair_linking": []
+  },
+  {
+    "t": 8.880555531927575,
+    "tstar": 18.494657181641678,
+    "loops": 1,
+    "periodic_winding": [
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "component_coordinate_spans": [
+      [
+        1.997593222449463,
+        1.9975932224494817,
+        3.1859015052759787e-06
+      ]
+    ],
+    "samples_per_loop": 256,
+    "writhe": 2.272213794117719e-18,
+    "linking": 0,
+    "H_geometry": 2.272213794117719e-18,
+    "component_writhe": [
+      2.272213794117719e-18
+    ],
+    "pair_linking": []
+  },
+  {
+    "t": 8.931013234009429,
+    "tstar": 18.599740461490807,
+    "loops": 1,
+    "periodic_winding": [
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "component_coordinate_spans": [
+      [
+        1.9975957668154702,
+        1.997595766815603,
+        3.2026021639097735e-06
+      ]
+    ],
+    "samples_per_loop": 256,
+    "writhe": 2.6033058782680076e-18,
+    "linking": 0,
+    "H_geometry": 2.6033058782680076e-18,
+    "component_writhe": [
+      2.6033058782680076e-18
+    ],
+    "pair_linking": []
+  },
+  {
+    "t": 8.981470911869632,
+    "tstar": 18.704823690895896,
+    "loops": 1,
+    "periodic_winding": [
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "component_coordinate_spans": [
+      [
+        1.9975976865310714,
+        1.997597686531123,
+        1.6260360489184222e-06
+      ]
+    ],
+    "samples_per_loop": 256,
+    "writhe": -1.0590295765731397e-18,
+    "linking": 0,
+    "H_geometry": -1.0590295765731397e-18,
+    "component_writhe": [
+      -1.0590295765731397e-18
+    ],
+    "pair_linking": []
+  },
+  {
+    "t": 9.031928577341574,
+    "tstar": 18.809906894501175,
+    "loops": 1,
+    "periodic_winding": [
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "component_coordinate_spans": [
+      [
+        1.997598032444313,
+        1.997598032444229,
+        7.594687048140258e-07
+      ]
+    ],
+    "samples_per_loop": 256,
+    "writhe": -1.0598384334562431e-18,
+    "linking": 0,
+    "H_geometry": -1.0598384334562431e-18,
+    "component_writhe": [
+      -1.0598384334562431e-18
+    ],
+    "pair_linking": []
+  },
+  {
+    "t": 9.082386248370238,
+    "tstar": 18.91499010967889,
+    "loops": 1,
+    "periodic_winding": [
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "component_coordinate_spans": [
+      [
+        1.9975966290826879,
+        1.997596629082694,
+        2.7671443749710534e-06
+      ]
+    ],
+    "samples_per_loop": 256,
+    "writhe": 9.21557608815706e-19,
+    "linking": 0,
+    "H_geometry": 9.21557608815706e-19,
+    "component_writhe": [
+      9.21557608815706e-19
+    ],
+    "pair_linking": []
+  },
+  {
+    "t": 9.132843940208208,
+    "tstar": 19.020073368194094,
+    "loops": 1,
+    "periodic_winding": [
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "component_coordinate_spans": [
+      [
+        1.997594174417093,
+        1.9975941744171695,
+        3.3981904934421436e-06
+      ]
+    ],
+    "samples_per_loop": 256,
+    "writhe": -3.6931057187692026e-19,
+    "linking": 0,
+    "H_geometry": -3.6931057187692026e-19,
+    "component_writhe": [
+      -3.6931057187692026e-19
+    ],
+    "pair_linking": []
+  },
+  {
+    "t": 9.183301657685755,
+    "tstar": 19.125156680106315,
+    "loops": 1,
+    "periodic_winding": [
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "component_coordinate_spans": [
+      [
+        1.9975918933265957,
+        1.9975918933266903,
+        2.3386648422274448e-06
+      ]
+    ],
+    "samples_per_loop": 256,
+    "writhe": 9.365214611531174e-19,
+    "linking": 0,
+    "H_geometry": 9.365214611531174e-19,
+    "component_writhe": [
+      9.365214611531174e-19
+    ],
+    "pair_linking": []
+  },
+  {
+    "t": 9.233759392923458,
+    "tstar": 19.230240029005866,
+    "loops": 1,
+    "periodic_winding": [
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "component_coordinate_spans": [
+      [
+        1.9975909145844208,
+        1.9975909145843556,
+        1.1567147595314964e-07
+      ]
+    ],
+    "samples_per_loop": 256,
+    "writhe": -2.169996611913671e-18,
+    "linking": 0,
+    "H_geometry": -2.169996611913671e-18,
+    "component_writhe": [
+      -2.169996611913671e-18
+    ],
+    "pair_linking": []
+  },
+  {
+    "t": 9.284217129199074,
+    "tstar": 19.335323380066974,
+    "loops": 1,
+    "periodic_winding": [
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "component_coordinate_spans": [
+      [
+        1.9975917315968243,
+        1.997591731596923,
+        2.164868005749554e-06
+      ]
+    ],
+    "samples_per_loop": 256,
+    "writhe": -5.078273131083623e-19,
+    "linking": 0,
+    "H_geometry": -5.078273131083623e-19,
+    "component_writhe": [
+      -5.078273131083623e-19
+    ],
+    "pair_linking": []
+  },
+  {
+    "t": 9.334674849240393,
+    "tstar": 19.44040669731851,
+    "loops": 1,
+    "periodic_winding": [
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "component_coordinate_spans": [
+      [
+        1.9975939330215677,
+        1.9975939330215775,
+        3.3684015505741627e-06
+      ]
+    ],
+    "samples_per_loop": 256,
+    "writhe": 3.9923827655174278e-19,
+    "linking": 0,
+    "H_geometry": 3.9923827655174278e-19,
+    "component_writhe": [
+      3.9923827655174278e-19
+    ],
+    "pair_linking": []
+  },
+  {
+    "t": 9.385132543915551,
+    "tstar": 19.545489961742447,
+    "loops": 1,
+    "periodic_winding": [
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "component_coordinate_spans": [
+      [
+        1.9975964254102205,
+        1.9975964254102525,
+        2.896183179501577e-06
+      ]
+    ],
+    "samples_per_loop": 256,
+    "writhe": 2.9631123817684637e-19,
+    "linking": 0,
+    "H_geometry": 2.9631123817684637e-19,
+    "component_writhe": [
+      2.9631123817684637e-19
+    ],
+    "pair_linking": []
+  },
+  {
+    "t": 9.435590216638165,
+    "tstar": 19.65057318044798,
+    "loops": 1,
+    "periodic_winding": [
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "component_coordinate_spans": [
+      [
+        1.9975979707711162,
+        1.9975979707711091,
+        9.8313927665572e-07
+      ]
+    ],
+    "samples_per_loop": 256,
+    "writhe": 8.446656513656976e-19,
+    "linking": 0,
+    "H_geometry": 8.446656513656976e-19,
+    "component_writhe": [
+      8.446656513656976e-19
+    ],
+    "pair_linking": []
+  },
+  {
+    "t": 9.486047881803803,
+    "tstar": 19.755656383415353,
+    "loops": 1,
+    "periodic_winding": [
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "component_coordinate_spans": [
+      [
+        1.9975977952708392,
+        1.9975977952706923,
+        1.4190075425801751e-06
+      ]
+    ],
+    "samples_per_loop": 256,
+    "writhe": 1.2958898338418927e-18,
+    "linking": 0,
+    "H_geometry": 1.2958898338418927e-18,
+    "component_writhe": [
+      1.2958898338418927e-18
+    ],
+    "pair_linking": []
+  },
+  {
+    "t": 9.536505557539096,
+    "tstar": 19.8607396083951,
+    "loops": 1,
+    "periodic_winding": [
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "component_coordinate_spans": [
+      [
+        1.997595992741834,
+        1.9975959927419509,
+        3.1152106245713185e-06
+      ]
+    ],
+    "samples_per_loop": 256,
+    "writhe": -1.772609859320907e-18,
+    "linking": 0,
+    "H_geometry": -1.772609859320907e-18,
+    "component_writhe": [
+      -1.772609859320907e-18
+    ],
+    "pair_linking": []
+  },
+  {
+    "t": 9.586963256699542,
+    "tstar": 19.965822882160104,
+    "loops": 1,
+    "periodic_winding": [
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "component_coordinate_spans": [
+      [
+        1.997593453966367,
+        1.9975934539663696,
+        3.261623863437535e-06
+      ]
+    ],
+    "samples_per_loop": 256,
+    "writhe": -1.2261596300443614e-18,
+    "linking": 0,
+    "H_geometry": -1.2261596300443614e-18,
+    "component_writhe": [
+      -1.2261596300443614e-18
+    ],
+    "pair_linking": []
+  },
+  {
+    "t": 9.637420980536959,
+    "tstar": 20.0709062073174,
+    "loops": 1,
+    "periodic_winding": [
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "component_coordinate_spans": [
+      [
+        1.9975914454853116,
+        1.997591445485337,
+        1.785405693510711e-06
+      ]
+    ],
+    "samples_per_loop": 256,
+    "writhe": 3.7432211431514785e-18,
+    "linking": 0,
+    "H_geometry": 3.7432211431514785e-18,
+    "component_writhe": [
+      3.7432211431514785e-18
+    ],
+    "pair_linking": []
+  },
+  {
+    "t": 9.687878717954987,
+    "tstar": 20.175989560757696,
+    "loops": 1,
+    "periodic_winding": [
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "component_coordinate_spans": [
+      [
+        1.9975909665290623,
+        1.9975909665291347,
+        5.79038470505111e-07
+      ]
+    ],
+    "samples_per_loop": 256,
+    "writhe": -3.703578730286884e-18,
+    "linking": 0,
+    "H_geometry": -3.703578730286884e-18,
+    "component_writhe": [
+      -3.703578730286884e-18
+    ],
+    "pair_linking": []
+  },
+  {
+    "t": 9.738336451171476,
+    "tstar": 20.28107290544786,
+    "loops": 1,
+    "periodic_winding": [
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "component_coordinate_spans": [
+      [
+        1.9975922518061258,
+        1.9975922518060707,
+        2.6554150274193944e-06
+      ]
+    ],
+    "samples_per_loop": 256,
+    "writhe": 2.688101041513338e-18,
+    "linking": 0,
+    "H_geometry": 2.688101041513338e-18,
+    "component_writhe": [
+      2.688101041513338e-18
+    ],
+    "pair_linking": []
+  },
+  {
+    "t": 9.788794164447287,
+    "tstar": 20.386156208609542,
+    "loops": 1,
+    "periodic_winding": [
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "component_coordinate_spans": [
+      [
+        1.9975946678863497,
+        1.9975946678864989,
+        3.4107433855012914e-06
+      ]
+    ],
+    "samples_per_loop": 256,
+    "writhe": -2.9199059432626954e-18,
+    "linking": 0,
+    "H_geometry": -2.9199059432626954e-18,
+    "component_writhe": [
+      -2.9199059432626954e-18
+    ],
+    "pair_linking": []
+  },
+  {
+    "t": 9.83925185197274,
+    "tstar": 20.491239458143493,
+    "loops": 1,
+    "periodic_winding": [
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "component_coordinate_spans": [
+      [
+        1.9975970062751833,
+        1.9975970062750936,
+        2.46925579716617e-06
+      ]
+    ],
+    "samples_per_loop": 256,
+    "writhe": 1.8378239455211112e-18,
+    "linking": 0,
+    "H_geometry": 1.8378239455211112e-18,
+    "component_writhe": [
+      1.8378239455211112e-18
+    ],
+    "pair_linking": []
+  },
+  {
+    "t": 9.889709520780686,
+    "tstar": 20.596322668696338,
+    "loops": 1,
+    "periodic_winding": [
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "component_coordinate_spans": [
+      [
+        1.9975981086361783,
+        1.9975981086359975,
+        2.9933589118513737e-07
+      ]
+    ],
+    "samples_per_loop": 256,
+    "writhe": 2.3682950385601e-18,
+    "linking": 0,
+    "H_geometry": 2.3682950385601e-18,
+    "component_writhe": [
+      2.3682950385601e-18
+    ],
+    "pair_linking": []
+  },
+  {
+    "t": 9.940167187152813,
+    "tstar": 20.70140587417634,
+    "loops": 1,
+    "periodic_winding": [
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "component_coordinate_spans": [
+      [
+        1.9975974246561923,
+        1.9975974246561936,
+        2.019501398109469e-06
+      ]
+    ],
+    "samples_per_loop": 256,
+    "writhe": -3.543231278804185e-18,
+    "linking": 0,
+    "H_geometry": -3.543231278804185e-18,
+    "component_writhe": [
+      -3.543231278804185e-18
+    ],
+    "pair_linking": []
+  },
+  {
+    "t": 9.990624868656635,
+    "tstar": 20.806489111169636,
+    "loops": 1,
+    "periodic_winding": [
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "component_coordinate_spans": [
+      [
+        1.997595292814426,
+        1.9975952928143799,
+        3.3336547424767105e-06
+      ]
+    ],
+    "samples_per_loop": 256,
+    "writhe": -2.411876415933557e-18,
+    "linking": 0,
+    "H_geometry": -2.411876415933557e-18,
+    "component_writhe": [
+      -2.411876415933557e-18
+    ],
+    "pair_linking": []
+  },
+  {
+    "t": 10.0,
+    "tstar": 20.826013772617337,
+    "loops": 1,
+    "periodic_winding": [
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "component_coordinate_spans": [
+      [
+        1.997594816147346,
+        1.9975948161473225,
+        3.4019083088310254e-06
+      ]
+    ],
+    "samples_per_loop": 256,
+    "writhe": 2.120890152237141e-18,
+    "linking": 0,
+    "H_geometry": 2.120890152237141e-18,
+    "component_writhe": [
+      2.120890152237141e-18
+    ],
+    "pair_linking": []
+  }
+]

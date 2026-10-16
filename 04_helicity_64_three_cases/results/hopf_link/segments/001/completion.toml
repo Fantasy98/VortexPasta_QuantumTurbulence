@@ -1,0 +1,10 @@
+finished_utc = "2026-10-15T15:24:30.341"
+elapsed_seconds = 1200.0887711048126
+reason = "Wall-time limit; --resume continues the same case"
+requested_final_time = 10.0
+nodes = 148
+status = "checkpointed"
+final_time = 5.954390413327926
+steps = 12521
+loops = 1
+reconnections = 1

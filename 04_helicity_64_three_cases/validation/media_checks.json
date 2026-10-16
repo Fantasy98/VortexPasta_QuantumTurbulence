@@ -1,0 +1,32 @@
+{
+  "single_ring": {
+    "required_outputs_present": true,
+    "video": {
+      "width": 1100,
+      "height": 700,
+      "duration": "20.100000",
+      "nb_frames": "201"
+    },
+    "geometry_snapshots": 200
+  },
+  "hopf_link": {
+    "required_outputs_present": true,
+    "video": {
+      "width": 1100,
+      "height": 700,
+      "duration": "20.100000",
+      "nb_frames": "201"
+    },
+    "geometry_snapshots": 202
+  },
+  "trefoil": {
+    "required_outputs_present": true,
+    "video": {
+      "width": 1100,
+      "height": 700,
+      "duration": "20.100000",
+      "nb_frames": "201"
+    },
+    "geometry_snapshots": 207
+  }
+}

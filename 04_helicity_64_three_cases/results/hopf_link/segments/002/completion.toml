@@ -1,0 +1,10 @@
+finished_utc = "2026-10-15T15:39:32.967"
+elapsed_seconds = 858.1651210784912
+reason = "Reached requested physical time"
+requested_final_time = 10.0
+nodes = 152
+status = "complete"
+final_time = 10.0
+steps = 21389
+loops = 1
+reconnections = 1

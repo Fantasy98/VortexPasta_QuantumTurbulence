@@ -1,0 +1,73 @@
+{
+  "single_ring": {
+    "initial_nodes": [
+      64
+    ],
+    "mesh": [
+      64,
+      64,
+      64
+    ],
+    "geometry": {
+      "t": 0.0,
+      "tstar": 0.0,
+      "loops": 1,
+      "periodic_winding": [
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      "samples_per_loop": 256,
+      "writhe": 0.0,
+      "linking": 0,
+      "H_geometry": 0.0,
+      "component_writhe": [
+        0.0
+      ],
+      "pair_linking": []
+    },
+    "initial_native_helicity": -1.666964511244472e-15
+  },
+  "hopf_link": {
+    "initial_nodes": [
+      64,
+      64
+    ],
+    "mesh": [
+      64,
+      64,
+      64
+    ],
+    "geometry": {
+      "t": 0.0,
+      "tstar": 0.0,
+      "loops": 2,
+      "periodic_winding": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      "samples_per_loop": 256,
+      "writhe": 0.0,
+      "linking": -1.0001004073763886,
+      "H_geometry": -2.0002008147527772,
+      "component_writhe": [
+        0.0,
+        0.0
+      ],
+      "pair_linking": [
+        -1.0001004073763886
+      ]
+    },
+    "initial_native_helicity": -1.9999999986328376
+  }
+}

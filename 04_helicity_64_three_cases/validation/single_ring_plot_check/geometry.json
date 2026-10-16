@@ -1,0 +1,882 @@
+[
+  {
+    "t": 0.0,
+    "tstar": 0.0,
+    "loops": 1,
+    "periodic_winding": [
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "samples_per_loop": 256,
+    "writhe": 0.0,
+    "linking": 0,
+    "H_geometry": 0.0,
+    "component_writhe": [
+      0.0
+    ],
+    "pair_linking": []
+  },
+  {
+    "t": 0.0504577358611964,
+    "tstar": 0.1050833501980364,
+    "loops": 1,
+    "periodic_winding": [
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "samples_per_loop": 256,
+    "writhe": -1.3683162272497684e-20,
+    "linking": 0,
+    "H_geometry": -1.3683162272497684e-20,
+    "component_writhe": [
+      -1.3683162272497684e-20
+    ],
+    "pair_linking": []
+  },
+  {
+    "t": 0.10091545482642071,
+    "tstar": 0.21016666520849805,
+    "loops": 1,
+    "periodic_winding": [
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "samples_per_loop": 256,
+    "writhe": 7.47518569467977e-20,
+    "linking": 0,
+    "H_geometry": 7.47518569467977e-20,
+    "component_writhe": [
+      7.47518569467977e-20
+    ],
+    "pair_linking": []
+  },
+  {
+    "t": 0.15137314829135295,
+    "tstar": 0.3152499271120163,
+    "loops": 1,
+    "periodic_winding": [
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "samples_per_loop": 256,
+    "writhe": -6.943362294039342e-19,
+    "linking": 0,
+    "H_geometry": -6.943362294039342e-19,
+    "component_writhe": [
+      -6.943362294039342e-19
+    ],
+    "pair_linking": []
+  },
+  {
+    "t": 0.2018308202700134,
+    "tstar": 0.42033314426819535,
+    "loops": 1,
+    "periodic_winding": [
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "samples_per_loop": 256,
+    "writhe": -3.2900253720227187e-19,
+    "linking": 0,
+    "H_geometry": -3.2900253720227187e-19,
+    "component_writhe": [
+      -3.2900253720227187e-19
+    ],
+    "pair_linking": []
+  },
+  {
+    "t": 0.252288485538735,
+    "tstar": 0.5254163474502466,
+    "loops": 1,
+    "periodic_winding": [
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "samples_per_loop": 256,
+    "writhe": 3.4410119902020034e-20,
+    "linking": 0,
+    "H_geometry": 3.4410119902020034e-20,
+    "component_writhe": [
+      3.4410119902020034e-20
+    ],
+    "pair_linking": []
+  },
+  {
+    "t": 0.30274616215662153,
+    "tstar": 0.6304995742680842,
+    "loops": 1,
+    "periodic_winding": [
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "samples_per_loop": 256,
+    "writhe": 3.3789996291640833e-19,
+    "linking": 0,
+    "H_geometry": 3.3789996291640833e-19,
+    "component_writhe": [
+      3.3789996291640833e-19
+    ],
+    "pair_linking": []
+  },
+  {
+    "t": 0.3532038625568308,
+    "tstar": 0.7355828506150199,
+    "loops": 1,
+    "periodic_winding": [
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "samples_per_loop": 256,
+    "writhe": -1.8125134655540036e-19,
+    "linking": 0,
+    "H_geometry": -1.8125134655540036e-19,
+    "component_writhe": [
+      -1.8125134655540036e-19
+    ],
+    "pair_linking": []
+  },
+  {
+    "t": 0.40366158736247676,
+    "tstar": 0.8406661777887517,
+    "loops": 1,
+    "periodic_winding": [
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "samples_per_loop": 256,
+    "writhe": -3.480780786954583e-19,
+    "linking": 0,
+    "H_geometry": -3.480780786954583e-19,
+    "component_writhe": [
+      -3.480780786954583e-19
+    ],
+    "pair_linking": []
+  },
+  {
+    "t": 0.4541193249989125,
+    "tstar": 0.9457495316839041,
+    "loops": 1,
+    "periodic_winding": [
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "samples_per_loop": 256,
+    "writhe": 2.343662818791845e-19,
+    "linking": 0,
+    "H_geometry": 2.343662818791845e-19,
+    "component_writhe": [
+      2.343662818791845e-19
+    ],
+    "pair_linking": []
+  },
+  {
+    "t": 0.5045770575815496,
+    "tstar": 1.0508328750540084,
+    "loops": 1,
+    "periodic_winding": [
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "samples_per_loop": 256,
+    "writhe": -3.400569146046838e-20,
+    "linking": 0,
+    "H_geometry": -3.400569146046838e-20,
+    "component_writhe": [
+      -3.400569146046838e-20
+    ],
+    "pair_linking": []
+  },
+  {
+    "t": 0.5550347696727411,
+    "tstar": 1.1559161757485998,
+    "loops": 1,
+    "periodic_winding": [
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "samples_per_loop": 256,
+    "writhe": 9.645618331006988e-20,
+    "linking": 0,
+    "H_geometry": 9.645618331006988e-20,
+    "component_writhe": [
+      9.645618331006988e-20
+    ],
+    "pair_linking": []
+  },
+  {
+    "t": 0.6054924560692936,
+    "tstar": 1.2609994229315007,
+    "loops": 1,
+    "periodic_winding": [
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "samples_per_loop": 256,
+    "writhe": 5.978800460938643e-20,
+    "linking": 0,
+    "H_geometry": 5.978800460938643e-20,
+    "component_writhe": [
+      5.978800460938643e-20
+    ],
+    "pair_linking": []
+  },
+  {
+    "t": 0.6559501243506404,
+    "tstar": 1.3660826323876492,
+    "loops": 1,
+    "periodic_winding": [
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "samples_per_loop": 256,
+    "writhe": 1.259289059881468e-19,
+    "linking": 0,
+    "H_geometry": 1.259289059881468e-19,
+    "component_writhe": [
+      1.259289059881468e-19
+    ],
+    "pair_linking": []
+  },
+  {
+    "t": 0.7064077910686417,
+    "tstar": 1.4711658385879722,
+    "loops": 1,
+    "periodic_winding": [
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "samples_per_loop": 256,
+    "writhe": -5.658627944710249e-20,
+    "linking": 0,
+    "H_geometry": -5.658627944710249e-20,
+    "component_writhe": [
+      -5.658627944710249e-20
+    ],
+    "pair_linking": []
+  },
+  {
+    "t": 0.7568654736200072,
+    "tstar": 1.5762490777628815,
+    "loops": 1,
+    "periodic_winding": [
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "samples_per_loop": 256,
+    "writhe": -2.0895469480168878e-21,
+    "linking": 0,
+    "H_geometry": -2.0895469480168878e-21,
+    "component_writhe": [
+      -2.0895469480168878e-21
+    ],
+    "pair_linking": []
+  },
+  {
+    "t": 0.8073231814511528,
+    "tstar": 1.6813323695854954,
+    "loops": 1,
+    "periodic_winding": [
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "samples_per_loop": 256,
+    "writhe": 2.1973945324306624e-19,
+    "linking": 0,
+    "H_geometry": 2.1973945324306624e-19,
+    "component_writhe": [
+      2.1973945324306624e-19
+    ],
+    "pair_linking": []
+  },
+  {
+    "t": 0.8577809114885581,
+    "tstar": 1.7864157076548963,
+    "loops": 1,
+    "periodic_winding": [
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "samples_per_loop": 256,
+    "writhe": -7.792156485745879e-19,
+    "linking": 0,
+    "H_geometry": -7.792156485745879e-19,
+    "component_writhe": [
+      -7.792156485745879e-19
+    ],
+    "pair_linking": []
+  },
+  {
+    "t": 0.9082386495893646,
+    "tstar": 1.891499062517148,
+    "loops": 1,
+    "periodic_winding": [
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "samples_per_loop": 256,
+    "writhe": 5.41428576127279e-19,
+    "linking": 0,
+    "H_geometry": 5.41428576127279e-19,
+    "component_writhe": [
+      5.41428576127279e-19
+    ],
+    "pair_linking": []
+  },
+  {
+    "t": 0.9586963775795277,
+    "tstar": 1.9965823963229596,
+    "loops": 1,
+    "periodic_winding": [
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "samples_per_loop": 256,
+    "writhe": 2.2634511778840995e-19,
+    "linking": 0,
+    "H_geometry": 2.2634511778840995e-19,
+    "component_writhe": [
+      2.2634511778840995e-19
+    ],
+    "pair_linking": []
+  },
+  {
+    "t": 1.009154082370027,
+    "tstar": 2.101665681813119,
+    "loops": 1,
+    "periodic_winding": [
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "samples_per_loop": 256,
+    "writhe": -5.221171180431875e-19,
+    "linking": 0,
+    "H_geometry": -5.221171180431875e-19,
+    "component_writhe": [
+      -5.221171180431875e-19
+    ],
+    "pair_linking": []
+  },
+  {
+    "t": 1.059611762340485,
+    "tstar": 2.206748915613027,
+    "loops": 1,
+    "periodic_winding": [
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "samples_per_loop": 256,
+    "writhe": -9.865020760548761e-19,
+    "linking": 0,
+    "H_geometry": -9.865020760548761e-19,
+    "component_writhe": [
+      -9.865020760548761e-19
+    ],
+    "pair_linking": []
+  },
+  {
+    "t": 1.1100694282862924,
+    "tstar": 2.311832120205178,
+    "loops": 1,
+    "periodic_winding": [
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "samples_per_loop": 256,
+    "writhe": -2.2169419071056594e-19,
+    "linking": 0,
+    "H_geometry": -2.2169419071056594e-19,
+    "component_writhe": [
+      -2.2169419071056594e-19
+    ],
+    "pair_linking": []
+  },
+  {
+    "t": 1.160527097938348,
+    "tstar": 2.4169153325159667,
+    "loops": 1,
+    "periodic_winding": [
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "samples_per_loop": 256,
+    "writhe": -4.088097496684653e-20,
+    "linking": 0,
+    "H_geometry": -4.088097496684653e-20,
+    "component_writhe": [
+      -4.088097496684653e-20
+    ],
+    "pair_linking": []
+  },
+  {
+    "t": 1.2109847871857815,
+    "tstar": 2.521998585636116,
+    "loops": 1,
+    "periodic_winding": [
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "samples_per_loop": 256,
+    "writhe": 1.861044878540202e-19,
+    "linking": 0,
+    "H_geometry": 1.861044878540202e-19,
+    "component_writhe": [
+      1.861044878540202e-19
+    ],
+    "pair_linking": []
+  },
+  {
+    "t": 1.261442502207381,
+    "tstar": 2.627081892433579,
+    "loops": 1,
+    "periodic_winding": [
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "samples_per_loop": 256,
+    "writhe": 2.085165639900078e-19,
+    "linking": 0,
+    "H_geometry": 2.085165639900078e-19,
+    "component_writhe": [
+      2.085165639900078e-19
+    ],
+    "pair_linking": []
+  },
+  {
+    "t": 1.3119002362931886,
+    "tstar": 2.7321652389341886,
+    "loops": 1,
+    "periodic_winding": [
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "samples_per_loop": 256,
+    "writhe": 1.149714228998566e-18,
+    "linking": 0,
+    "H_geometry": 1.149714228998566e-18,
+    "component_writhe": [
+      1.149714228998566e-18
+    ],
+    "pair_linking": []
+  },
+  {
+    "t": 1.3623579733224953,
+    "tstar": 2.8372485915649333,
+    "loops": 1,
+    "periodic_winding": [
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "samples_per_loop": 256,
+    "writhe": 5.363058158676247e-19,
+    "linking": 0,
+    "H_geometry": 5.363058158676247e-19,
+    "component_writhe": [
+      5.363058158676247e-19
+    ],
+    "pair_linking": []
+  },
+  {
+    "t": 1.4128156956525422,
+    "tstar": 2.942331913582979,
+    "loops": 1,
+    "periodic_winding": [
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "samples_per_loop": 256,
+    "writhe": -9.007969488160544e-19,
+    "linking": 0,
+    "H_geometry": -9.007969488160544e-19,
+    "component_writhe": [
+      -9.007969488160544e-19
+    ],
+    "pair_linking": []
+  },
+  {
+    "t": 1.4632733929769675,
+    "tstar": 3.0474151835242824,
+    "loops": 1,
+    "periodic_winding": [
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "samples_per_loop": 256,
+    "writhe": -2.965134523976222e-19,
+    "linking": 0,
+    "H_geometry": -2.965134523976222e-19,
+    "component_writhe": [
+      -2.965134523976222e-19
+    ],
+    "pair_linking": []
+  },
+  {
+    "t": 1.5137310674474445,
+    "tstar": 3.152498405869922,
+    "loops": 1,
+    "periodic_winding": [
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "samples_per_loop": 256,
+    "writhe": -6.276560901031049e-19,
+    "linking": 0,
+    "H_geometry": -6.276560901031049e-19,
+    "component_writhe": [
+      -6.276560901031049e-19
+    ],
+    "pair_linking": []
+  },
+  {
+    "t": 1.5641887325314572,
+    "tstar": 3.2575816086672984,
+    "loops": 1,
+    "periodic_winding": [
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "samples_per_loop": 256,
+    "writhe": 6.069796860287766e-20,
+    "linking": 0,
+    "H_geometry": 6.069796860287766e-20,
+    "component_writhe": [
+      6.069796860287766e-20
+    ],
+    "pair_linking": []
+  },
+  {
+    "t": 1.6146464064388597,
+    "tstar": 3.3626648298402784,
+    "loops": 1,
+    "periodic_winding": [
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "samples_per_loop": 256,
+    "writhe": 7.495407116757352e-20,
+    "linking": 0,
+    "H_geometry": 7.495407116757352e-20,
+    "component_writhe": [
+      7.495407116757352e-20
+    ],
+    "pair_linking": []
+  },
+  {
+    "t": 1.665104102921256,
+    "tstar": 3.467748098027972,
+    "loops": 1,
+    "periodic_winding": [
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "samples_per_loop": 256,
+    "writhe": -2.54115870774957e-20,
+    "linking": 0,
+    "H_geometry": -2.54115870774957e-20,
+    "component_writhe": [
+      -2.54115870774957e-20
+    ],
+    "pair_linking": []
+  },
+  {
+    "t": 1.7155618245424928,
+    "tstar": 3.5728314185698484,
+    "loops": 1,
+    "periodic_winding": [
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "samples_per_loop": 256,
+    "writhe": 4.711254320375496e-19,
+    "linking": 0,
+    "H_geometry": 4.711254320375496e-19,
+    "component_writhe": [
+      4.711254320375496e-19
+    ],
+    "pair_linking": []
+  },
+  {
+    "t": 1.7660195613561842,
+    "tstar": 3.6779147707515523,
+    "loops": 1,
+    "periodic_winding": [
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "samples_per_loop": 256,
+    "writhe": 1.6065919840639522e-19,
+    "linking": 0,
+    "H_geometry": 1.6065919840639522e-19,
+    "component_writhe": [
+      1.6065919840639522e-19
+    ],
+    "pair_linking": []
+  },
+  {
+    "t": 1.8164772958211912,
+    "tstar": 3.7829981180418826,
+    "loops": 1,
+    "periodic_winding": [
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "samples_per_loop": 256,
+    "writhe": 1.5715415191294752e-19,
+    "linking": 0,
+    "H_geometry": 1.5715415191294752e-19,
+    "component_writhe": [
+      1.5715415191294752e-19
+    ],
+    "pair_linking": []
+  },
+  {
+    "t": 1.8669350116303216,
+    "tstar": 3.8880814264794585,
+    "loops": 1,
+    "periodic_winding": [
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "samples_per_loop": 256,
+    "writhe": -7.391603816759094e-19,
+    "linking": 0,
+    "H_geometry": -7.391603816759094e-19,
+    "component_writhe": [
+      -7.391603816759094e-19
+    ],
+    "pair_linking": []
+  },
+  {
+    "t": 1.91739270168382,
+    "tstar": 3.99316468127832,
+    "loops": 1,
+    "periodic_winding": [
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "samples_per_loop": 256,
+    "writhe": -1.1399826696237295e-18,
+    "linking": 0,
+    "H_geometry": -1.1399826696237295e-18,
+    "component_writhe": [
+      -1.1399826696237295e-18
+    ],
+    "pair_linking": []
+  },
+  {
+    "t": 1.9678503717539393,
+    "tstar": 4.098247894459769,
+    "loops": 1,
+    "periodic_winding": [
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "samples_per_loop": 256,
+    "writhe": -4.632475030198246e-19,
+    "linking": 0,
+    "H_geometry": -4.632475030198246e-19,
+    "component_writhe": [
+      -4.632475030198246e-19
+    ],
+    "pair_linking": []
+  },
+  {
+    "t": 2.0183080375291484,
+    "tstar": 4.203331098696632,
+    "loops": 1,
+    "periodic_winding": [
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "samples_per_loop": 256,
+    "writhe": -9.441718991724694e-19,
+    "linking": 0,
+    "H_geometry": -9.441718991724694e-19,
+    "component_writhe": [
+      -9.441718991724694e-19
+    ],
+    "pair_linking": []
+  },
+  {
+    "t": 2.068765716818414,
+    "tstar": 4.308414331077887,
+    "loops": 1,
+    "periodic_winding": [
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "samples_per_loop": 256,
+    "writhe": 1.8765479687996824e-19,
+    "linking": 0,
+    "H_geometry": 1.8765479687996824e-19,
+    "component_writhe": [
+      1.8765479687996824e-19
+    ],
+    "pair_linking": []
+  },
+  {
+    "t": 2.119223420760159,
+    "tstar": 4.41349761480043,
+    "loops": 1,
+    "periodic_winding": [
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "samples_per_loop": 256,
+    "writhe": 8.98639997127779e-19,
+    "linking": 0,
+    "H_geometry": 8.98639997127779e-19,
+    "component_writhe": [
+      8.98639997127779e-19
+    ],
+    "pair_linking": []
+  },
+  {
+    "t": 2.1696811481560765,
+    "tstar": 4.5185809473686644,
+    "loops": 1,
+    "periodic_winding": [
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "samples_per_loop": 256,
+    "writhe": -5.287901873287898e-19,
+    "linking": 0,
+    "H_geometry": -5.287901873287898e-19,
+    "component_writhe": [
+      -5.287901873287898e-19
+    ],
+    "pair_linking": []
+  }
+]

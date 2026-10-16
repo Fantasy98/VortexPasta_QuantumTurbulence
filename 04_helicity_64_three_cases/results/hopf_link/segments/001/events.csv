@@ -1,0 +1,2 @@
+t_before,t_after,tstar_after,events_in_step,cumulative_events,loops_before,loops_after,reconnection_length_loss,refinement_length_loss,removed_loops,removed_length
+0.6160813470277099,0.616599000222098,1.2841299270807494,1,1,2,1,0.07607950505815042,-0.000882692101922683,0,0.0

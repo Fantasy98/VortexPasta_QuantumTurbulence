@@ -1,0 +1,10 @@
+{
+  "python": "3.12.11 | packaged by conda-forge | (main, Jun  4 2025, 14:45:31) [GCC 13.3.0]",
+  "executable": "/home/yuninw/apps/mpi_drl/miniforge3/bin/python3",
+  "platform": "Linux-6.8.0-124-generic-x86_64-with-glibc2.35",
+  "numpy": "2.3.3",
+  "scipy": "1.16.2",
+  "matplotlib": "3.10.6",
+  "Pillow": "11.3.0",
+  "ffmpeg": "ffmpeg version 4.4.2-0ubuntu0.22.04.1 Copyright (c) 2000-2021 the FFmpeg developers"
+}

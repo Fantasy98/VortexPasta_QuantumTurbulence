@@ -1,0 +1,28 @@
+{
+  "checked_utc": "2026-10-15T16:13:38.520956+00:00",
+  "original_result_files_unchanged": 723,
+  "movies": {
+    "single_ring": {
+      "width": 1100,
+      "height": 700,
+      "r_frame_rate": "10/1",
+      "duration": "20.100000",
+      "nb_frames": "201"
+    },
+    "hopf_link": {
+      "width": 1100,
+      "height": 700,
+      "r_frame_rate": "10/1",
+      "duration": "20.100000",
+      "nb_frames": "201"
+    },
+    "trefoil": {
+      "width": 1100,
+      "height": 700,
+      "r_frame_rate": "10/1",
+      "duration": "20.100000",
+      "nb_frames": "201"
+    }
+  },
+  "new_analysis_bytes": 3522576
+}

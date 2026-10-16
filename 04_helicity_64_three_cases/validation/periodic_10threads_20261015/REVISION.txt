@@ -1,0 +1,46 @@
+Periodic display and ten-thread launch revision: 15 October 2026
+
+All completed runs already used Ls=(2*pi,2*pi,2*pi), with Fourier/Ewald mesh
+(64,64,64), including the trefoil. No physical/numerical setting was changed.
+The trefoil retains 128 initial filament nodes, distinct from mesh resolution.
+
+analyze.py now defaults to the fixed periodic cube [0,2*pi]^3, splitting each
+curve edge at crossed faces before wrapping it. The z faces are identified.
+Displacement and scientific diagnostics continue to use continuous coordinates.
+Each new analysis is in results/CASE/analysis_periodic/. All 723 preexisting
+result files, including original movies and checkpoints, passed SHA256 checks.
+The new geometry histories and scientific summary fields match the originals.
+
+run.sh now defaults to 10 Julia worker threads, with BLAS/OpenMP limited to one.
+Run one simulation at a time on this 14-logical-CPU host. Reconnection remains
+single-threaded as in the original algorithm settings. Threads are not pinned.
+The three production t=10 runs were not repeated; their original two/four-thread
+provenance is retained. No ten-thread speedup measurement is claimed.
+
+Validation actually executed:
+  ./run.sh trefoil --check
+  OPENBLAS_NUM_THREADS=1 python3 validation/periodic_10threads_20261015/check_wrapping.py
+  JULIA_NUM_THREADS=10 OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 julia --startup-file=no --project=. validation/periodic_10threads_20261015/check_solver.jl
+  OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 python3 analyze.py all
+
+Each case completed 20 validation steps on 10 Julia threads with finite
+scientific diagnostics. These short checks start from retained t=0 checkpoints.
+Shifting each configuration by plus/minus one z period changed initial velocity
+by at most 7.04e-11 relative; the test tolerance was 1e-9.
+Fourteen synthetic crossing controls and all 609 retained snapshots passed
+wrapping checks: coordinates stay in the cube, total rendered segment length
+is preserved (max error 3.56e-15), and integer-period shifts preserve the view.
+All three MP4 files have 201 frames at 10 fps, duration 20.1 s, 1100x700 pixels.
+Snapshots were visually inspected. No solver data were modified.
+
+Successful solver check: 17.45 s external wall time, peak RSS 1,294,968 KiB.
+Analysis/rendering: 34.89 s external wall time, peak RSS 203,896 KiB.
+New analysis files total 3,522,576 bytes (~3.36 MiB).
+An initial validation-only attempt failed while reporting node counts because
+VectorOfVectors does not support scalar-valued broadcasting. A comprehension
+fixed the validation script; failed source/log/resources remain preserved.
+
+before/ retains previous source files and SHA256SUMS. Root SHA256SUMS is updated
+for this revision; the historical before/SHA256SUMS describes the pre-edit tree.
+Detailed evidence: solver_checks.toml, wrapping_checks.json, output_checks.json,
+launcher_check.log, and the solver/render resource and log files here.

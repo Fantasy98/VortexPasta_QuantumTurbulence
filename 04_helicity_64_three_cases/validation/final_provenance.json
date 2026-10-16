@@ -1,0 +1,33 @@
+{
+  "frozen_utc": "2026-10-15T16:04:22.978395+00:00",
+  "cases": [
+    "single_ring",
+    "hopf_link",
+    "trefoil"
+  ],
+  "requested_and_reached_physical_end_time": 10.0,
+  "mesh": [
+    64,
+    64,
+    64
+  ],
+  "initial_filament_nodes": {
+    "single_ring": [
+      64
+    ],
+    "hopf_link": [
+      64,
+      64
+    ],
+    "trefoil": [
+      128
+    ]
+  },
+  "initialization": "VortexPasta.PredefinedCurves directly; no imported GPE centerlines",
+  "source_note": "Each execution segment retains its loaded common and case source files. Shared-code edits during the first two running cases added resume-parameter consistency checks only; physical parameters were unchanged. Later plotting revisions and preliminary versions are preserved under validation.",
+  "julia": "1.13.1",
+  "VortexPasta": "0.34.19",
+  "checks": "validation/completed_runs.json",
+  "media_checks": "validation/media_checks.json",
+  "costs": "validation/runtime_costs.json"
+}

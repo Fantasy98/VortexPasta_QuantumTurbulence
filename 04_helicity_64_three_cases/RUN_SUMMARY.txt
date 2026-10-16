@@ -1,0 +1,51 @@
+Executed three-case results: 15 October 2026
+============================================
+
+All three cases use PredefinedCurves, periodic Biot-Savart mesh 64^3,
+R=1, L=2*pi, Gamma=2.0826013772617338, a=0.001, Delta=0.615.
+No imposed flow or mutual friction. Every case reached physical t=10 exactly.
+
+Case         Final t  Final loops  Reconnections  Removed loops  Driver minutes
+single_ring     10.0           1              0              0           17.29
+hopf_link       10.0           1              1              0           34.30
+trefoil         10.0           1              7              3           37.66
+
+Summed simulation-driver time: 89.26 minutes.
+Peak measured RSS per process: 1.077 GiB.
+Two Julia threads per process initially, at most two simulations concurrently.
+The final trefoil continuation used four threads after the other cases finished.
+BLAS/OpenMP were limited to one thread. No remote jobs were used.
+
+The standalone entry scripts are single_ring.jl, hopf_link.jl, trefoil.jl.
+analyze.py CASE generates case-dependent plots and a physical-time MP4.
+See README.txt for launch, continuation, and analysis instructions.
+
+Executed commands (from this directory):
+  ./run.sh single_ring
+  ./run.sh hopf_link
+  ./run.sh hopf_link --resume
+  ./run.sh trefoil
+  VORTEX_THREADS=4 ./run.sh trefoil --resume
+
+The 20-minute per-invocation guard required one continuation for the Hopf link
+and trefoil. No physical parameter or resolution was changed on continuation.
+Full checkpoint state/counters were retained. Restart comparisons are in
+validation/hopf_restart_continuity.json and trefoil_restart_continuity.json.
+Per-segment source copies and configs preserve the actual loaded code.
+
+The trefoil has significant numerical losses through reconnection, refinement,
+and unresolved-loop removal. Its late helicity evolution is not a converged
+physical/GPE decay result. These are three base trajectories, not a new
+resolution or reconnection-sensitivity study. No GPE/paper curves are imported.
+Its final energy is 19.87% below the initial value; H/Gamma^2 changes from
+-3.35412 to -0.91094. These changes must be interpreted with the loss counters.
+
+Native helicity: H=Gamma integral(v_BS.ds), reported as H/Gamma^2.
+Geometric linking-plus-writhe is approximate and omits periodic-image Gauss terms.
+The ring travels Delta z=13.6844813795, with speed 1.3684481380.
+
+Driver times above omit package loading before driver initialization. The
+external trefoil_resources.txt elapsed time additionally includes its initial
+queue wait, so it should not be interpreted as active simulation time.
+Original diagnostics, checkpoints, logs, and preliminary plotting checks are
+preserved. The earlier 01, 02, and 03 experiment directories were not modified.
